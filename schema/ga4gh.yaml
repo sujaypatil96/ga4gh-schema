@@ -2248,22 +2248,10 @@ types:
     - 'Used in place of a plain string datatype when a resolvable web address for
       a resource is desired.  Common URL protocols are http{s}:, ftp:, mailto: and
       mllp:, though many others are defined.'
-    is_a: string
-  code:
-    name: code
-    description: A string value that is taken from a set of controlled strings defined
-      by some system or authority.
-    title: code
-    comments:
-    - A code can be opaque (e.g. ‚ÄòCRO:0000001‚Äô, ‚Äò90210‚Äô) or convey meaning
-      (e.g. ‚Äòauthor‚Äô, ‚ÄòAFR‚Äô, ‚ÄòPDX‚Äô). Whenever possible a code should be
-      represented as a URL or prefixed identifier that indicates the code system that
-      provided it. If this is not possible, the code system can be captured in the
-      ‚Äúsystem‚Äù attribute of the coding object holding the code.
-    is_a: string
-  class:
-    name: class
-    description: A string representing the class of objects to which an instance belongs.
+    typeof: ga4ghString
+  ga4ghClass:
+    name: ga4ghClass
+    description: A ga4ghString representing the class of objects to which an instance belongs.
     title: class
     comments:
     - This string must be the name of a concrete class from the core VA specification,
