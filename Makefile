@@ -65,7 +65,7 @@ install:
 # ---------------------------------------
 clean:
 	rm -rf target/
-	rm -rf docs/
+	rm -rf site/
 	poetry install --remove-untracked
 .PHONY: clean
 
