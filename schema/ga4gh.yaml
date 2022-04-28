@@ -722,7 +722,7 @@ classes:
       patient's weight, derived calculations such as frequency or mean, and computed
       statistical scores/metrics such as p-values and z-scores.
     from_schema: https://w3id.org/ga4gh
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - Data ItemType
     - value
@@ -760,7 +760,7 @@ classes:
         - Examples of statistical measures of variability include an Interquartile
           Range, Variance, Standard Deviation, Standard Error.
         multivalued: true
-        range: Data Item
+        range: DataItem
         required: false
       confidenceInterval:
         name: confidenceInterval
@@ -802,7 +802,7 @@ classes:
       or the contents of a VCF file that describes variations observed in a particular
       patient and various annotations made on them.
     from_schema: https://w3id.org/ga4gh
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - dataSetType
     slot_usage:
@@ -821,7 +821,7 @@ classes:
       to be read and understood together as a whole.
     title: Document
     from_schema: https://w3id.org/ga4gh
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - document_type
     - title
@@ -856,7 +856,7 @@ classes:
       and precise tracking of the evidence and provenance that supports each. For
       more about the use of Statements in VA, see HERE (LINK)
     from_schema: https://w3id.org/ga4gh
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - statementType
     - subject
@@ -1097,7 +1097,7 @@ classes:
       for a higher-order Statement about the variant's pathogenicity that relied on
       this frequency data for support.
     from_schema: https://w3id.org/ga4gh
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - studyResultType
     - focus
@@ -1156,7 +1156,7 @@ classes:
         name: sourceStudy
         description: The Study that generated the date reported in the Result.
         multivalued: false
-        range: Research Study
+        range: ResearchStudy
         required: false
       sourceStudyType:
         name: sourceStudyType
@@ -1215,7 +1215,7 @@ classes:
       provides evidence of moderate strength supporting the proposition that BRCA2
       c.8023A>G is pathogenic for Breast Cancer".'
     from_schema: https://w3id.org/ga4gh
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - evidenceLineType
     - targetProposition
@@ -1312,7 +1312,7 @@ classes:
       interpretation that specify how information can be organized, evaluated, and
       interpreted to generate evidence-based assertions.
     from_schema: https://w3id.org/ga4gh
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - methodType
     slot_usage:
