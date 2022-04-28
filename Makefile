@@ -93,3 +93,8 @@ site/index.md: target/docs/index.md install
 .PHONY: docserve
 docserve: gen-docs
 	$(RUN) mkdocs serve
+
+# Publish to Github Pages.
+.PHONY: gh-deploy
+gh-deploy: gen-docs
+	$(RUN) mkdocs gh-deploy
