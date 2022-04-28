@@ -1,8 +1,9 @@
 site_name: "GA4GH"
 
 theme:
-  name: mkdocs
-  nav_style: dark
+  name: material
+  palette:
+    primary: blue
 
 plugins:
   - search
@@ -11,7 +12,7 @@ docs_dir: target/docs
 site_dir: site
 
 nav:
- - Home: index.md
+  - Index: index.md
 
 site_url: https://www.ggvaidya.com/ga4gh-va-spec/
   # repo_url: https://github.com/sujaypatil96/ga4gh-schema
