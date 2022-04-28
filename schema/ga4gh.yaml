@@ -557,7 +557,8 @@ classes:
     aliases:
     - Information Content Entity, ICE
     exact_mappings:
-    - IAO:0000030, FRBR:Work
+    - IAO:0000030
+    - FRBR:Work
     description: An abstract (non-physical) entity that is about something.
     title: Information Entity
     comments:
@@ -1325,7 +1326,8 @@ classes:
   Activity:
     name: Activity
     exact_mappings:
-    - PROV:Activity | OBI:0000011
+    - PROV:Activity
+    - OBI:0000011
     description: An action or set of actions performed by an agent, that occurs over
       a period of time. Activities may use, generate, modify, move, or destroy one
       or more entities.
