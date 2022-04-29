@@ -16,9 +16,9 @@ The tools used to build a data model for GA4GH variant annotation are:
 Run the following command to auto generate a LinkML model from the schemasheets specification of the GA4GH model:
 
 ```bash
-poetry run sheets2linkml --output schema/ga4gh.yaml assets/spreadsheets/ga4gh_schemasheets.tsv
+poetry run sheets2linkml --output src/linkml/ga4gh_va_schema.yaml src/data/spreadsheets/ga4gh_schemasheets.tsv
 ```
 
 ### Results
-1. [ga4gh_schemasheets.tsv](assets/spreadsheets/ga4gh_schemasheets.tsv): schemasheets specific tsv which contains the GA4GH source data model as a spreadsheet
-2. [ga4gh.yaml](schema/ga4gh.yaml): LinkML model generated from the above spreadsheet specification file
+1. [ga4gh_schemasheets.tsv](src/data/spreadsheets/ga4gh_schemasheets.tsv): schemasheets specific tsv which contains the GA4GH source data model as a spreadsheet
+2. [ga4gh_va_schema.yaml](src/linkml/ga4gh_va_schema.yaml): LinkML model generated from the above spreadsheet specification file
