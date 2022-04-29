@@ -28,7 +28,7 @@ prefixes:
     prefix_prefix: SEPIO
     prefix_reference: http://purl.obolibrary.org/obo/SEPIO_
 default_prefix: vaspec
-default_range: string
+default_range: ga4ghString
 slots:
   extensionElement:
     name: extensionElement
@@ -497,19 +497,19 @@ classes:
         name: label
         description: A primary name for the Entity.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       alternativeLabel:
         name: alternativeLabel
         description: An alternative name for the Entity.
         multivalued: true
-        range: string
+        range: ga4ghString
         required: false
       description:
         name: description
         description: A free text description of the Entity.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       hasURL:
         name: hasURL
@@ -532,7 +532,7 @@ classes:
         comments:
         - Preferred values for this field are CURIEs or URLs for database records
         multivalued: true
-        range: string
+        range: ga4ghString
         required: false
       thisRecordMeta:
         name: thisRecordMeta
@@ -708,7 +708,7 @@ classes:
           recordVersion field of a RecordMeadata object associated with the Information
           Entity.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       license:
         name: license
@@ -716,7 +716,7 @@ classes:
           resource (e.g. dataset, document, protocol) can be used - typically referenced
           by its URL.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
   DataItem:
     name: DataItem
@@ -730,7 +730,7 @@ classes:
       patient's weight, derived calculations such as frequency or mean, and computed
       statistical scores/metrics such as p-values and z-scores.
     from_schema: https://w3id.org/ga4gh-va
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - dataItemType
     - value
@@ -750,7 +750,7 @@ classes:
         name: value
         description: The value of the data item
         multivalued: false
-        range: string
+        range: ga4ghString
         required: true
       unit:
         name: unit
@@ -768,7 +768,7 @@ classes:
         - Examples of statistical measures of variability include an Interquartile
           Range, Variance, Standard Deviation, Standard Error.
         multivalued: true
-        range: Data Item
+        range: DataItem
         required: false
       confidenceInterval:
         name: confidenceInterval
@@ -810,7 +810,7 @@ classes:
       or the contents of a VCF file that describes variations observed in a particular
       patient and various annotations made on them.
     from_schema: https://w3id.org/ga4gh-va
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - dataSetType
     - dataSetLevel
@@ -868,7 +868,7 @@ classes:
           This attribute may apply to summary, version, and distribution-level Data
           Set representations.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       version:
         name: version
@@ -881,7 +881,7 @@ classes:
           don’t change the identity of the resource.  This attribute may apply to
           version and distribution-level Data Set representations.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       previousVersion:
         name: previousVersion
@@ -907,7 +907,7 @@ classes:
         comments:
         - This attribute may apply to  distribution-level Data Set representations.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       conformsTo:
         name: conformsTo
@@ -918,7 +918,7 @@ classes:
         - This attribute may apply to summary, version, and distribution-level Data
           Set representations.
         multivalued: true
-        range: string
+        range: ga4ghString
         required: false
   Document:
     name: Document
@@ -928,7 +928,7 @@ classes:
       to be read and understood together as a whole.
     title: Document
     from_schema: https://w3id.org/ga4gh-va
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - documentType
     - title
@@ -946,7 +946,7 @@ classes:
         name: title
         description: The given title of the document.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       license:
         name: license
@@ -956,7 +956,7 @@ classes:
         - The VA Model can record license information for resources such as Data Sets
           and Documents that get published and released as a unit for community use.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       version:
         name: version
@@ -968,7 +968,7 @@ classes:
           These may go through rounds of revisions that add or modify content, but
           don’t change the identity of the resource.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
   Statement:
     name: Statement
@@ -986,7 +986,7 @@ classes:
       Organization of variant knowledge into discrete Statement objects allows clear
       and precise tracking of the evidence and provenance that supports each.
     from_schema: https://w3id.org/ga4gh-va
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - statementType
     - subject
@@ -1090,7 +1090,7 @@ classes:
         required: false
       negated:
         name: negated
-        description: A boolean flag set to 'true' if the statement expressed by the
+        description: A ga4ghBoolean flag set to 'true' if the statement expressed by the
           subject, predicate, object, and qualifier(s) is explicitly asserted to be
           false.
         comments:
@@ -1099,7 +1099,7 @@ classes:
           to be true.  Accordingly, it would get encapsulsted in a Proposition object
           with these other other attributes in a Proposition-based approach.
         multivalued: false
-        range: boolean
+        range: ga4ghBoolean
         required: false
       evidenceLevel:
         name: evidenceLevel
@@ -1227,7 +1227,7 @@ classes:
       for a higher-order Statement about the variant's pathogenicity that relied on
       this frequency data for support.
     from_schema: https://w3id.org/ga4gh-va
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - studyResultType
     - focus
@@ -1286,7 +1286,7 @@ classes:
         name: sourceStudy
         description: The Study that generated the date reported in the Result.
         multivalued: false
-        range: Research Study
+        range: ResearchStudy
         required: false
       sourceStudyType:
         name: sourceStudyType
@@ -1345,7 +1345,7 @@ classes:
       provides evidence of moderate strength supporting the proposition that BRCA2
       c.8023A>G is pathogenic for Breast Cancer".'
     from_schema: https://w3id.org/ga4gh-va
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - evidenceLineType
     - targetProposition
@@ -1442,7 +1442,7 @@ classes:
       interpretation that specify how information can be organized, evaluated, and
       interpreted to generate evidence-based assertions.
     from_schema: https://w3id.org/ga4gh-va
-    is_a: Information Entity
+    is_a: InformationEntity
     slots:
     - methodType
     slot_usage:
@@ -1668,7 +1668,7 @@ classes:
         description: For software/computational agents, the specific version of the
           software it represents.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       hasAffiliation:
         name: hasAffiliation
@@ -1784,7 +1784,7 @@ classes:
         required: false
       negated:
         name: negated
-        description: A boolean flag set to 'true' if the statement expressed by the
+        description: A ga4ghBoolean flag set to 'true' if the statement expressed by the
           subject, predicate, object, and qualifier(s) is explicitly asserted to be
           false.
         comments:
@@ -1792,7 +1792,7 @@ classes:
           the 'negated' element contributes to the semantics of the 'possible fact'
           that a Proposition expresses.
         multivalued: false
-        range: boolean
+        range: ga4ghBoolean
         required: false
   Affiliation:
     name: Affiliation
@@ -1906,7 +1906,7 @@ classes:
         description: The preferred name for the wrapped value object as assigned by
           the creator of the VOD
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       valueObjectAlias:
         name: valueObjectAlias
@@ -1917,7 +1917,7 @@ classes:
           nomenclatures can be included here, but are best captured using the valueObjectExpression
           field.'
         multivalued: true
-        range: string
+        range: ga4ghString
         required: false
       valueObjectExpression:
         name: valueObjectExpression
@@ -1935,14 +1935,14 @@ classes:
         description: A free text description of the entity represented by the wrapped
           value object.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       valueObjectXref:
         name: valueObjectXref
         description: Points to an external database record for an entity that is equivalent
           to or closely related to the entity represented by the wrapped value object.
         multivalued: true
-        range: string
+        range: ga4ghString
         required: false
   VariationDescriptor:
     name: VariationDescriptor
@@ -1991,7 +1991,7 @@ classes:
         comments:
         - Either a code, label, or both must be provided.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       label:
         name: label
@@ -1999,13 +1999,13 @@ classes:
         comments:
         - Either a code, label, or both must be provided.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       system:
         name: system
         description: The code system where the code is defined.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       systemURL:
         name: systemURL
@@ -2017,7 +2017,7 @@ classes:
         name: systemVersion
         description: The version of the code system.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
   Expression:
     name: Expression
@@ -2041,7 +2041,7 @@ classes:
         description: A free-text rendering of the expression used as a label for the
           entity
         multivalued: false
-        range: string
+        range: ga4ghString
         required: true
       system:
         name: system
@@ -2050,7 +2050,7 @@ classes:
         - This should be provided whenever the expression comes from a formal nomenclature
           system.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: true
       systemURL:
         name: systemURL
@@ -2062,7 +2062,7 @@ classes:
         name: systemVersion
         description: The version of the nomenclature system.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
   Extension:
     name: Extension
@@ -2088,13 +2088,13 @@ classes:
           this extension element (i.e. they types of values it takes, and how to interpret
           these values in the context of the parent Class)
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       name:
         name: name
         description: A name that captures the meaning of the extension element
         multivalued: false
-        range: string
+        range: ga4ghString
         required: true
       value:
         name: value
@@ -2137,7 +2137,7 @@ classes:
           and the type of metadata it contains, to assist consumers in understanding/using
           this information.
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       recordIdentifier:
         name: recordIdentifier
@@ -2169,14 +2169,14 @@ classes:
         name: recordVersion
         description: The version number of the record-level artifact the object describes
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       previousVersion:
         name: previousVersion
         description: The version of a record in the same system that the current record
           replaces/follows.
         comments:
-        - 'Value should be a string representing the identifier of the previous record.
+        - 'Value should be a ga4ghString representing the identifier of the previous record.
           Consider renaming: ''previousRecord'', ''replaces'''
         multivalued: false
         range: identifier
@@ -2216,7 +2216,7 @@ classes:
         comments:
         - Preferred values for this field are CURIEs or URLs for database records
         multivalued: true
-        range: string
+        range: ga4ghString
         required: false
   Variation:
     name: Variation
@@ -2335,13 +2335,13 @@ classes:
         name: biotype
         description: A particular type of gene according to the Ensembl Biotypes classification
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       symbol:
         name: symbol
         description: Abbreviated symbol for the gene
         multivalued: false
-        range: string
+        range: ga4ghString
         required: false
       location:
         name: location
@@ -2365,42 +2365,44 @@ classes:
     - 'This is a stub for a class defined by the VRS specification:  https://vrs.ga4gh.org/en/stable/terms_and_model.html?highlight=curie#sequencelocation'
     from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
-  string:
-    name: string
+types:
+  ga4ghString:
+    name: ga4ghString
     description: A sequence of Unicode characters
-    title: string
+    title: ga4ghString
     comments:
-    - The string data type represents free-text that is not constrained to some code
+    - The ga4ghString data type represents free-text that is not constrained to some code
       set or associated with some semantic interpretation. It is the most generic
-      form of free-text literal in the model, and conceptually subsumes other string-based
+      form of free-text literal in the model, and conceptually subsumes other ga4ghString-based
       data types with more constrained interpretations (e.g. code, identifier, url).
     from_schema: https://w3id.org/ga4gh-va
+    typeof: string
   url:
     name: url
-    description: A string representing a Uniform Resource Locator (RFC 1738), specifying
+    description: A ga4ghString representing a Uniform Resource Locator (RFC 1738), specifying
       a web address where a resource can be found or information about the resource
       discovered.
     title: url
     comments:
-    - 'Used in place of a plain string datatype when a resolvable web address for
+    - 'Used in place of a plain ga4ghString datatype when a resolvable web address for
       a resource is desired.  Common URL protocols are http{s}:, ftp:, mailto: and
       mllp:, though many others are defined.'
     from_schema: https://w3id.org/ga4gh-va
-    is_a: string
+    typeof: ga4ghString
   class:
     name: class
-    description: A string representing the class of objects to which an instance belongs.
+    description: A ga4ghString representing the class of objects to which an instance belongs.
     title: class
     comments:
-    - This string must be the name of a concrete class from the core VA specification,
+    - This ga4ghString must be the name of a concrete class from the core VA specification,
       or a specialization of such a class in a profile defined by a particular implementation.
       The ‘class’ data type described here is reserved for specifying the type of
       an object/instance in a dataset.
     from_schema: https://w3id.org/ga4gh-va
-    is_a: string
+    typeof: ga4ghString
   dateTime:
     name: dateTime
-    description: A string value that specifies a date and time of day comprised of
+    description: A ga4ghString value that specifies a date and time of day comprised of
       a year, month, day, hour, minute, and second, following the form “YYYY-MM-DDThh:mm:ss”
     title: dateTime
     comments:
@@ -2412,10 +2414,10 @@ classes:
       schema constraints, but can all be set to “00” and ignored at the instruction
       of the message sender.
     from_schema: https://w3id.org/ga4gh-va
-    is_a: string
+    typeof: ga4ghString
   identifier:
     name: identifier
-    description: A string value that uniquely identifies a specific instance of an
+    description: A ga4ghString value that uniquely identifies a specific instance of an
       object in a dataset or document. Identifiers should be persistent, machine-resolvable,
       and unique within their intended scope of use.
     title: identifier
@@ -2435,9 +2437,10 @@ classes:
       URI (CURIE) syntax to structure identifiers is strongly recommended, as a way
       to ensure that a given identifier is unique within its intended scope of use.
     from_schema: https://w3id.org/ga4gh-va
-    is_a: string
-  boolean:
-    name: boolean
+    typeof: ga4ghString
+  ga4ghBoolean:
+    name: ga4ghBoolean
     description: A binary data type that holds either a TRUE or FALSE value.
-    title: boolean
+    title: ga4ghBoolean
     from_schema: https://w3id.org/ga4gh-va
+    typeof: boolean
