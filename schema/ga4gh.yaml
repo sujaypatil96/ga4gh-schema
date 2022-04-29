@@ -1,5 +1,5 @@
 name: GA4GH-VA-Spec
-id: https://w3id.org/ga4gh
+id: https://w3id.org/ga4gh-va
 imports:
 - linkml:types
 prefixes:
@@ -9,393 +9,402 @@ prefixes:
   vaspec:
     prefix_prefix: vaspec
     prefix_reference: https://example.org/vaspec/
-  PROV:
-    prefix_prefix: PROV
-    prefix_reference: http://www.w3.org/ns/prov#
-  fhir:
-    prefix_prefix: fhir
-    prefix_reference: http://example.org/fhir/
-  IAO:
-    prefix_prefix: IAO
-    prefix_reference: http://purl.obolibrary.org/obo/IAO_
-  CAM:
-    prefix_prefix: CAM
-    prefix_reference: http://example.org/CAM/
   FHIR:
     prefix_prefix: FHIR
     prefix_reference: http://example.org/FHIR/
+  IAO:
+    prefix_prefix: IAO
+    prefix_reference: http://purl.obolibrary.org/obo/IAO_
   BFO:
     prefix_prefix: BFO
     prefix_reference: http://purl.obolibrary.org/obo/BFO_
-  iao:
-    prefix_prefix: iao
-    prefix_reference: http://purl.obolibrary.org/obo/IAO_
+  CAM:
+    prefix_prefix: CAM
+    prefix_reference: http://example.org/CAM/
+  PROV:
+    prefix_prefix: PROV
+    prefix_reference: http://www.w3.org/ns/prov#
   SEPIO:
     prefix_prefix: SEPIO
     prefix_reference: http://purl.obolibrary.org/obo/SEPIO_
 default_prefix: vaspec
-default_range: ga4ghString
+default_range: string
 slots:
-  extension:
-    name: extension
-    from_schema: https://w3id.org/ga4gh
-  id:
-    name: id
-    from_schema: https://w3id.org/ga4gh
-  identifier:
-    name: identifier
-    from_schema: https://w3id.org/ga4gh
+  extensionElement:
+    name: extensionElement
+    from_schema: https://w3id.org/ga4gh-va
+  localId:
+    name: localId
+    from_schema: https://w3id.org/ga4gh-va
+  globalIdentifier:
+    name: globalIdentifier
+    from_schema: https://w3id.org/ga4gh-va
   type:
     name: type
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   label:
     name: label
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   alternativeLabel:
     name: alternativeLabel
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   description:
     name: description
-    from_schema: https://w3id.org/ga4gh
-  url:
-    name: url
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
+  hasURL:
+    name: hasURL
+    from_schema: https://w3id.org/ga4gh-va
   reference:
     name: reference
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   xref:
     name: xref
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   thisRecordMeta:
     name: thisRecordMeta
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   sourceRecordMeta:
     name: sourceRecordMeta
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   isAbout:
     name: isAbout
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   qualifiedContribution:
     name: qualifiedContribution
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   dateAuthored:
     name: dateAuthored
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   wasSpecifiedBy:
     name: wasSpecifiedBy
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   derivedFrom:
     name: derivedFrom
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   wasOutputOf:
     name: wasOutputOf
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   hasPart:
     name: hasPart
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   partOf:
     name: partOf
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   isReportedIn:
     name: isReportedIn
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   confidenceLevel:
     name: confidenceLevel
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   confidenceScore:
     name: confidenceScore
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   version:
     name: version
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   license:
     name: license
-    from_schema: https://w3id.org/ga4gh
-  Data ItemType:
-    name: Data ItemType
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
+  dataItemType:
+    name: dataItemType
+    from_schema: https://w3id.org/ga4gh-va
   value:
     name: value
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   unit:
     name: unit
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   variability:
     name: variability
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   confidenceInterval:
     name: confidenceInterval
-    from_schema: https://w3id.org/ga4gh
-  componentData Item:
-    name: componentData Item
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
+  componentDataItem:
+    name: componentDataItem
+    from_schema: https://w3id.org/ga4gh-va
   dataSetType:
     name: dataSetType
-    from_schema: https://w3id.org/ga4gh
-  document_type:
-    name: document_type
-    from_schema: https://w3id.org/ga4gh
-  title:
-    name: title
-    from_schema: https://w3id.org/ga4gh
-  statementType:
-    name: statementType
-    from_schema: https://w3id.org/ga4gh
-  subject:
-    name: subject
-    from_schema: https://w3id.org/ga4gh
-  predicate:
-    name: predicate
-    from_schema: https://w3id.org/ga4gh
-  object:
-    name: object
-    from_schema: https://w3id.org/ga4gh
-  qualifier:
-    name: qualifier
-    from_schema: https://w3id.org/ga4gh
-  assertedProposition:
-    name: assertedProposition
-    from_schema: https://w3id.org/ga4gh
-  negated:
-    name: negated
-    from_schema: https://w3id.org/ga4gh
-  evidenceLevel:
-    name: evidenceLevel
-    from_schema: https://w3id.org/ga4gh
-  evidenceScore:
-    name: evidenceScore
-    from_schema: https://w3id.org/ga4gh
-  hasEvidence Line:
-    name: hasEvidence Line
-    from_schema: https://w3id.org/ga4gh
-  hasEvidence:
-    name: hasEvidence
-    from_schema: https://w3id.org/ga4gh
-  hasEvidenceOfType:
-    name: hasEvidenceOfType
-    from_schema: https://w3id.org/ga4gh
-  hasEvidenceFromSource:
-    name: hasEvidenceFromSource
-    from_schema: https://w3id.org/ga4gh
-  subjectDescriptor:
-    name: subjectDescriptor
-    from_schema: https://w3id.org/ga4gh
-  objectDescriptor:
-    name: objectDescriptor
-    from_schema: https://w3id.org/ga4gh
-  qualifierDescriptor:
-    name: qualifierDescriptor
-    from_schema: https://w3id.org/ga4gh
-  studyResultType:
-    name: studyResultType
-    from_schema: https://w3id.org/ga4gh
-  focus:
-    name: focus
-    from_schema: https://w3id.org/ga4gh
-  Data Item:
-    name: Data Item
-    from_schema: https://w3id.org/ga4gh
-  interpretation:
-    name: interpretation
-    from_schema: https://w3id.org/ga4gh
-  sourceDataSet:
-    name: sourceDataSet
-    from_schema: https://w3id.org/ga4gh
-  sourceStudy:
-    name: sourceStudy
-    from_schema: https://w3id.org/ga4gh
-  sourceStudyType:
-    name: sourceStudyType
-    from_schema: https://w3id.org/ga4gh
-  sourceStudyDate:
-    name: sourceStudyDate
-    from_schema: https://w3id.org/ga4gh
-  sourceStudyMethod:
-    name: sourceStudyMethod
-    from_schema: https://w3id.org/ga4gh
-  evidenceLineType:
-    name: evidenceLineType
-    from_schema: https://w3id.org/ga4gh
-  targetProposition:
-    name: targetProposition
-    from_schema: https://w3id.org/ga4gh
-  hasEvidenceItem:
-    name: hasEvidenceItem
-    from_schema: https://w3id.org/ga4gh
-  evidenceDirection:
-    name: evidenceDirection
-    from_schema: https://w3id.org/ga4gh
-  evidenceStrength:
-    name: evidenceStrength
-    from_schema: https://w3id.org/ga4gh
-  evidenceItemSource:
-    name: evidenceItemSource
-    from_schema: https://w3id.org/ga4gh
-  methodType:
-    name: methodType
-    from_schema: https://w3id.org/ga4gh
-  activityType:
-    name: activityType
-    from_schema: https://w3id.org/ga4gh
-  startDate:
-    name: startDate
-    from_schema: https://w3id.org/ga4gh
-  endDate:
-    name: endDate
-    from_schema: https://w3id.org/ga4gh
-  performedBy:
-    name: performedBy
-    from_schema: https://w3id.org/ga4gh
-  hadInput:
-    name: hadInput
-    from_schema: https://w3id.org/ga4gh
-  hadOutput:
-    name: hadOutput
-    from_schema: https://w3id.org/ga4gh
-  researchStudyType:
-    name: researchStudyType
-    from_schema: https://w3id.org/ga4gh
-  contributionMadeBy:
-    name: contributionMadeBy
-    from_schema: https://w3id.org/ga4gh
-  contributionMadeTo:
-    name: contributionMadeTo
-    from_schema: https://w3id.org/ga4gh
-  contributorRole:
-    name: contributorRole
-    from_schema: https://w3id.org/ga4gh
-  organizationalContext:
-    name: organizationalContext
-    from_schema: https://w3id.org/ga4gh
-  agentType:
-    name: agentType
-    from_schema: https://w3id.org/ga4gh
-  softwareVersion:
-    name: softwareVersion
-    from_schema: https://w3id.org/ga4gh
-  affiliation:
-    name: affiliation
-    from_schema: https://w3id.org/ga4gh
-  parentOrganization:
-    name: parentOrganization
-    from_schema: https://w3id.org/ga4gh
-  childOrganization:
-    name: childOrganization
-    from_schema: https://w3id.org/ga4gh
-  propositionType:
-    name: propositionType
-    from_schema: https://w3id.org/ga4gh
-  member:
-    name: member
-    from_schema: https://w3id.org/ga4gh
-  organization:
-    name: organization
-    from_schema: https://w3id.org/ga4gh
-  organizationalRole:
-    name: organizationalRole
-    from_schema: https://w3id.org/ga4gh
-  affiliationStatus:
-    name: affiliationStatus
-    from_schema: https://w3id.org/ga4gh
-  valueObjectId:
-    name: valueObjectId
-    from_schema: https://w3id.org/ga4gh
-  valueObject:
-    name: valueObject
-    from_schema: https://w3id.org/ga4gh
-  valueObjectName:
-    name: valueObjectName
-    from_schema: https://w3id.org/ga4gh
-  valueObjectAlias:
-    name: valueObjectAlias
-    from_schema: https://w3id.org/ga4gh
-  valueObjectExpression:
-    name: valueObjectExpression
-    from_schema: https://w3id.org/ga4gh
-  valueObjectDescription:
-    name: valueObjectDescription
-    from_schema: https://w3id.org/ga4gh
-  valueObjectXref:
-    name: valueObjectXref
-    from_schema: https://w3id.org/ga4gh
-  moleculeContext:
-    name: moleculeContext
-    from_schema: https://w3id.org/ga4gh
-  structuralType:
-    name: structuralType
-    from_schema: https://w3id.org/ga4gh
-  code:
-    name: code
-    from_schema: https://w3id.org/ga4gh
-  system:
-    name: system
-    from_schema: https://w3id.org/ga4gh
-  systemURL:
-    name: systemURL
-    from_schema: https://w3id.org/ga4gh
-  systemVersion:
-    name: systemVersion
-    from_schema: https://w3id.org/ga4gh
-  name:
-    name: name
-    from_schema: https://w3id.org/ga4gh
-  recordIdentifier:
-    name: recordIdentifier
-    from_schema: https://w3id.org/ga4gh
-  partOfDataset:
-    name: partOfDataset
-    from_schema: https://w3id.org/ga4gh
-  recordVersion:
-    name: recordVersion
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
+  dataSetLevel:
+    name: dataSetLevel
+    from_schema: https://w3id.org/ga4gh-va
+  releaseDate:
+    name: releaseDate
+    from_schema: https://w3id.org/ga4gh-va
   previousVersion:
     name: previousVersion
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
+  currentVersion:
+    name: currentVersion
+    from_schema: https://w3id.org/ga4gh-va
+  format:
+    name: format
+    from_schema: https://w3id.org/ga4gh-va
+  conformsTo:
+    name: conformsTo
+    from_schema: https://w3id.org/ga4gh-va
+  documentType:
+    name: documentType
+    from_schema: https://w3id.org/ga4gh-va
+  title:
+    name: title
+    from_schema: https://w3id.org/ga4gh-va
+  statementType:
+    name: statementType
+    from_schema: https://w3id.org/ga4gh-va
+  subject:
+    name: subject
+    from_schema: https://w3id.org/ga4gh-va
+  predicate:
+    name: predicate
+    from_schema: https://w3id.org/ga4gh-va
+  object:
+    name: object
+    from_schema: https://w3id.org/ga4gh-va
+  qualifier:
+    name: qualifier
+    from_schema: https://w3id.org/ga4gh-va
+  assertedProposition:
+    name: assertedProposition
+    from_schema: https://w3id.org/ga4gh-va
+  negated:
+    name: negated
+    from_schema: https://w3id.org/ga4gh-va
+  evidenceLevel:
+    name: evidenceLevel
+    from_schema: https://w3id.org/ga4gh-va
+  evidenceScore:
+    name: evidenceScore
+    from_schema: https://w3id.org/ga4gh-va
+  hasEvidenceLine:
+    name: hasEvidenceLine
+    from_schema: https://w3id.org/ga4gh-va
+  hasEvidence:
+    name: hasEvidence
+    from_schema: https://w3id.org/ga4gh-va
+  hasEvidenceOfType:
+    name: hasEvidenceOfType
+    from_schema: https://w3id.org/ga4gh-va
+  hasEvidenceFromSource:
+    name: hasEvidenceFromSource
+    from_schema: https://w3id.org/ga4gh-va
+  subjectDescriptor:
+    name: subjectDescriptor
+    from_schema: https://w3id.org/ga4gh-va
+  objectDescriptor:
+    name: objectDescriptor
+    from_schema: https://w3id.org/ga4gh-va
+  qualifierDescriptor:
+    name: qualifierDescriptor
+    from_schema: https://w3id.org/ga4gh-va
+  studyResultType:
+    name: studyResultType
+    from_schema: https://w3id.org/ga4gh-va
+  focus:
+    name: focus
+    from_schema: https://w3id.org/ga4gh-va
+  data:
+    name: data
+    from_schema: https://w3id.org/ga4gh-va
+  interpretation:
+    name: interpretation
+    from_schema: https://w3id.org/ga4gh-va
+  sourceDataSet:
+    name: sourceDataSet
+    from_schema: https://w3id.org/ga4gh-va
+  sourceStudy:
+    name: sourceStudy
+    from_schema: https://w3id.org/ga4gh-va
+  sourceStudyType:
+    name: sourceStudyType
+    from_schema: https://w3id.org/ga4gh-va
+  sourceStudyDate:
+    name: sourceStudyDate
+    from_schema: https://w3id.org/ga4gh-va
+  sourceStudyMethod:
+    name: sourceStudyMethod
+    from_schema: https://w3id.org/ga4gh-va
+  evidenceLineType:
+    name: evidenceLineType
+    from_schema: https://w3id.org/ga4gh-va
+  targetProposition:
+    name: targetProposition
+    from_schema: https://w3id.org/ga4gh-va
+  hasEvidenceItem:
+    name: hasEvidenceItem
+    from_schema: https://w3id.org/ga4gh-va
+  evidenceDirection:
+    name: evidenceDirection
+    from_schema: https://w3id.org/ga4gh-va
+  evidenceStrength:
+    name: evidenceStrength
+    from_schema: https://w3id.org/ga4gh-va
+  evidenceItemSource:
+    name: evidenceItemSource
+    from_schema: https://w3id.org/ga4gh-va
+  methodType:
+    name: methodType
+    from_schema: https://w3id.org/ga4gh-va
+  activityType:
+    name: activityType
+    from_schema: https://w3id.org/ga4gh-va
+  startDate:
+    name: startDate
+    from_schema: https://w3id.org/ga4gh-va
+  endDate:
+    name: endDate
+    from_schema: https://w3id.org/ga4gh-va
+  performedBy:
+    name: performedBy
+    from_schema: https://w3id.org/ga4gh-va
+  hadInput:
+    name: hadInput
+    from_schema: https://w3id.org/ga4gh-va
+  hadOutput:
+    name: hadOutput
+    from_schema: https://w3id.org/ga4gh-va
+  researchStudyType:
+    name: researchStudyType
+    from_schema: https://w3id.org/ga4gh-va
+  contributionMadeBy:
+    name: contributionMadeBy
+    from_schema: https://w3id.org/ga4gh-va
+  contributionMadeTo:
+    name: contributionMadeTo
+    from_schema: https://w3id.org/ga4gh-va
+  contributorRole:
+    name: contributorRole
+    from_schema: https://w3id.org/ga4gh-va
+  organizationalContext:
+    name: organizationalContext
+    from_schema: https://w3id.org/ga4gh-va
+  agentType:
+    name: agentType
+    from_schema: https://w3id.org/ga4gh-va
+  softwareVersion:
+    name: softwareVersion
+    from_schema: https://w3id.org/ga4gh-va
+  hasAffiliation:
+    name: hasAffiliation
+    from_schema: https://w3id.org/ga4gh-va
+  parentOrganization:
+    name: parentOrganization
+    from_schema: https://w3id.org/ga4gh-va
+  childOrganization:
+    name: childOrganization
+    from_schema: https://w3id.org/ga4gh-va
+  propositionType:
+    name: propositionType
+    from_schema: https://w3id.org/ga4gh-va
+  member:
+    name: member
+    from_schema: https://w3id.org/ga4gh-va
+  organization:
+    name: organization
+    from_schema: https://w3id.org/ga4gh-va
+  organizationalRole:
+    name: organizationalRole
+    from_schema: https://w3id.org/ga4gh-va
+  affiliationStatus:
+    name: affiliationStatus
+    from_schema: https://w3id.org/ga4gh-va
+  valueObjectId:
+    name: valueObjectId
+    from_schema: https://w3id.org/ga4gh-va
+  valueObject:
+    name: valueObject
+    from_schema: https://w3id.org/ga4gh-va
+  valueObjectName:
+    name: valueObjectName
+    from_schema: https://w3id.org/ga4gh-va
+  valueObjectAlias:
+    name: valueObjectAlias
+    from_schema: https://w3id.org/ga4gh-va
+  valueObjectExpression:
+    name: valueObjectExpression
+    from_schema: https://w3id.org/ga4gh-va
+  valueObjectDescription:
+    name: valueObjectDescription
+    from_schema: https://w3id.org/ga4gh-va
+  valueObjectXref:
+    name: valueObjectXref
+    from_schema: https://w3id.org/ga4gh-va
+  moleculeContext:
+    name: moleculeContext
+    from_schema: https://w3id.org/ga4gh-va
+  structuralType:
+    name: structuralType
+    from_schema: https://w3id.org/ga4gh-va
+  code:
+    name: code
+    from_schema: https://w3id.org/ga4gh-va
+  system:
+    name: system
+    from_schema: https://w3id.org/ga4gh-va
+  systemURL:
+    name: systemURL
+    from_schema: https://w3id.org/ga4gh-va
+  systemVersion:
+    name: systemVersion
+    from_schema: https://w3id.org/ga4gh-va
+  name:
+    name: name
+    from_schema: https://w3id.org/ga4gh-va
+  recordIdentifier:
+    name: recordIdentifier
+    from_schema: https://w3id.org/ga4gh-va
+  partOfDataset:
+    name: partOfDataset
+    from_schema: https://w3id.org/ga4gh-va
+  recordVersion:
+    name: recordVersion
+    from_schema: https://w3id.org/ga4gh-va
   dateRecordCreated:
     name: dateRecordCreated
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   dateRecordLastModified:
     name: dateRecordLastModified
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   recordURL:
     name: recordURL
-    from_schema: https://w3id.org/ga4gh
-  disease:
-    name: disease
-    from_schema: https://w3id.org/ga4gh
-  phenotype:
-    name: phenotype
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
+  componentDisease:
+    name: componentDisease
+    from_schema: https://w3id.org/ga4gh-va
+  componentPhenotype:
+    name: componentPhenotype
+    from_schema: https://w3id.org/ga4gh-va
   inheritancePattern:
     name: inheritancePattern
-    from_schema: https://w3id.org/ga4gh
-  gene:
-    name: gene
-    from_schema: https://w3id.org/ga4gh
-  drug:
-    name: drug
-    from_schema: https://w3id.org/ga4gh
-  procedure:
-    name: procedure
-    from_schema: https://w3id.org/ga4gh
-  activity:
-    name: activity
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
+  contributingGene:
+    name: contributingGene
+    from_schema: https://w3id.org/ga4gh-va
+  componentDrug:
+    name: componentDrug
+    from_schema: https://w3id.org/ga4gh-va
+  componentProcedure:
+    name: componentProcedure
+    from_schema: https://w3id.org/ga4gh-va
+  componentActivity:
+    name: componentActivity
+    from_schema: https://w3id.org/ga4gh-va
   drugOperator:
     name: drugOperator
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   biotype:
     name: biotype
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   symbol:
     name: symbol
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   location:
     name: location
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   strand:
     name: strand
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
 classes:
   Element:
     name: Element
@@ -407,12 +416,12 @@ classes:
     comments:
     - This class is useful to reference as the range of attributes that can take instances
       of a class or a complex data type (e.g. a Coding) as their value (e.g. Statement.object)
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     slots:
-    - extension
+    - extensionElement
     slot_usage:
-      extension:
-        name: extension
+      extensionElement:
+        name: extensionElement
         description: A key-value data structure that allows definition of custom fields
           to capture information not directly supported by the VA specification.
         comments:
@@ -432,23 +441,23 @@ classes:
     comments:
     - This is the root class of the model - all other classes descend and inherit
       from it.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Element
     slots:
-    - id
-    - identifier
+    - localId
+    - globalIdentifier
     - type
     - label
     - alternativeLabel
     - description
-    - url
+    - hasURL
     - reference
     - xref
     - thisRecordMeta
     - sourceRecordMeta
     slot_usage:
-      id:
-        name: id
+      localId:
+        name: localId
         exact_mappings:
         - FHIR:id
         description: The 'logical' identifier of the entity in the system of record,
@@ -462,13 +471,13 @@ classes:
         multivalued: false
         range: identifier
         required: true
-      identifier:
-        name: identifier
+      globalIdentifier:
+        name: globalIdentifier
         exact_mappings:
         - FHIR:identifier
-        description: A 'business' identifier  or accession number for the entity,
-          typically as provided by an external system or authority, that is globally
-          unique and persists across implementing systems.
+        description: A 'business' identifier or accession number for the entity, typically
+          as provided by an external system or authority, that is globally unique
+          and persists across implementing systems.
         comments:
         - FHIR naming conventions are followed here, where an 'id' field holds logical
           identifiers which are unique only within a given system, and an 'identifier'
@@ -482,28 +491,28 @@ classes:
         description: The schema class that is instantiated by the data object.  Must
           be the name of a class from the VA schema.
         multivalued: false
-        range: ga4ghClass
+        range: class
         required: true
       label:
         name: label
         description: A primary name for the Entity.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       alternativeLabel:
         name: alternativeLabel
         description: An alternative name for the Entity.
         multivalued: true
-        range: ga4ghString
+        range: string
         required: false
       description:
         name: description
         description: A free text description of the Entity.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
-      url:
-        name: url
+      hasURL:
+        name: hasURL
         description: The URL/web address of a digital resource representing the entity,
           or providing information about it.
         multivalued: true
@@ -523,7 +532,7 @@ classes:
         comments:
         - Preferred values for this field are CURIEs or URLs for database records
         multivalued: true
-        range: ga4ghString
+        range: string
         required: false
       thisRecordMeta:
         name: thisRecordMeta
@@ -557,8 +566,7 @@ classes:
     aliases:
     - Information Content Entity, ICE
     exact_mappings:
-    - IAO:0000030
-    - FRBR:Work
+    - IAO:0000030 | FRBR:Work
     description: An abstract (non-physical) entity that is about something.
     title: Information Entity
     comments:
@@ -567,7 +575,7 @@ classes:
       the neural connections of a human brain, etc. They are independent of any specific
       language, representational format, or physical/digital medium. In the FRBR model,
       this corresponds to the 'Works' level of representation.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
     slots:
     - isAbout
@@ -693,14 +701,14 @@ classes:
         description: The version of the Information Entity (to be used in cases where
           version is not reflected in the id or identifiers associated with the entity).
         comments:
-        - Note that this attribute captures the version of the abstract informtion
+        - Note that this attribute captures the version of the abstract information
           content that comproses the Information Entity - in cases where updated versions
           of the entity are released.  Versioning of specific concrete records/encodings
           of the information in a particular format/syntax are to be captured in the
           recordVersion field of a RecordMeadata object associated with the Information
           Entity.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       license:
         name: license
@@ -708,7 +716,7 @@ classes:
           resource (e.g. dataset, document, protocol) can be used - typically referenced
           by its URL.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
   DataItem:
     name: DataItem
@@ -721,18 +729,18 @@ classes:
     - Examples include raw observations or measurements such as an allele count, or
       patient's weight, derived calculations such as frequency or mean, and computed
       statistical scores/metrics such as p-values and z-scores.
-    from_schema: https://w3id.org/ga4gh
-    is_a: InformationEntity
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: Information Entity
     slots:
-    - Data ItemType
+    - dataItemType
     - value
     - unit
     - variability
     - confidenceInterval
-    - componentData Item
+    - componentDataItem
     slot_usage:
-      Data ItemType:
-        name: Data ItemType
+      dataItemType:
+        name: dataItemType
         description: A more specific type/category of information the data item represents
           (e.g. an event count, a patient weight, an allele frequency, a p-value)
         multivalued: true
@@ -742,7 +750,7 @@ classes:
         name: value
         description: The value of the data item
         multivalued: false
-        range: ga4ghString
+        range: string
         required: true
       unit:
         name: unit
@@ -760,7 +768,7 @@ classes:
         - Examples of statistical measures of variability include an Interquartile
           Range, Variance, Standard Deviation, Standard Error.
         multivalued: true
-        range: DataItem
+        range: Data Item
         required: false
       confidenceInterval:
         name: confidenceInterval
@@ -776,8 +784,8 @@ classes:
         multivalued: false
         range: DataItem
         required: false
-      componentData Item:
-        name: componentData Item
+      componentDataItem:
+        name: componentDataItem
         description: A more foundational data item that is a logical component of
           a compound data item.
         comments:
@@ -791,7 +799,7 @@ classes:
   DataSet:
     name: DataSet
     exact_mappings:
-    - iao:0000100
+    - IAO:0000100
     description: A collection of related data items or records that are organized
       together in a common format or structure, to enable their computational manipulation
       as a unit.
@@ -801,17 +809,116 @@ classes:
       SIFT dataset of computational predictions functional impact for a set of variants,
       or the contents of a VCF file that describes variations observed in a particular
       patient and various annotations made on them.
-    from_schema: https://w3id.org/ga4gh
-    is_a: InformationEntity
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: Information Entity
     slots:
     - dataSetType
+    - dataSetLevel
+    - releaseDate
+    - license
+    - version
+    - previousVersion
+    - currentVersion
+    - format
+    - conformsTo
     slot_usage:
       dataSetType:
         name: dataSetType
-        description: A more specific type of data set the entity represents (e.g.
-          genomic sequence dataset, genome feature annotation dataset)
+        description: A more specific type of data set the entity represents.
+        comments:
+        - The recorded type is typically based on the nature of the data in the dataset,
+          and what it describes (e.g. genomic sequence dataset, genome feature annotation
+          dataset) .
         multivalued: true
         range: Coding
+        required: false
+      dataSetLevel:
+        name: dataSetLevel
+        description: The level at which the Data Set is considered and described ('Summary'
+          level, 'Version' level, or 'Distribution' level - see https://www.w3.org/TR/hcls-dataset/#datasetdescriptionlevels)
+        comments:
+        - 'The VA model adopts the W3C HCLS DataSet Model view that DataSets can be
+          considered and described at three levels:  - A ''Summary'' level considers
+          the Data Set at the most abstract/general level, independent of a specific
+          version or format. - A ''Version'' level considers a specific version of
+          a Data Set, which may acquire version-specific characteristics (e.g. a release
+          date). - A ''Distribution'' level considers a specific format/encoding of
+          a dataset version, which may acquire distribution-specific characteristics
+          (e.g. a format, or downloadURL). The attributes defiend for the DataSet
+          object may apply to all or only specific levels - as noted in comments for
+          each attribute.'
+        multivalued: false
+        range: Coding
+        required: false
+      releaseDate:
+        name: releaseDate
+        description: The date when a version-level Data Set was released.
+        comments:
+        - This attribute may apply to version and distribution-level Data Set representations.
+        multivalued: false
+        range: dateTime
+        required: false
+      license:
+        name: license
+        description: The type of license that dictates legal permissions for how the
+          Data Set can be used - typically referenced by its URL.
+        comments:
+        - The VA Model can record license information for resources such as Data Sets
+          and Documents that get published and released as a unit for community use.
+          This attribute may apply to summary, version, and distribution-level Data
+          Set representations.
+        multivalued: false
+        range: string
+        required: false
+      version:
+        name: version
+        description: The version of the Data Set (use this field used in cases where
+          version is not reflected in an identifier associated with the Data Set)
+        comments:
+        - The VA Model can record version information for resources such as Data Sets
+          and Documents that get published and released as a unit for community use.
+          These may go through rounds of revisions that add or modify content, but
+          don’t change the identity of the resource.  This attribute may apply to
+          version and distribution-level Data Set representations.
+        multivalued: false
+        range: string
+        required: false
+      previousVersion:
+        name: previousVersion
+        description: A version-level Data Set representing the version described here.
+        comments:
+        - This attribute may apply to version and distribution-level Data Set representations.
+        multivalued: false
+        range: DataSet
+        required: false
+      currentVersion:
+        name: currentVersion
+        description: A version-level Data Set representing the most current version
+          at the time of recording.
+        comments:
+        - This attribute may apply to version and distribution-level Data Set representations.
+        multivalued: false
+        range: DataSet
+        required: false
+      format:
+        name: format
+        description: A specific representational format used to encode a distribution-level
+          Dataset.
+        comments:
+        - This attribute may apply to  distribution-level Data Set representations.
+        multivalued: false
+        range: string
+        required: false
+      conformsTo:
+        name: conformsTo
+        description: A community standard that is used in representing any of the
+          data in the Data Set (e.g. an ontology or code system from which enumerated
+          values are drawn, a standard data model used to structure the representation).
+        comments:
+        - This attribute may apply to summary, version, and distribution-level Data
+          Set representations.
+        multivalued: true
+        range: string
         required: false
   Document:
     name: Document
@@ -820,14 +927,16 @@ classes:
     description: A collection of information, usually in human-readable form, intended
       to be read and understood together as a whole.
     title: Document
-    from_schema: https://w3id.org/ga4gh
-    is_a: InformationEntity
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: Information Entity
     slots:
-    - document_type
+    - documentType
     - title
+    - license
+    - version
     slot_usage:
-      document_type:
-        name: document_type
+      documentType:
+        name: documentType
         description: The specific type of the document (e.g.  'publication', 'patent',
           'pathology report')
         multivalued: true
@@ -837,7 +946,29 @@ classes:
         name: title
         description: The given title of the document.
         multivalued: false
-        range: ga4ghString
+        range: string
+        required: false
+      license:
+        name: license
+        description: The type of license that dictates legal permissions for how the
+          Document can be used - typically referenced by its URL.
+        comments:
+        - The VA Model can record license information for resources such as Data Sets
+          and Documents that get published and released as a unit for community use.
+        multivalued: false
+        range: string
+        required: false
+      version:
+        name: version
+        description: The version of the Document (use this field used in cases where
+          version is not reflected in an identifier associated with the Document)
+        comments:
+        - The VA Model can record version information for resources such as Data Sets
+          and Documents that get published and released as a unit for community use.
+          These may go through rounds of revisions that add or modify content, but
+          don’t change the identity of the resource.
+        multivalued: false
+        range: string
         required: false
   Statement:
     name: Statement
@@ -853,10 +984,9 @@ classes:
       a self-contained Statement object. The semantics of what is asserted to be true
       is explicitly structured in terms of a subject, predicate, object, and qualifier(s).
       Organization of variant knowledge into discrete Statement objects allows clear
-      and precise tracking of the evidence and provenance that supports each. For
-      more about the use of Statements in VA, see HERE (LINK)
-    from_schema: https://w3id.org/ga4gh
-    is_a: InformationEntity
+      and precise tracking of the evidence and provenance that supports each.
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: Information Entity
     slots:
     - statementType
     - subject
@@ -867,7 +997,7 @@ classes:
     - negated
     - evidenceLevel
     - evidenceScore
-    - hasEvidence Line
+    - hasEvidenceLine
     - hasEvidence
     - hasEvidenceOfType
     - hasEvidenceFromSource
@@ -933,13 +1063,13 @@ classes:
         comments:
         - The qualifier attribute allows representation of more complex, n-ary expressions
           that may not be accommodated by a simple subject-predicate-object triple.
-          For example, if this triple asserts that Variant X - is associated with
-          sensitivity to - Drug Y, a qualifier can be used to indicate that this applies
-          in the context of a particular treated Condition Z.  Qualifiers can also
-          add information that 'quantifies' a Statement - e.g. for a Statement triple
-          asserting that a Variant X- causes - Phenotype Y, a qualifier can be used
-          to add penetrance information that quantifies the percentage of carriers
-          in which the phenotype is observed to manifest.
+          For example, if this triple asserts that 'Variant X' - predicts sensitivity
+          to - 'Drug Y', a qualifier can be used to indicate that this applies in
+          the context of a particular 'Disease Z'.  Qualifiers can also add information
+          that 'quantifies' a Statement - e.g. for a Statement triple asserting that
+          a 'Variant X'- causes - 'Phenotype Y', a qualifier can be used to add penetrance
+          information that quantifies the percentage of carriers in which the phenotype
+          is observed to manifest.
         multivalued: true
         range: Element
         required: false
@@ -950,11 +1080,11 @@ classes:
         comments:
         - This attribute provides the option of representing the semantics of what
           a Statement asserts to be true (its 'proposition') in a separate 'Proposition'
-          object.  This is an **alternative modeling pattern** that encapsulates the
-          subject, predicate, object, and any qualifier attributes of a Statement
-          inside a separate Proposition object - which that can be identified and
-          referenced from other objects related to it (e.g. from a Statements that
-          assert it to be true, or an Evidence Line that weighs evidence against it).
+          object.  This is an alternative modeling pattern that encapsulates the subject,
+          predicate, object, and any qualifier attributes of a Statement inside a
+          separate Proposition object - which that can be identified and referenced
+          from other objects related to it (e.g. from a Statements that assert it
+          to be true, or an Evidence Line that weighs evidence against it).
         multivalued: false
         range: Proposition
         required: false
@@ -969,7 +1099,7 @@ classes:
           to be true.  Accordingly, it would get encapsulsted in a Proposition object
           with these other other attributes in a Proposition-based approach.
         multivalued: false
-        range: ga4ghBoolean
+        range: boolean
         required: false
       evidenceLevel:
         name: evidenceLevel
@@ -985,8 +1115,8 @@ classes:
         multivalued: false
         range: DataItem
         required: false
-      hasEvidence Line:
-        name: hasEvidence Line
+      hasEvidenceLine:
+        name: hasEvidenceLine
         description: A discrete, independent argument relevant to the validity of
           the Proposition put forth as true in the Statement, that is based on the
           interpretation of one or more pieces of information as evidence.
@@ -1096,12 +1226,12 @@ classes:
       dataset can be summarized in a Study Result object, and referenced as evidence
       for a higher-order Statement about the variant's pathogenicity that relied on
       this frequency data for support.
-    from_schema: https://w3id.org/ga4gh
-    is_a: InformationEntity
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: Information Entity
     slots:
     - studyResultType
     - focus
-    - Data Item
+    - data
     - interpretation
     - sourceDataSet
     - sourceStudy
@@ -1128,8 +1258,8 @@ classes:
         multivalued: true
         range: Entity
         required: false
-      Data Item:
-        name: Data Item
+      data:
+        name: data
         description: A piece of data from the source Study that is included in the
           Result, and pertains to the entity that is the 'focus'. Can be data directly
           about the focus, or metadata relevant to how this data was generated.
@@ -1156,7 +1286,7 @@ classes:
         name: sourceStudy
         description: The Study that generated the date reported in the Result.
         multivalued: false
-        range: ResearchStudy
+        range: Research Study
         required: false
       sourceStudyType:
         name: sourceStudyType
@@ -1214,8 +1344,8 @@ classes:
       "ExAC allele frequency data for BRCA2 c.8023A>G {0.0000021, 0.0000034, ...}
       provides evidence of moderate strength supporting the proposition that BRCA2
       c.8023A>G is pathogenic for Breast Cancer".'
-    from_schema: https://w3id.org/ga4gh
-    is_a: InformationEntity
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: Information Entity
     slots:
     - evidenceLineType
     - targetProposition
@@ -1265,7 +1395,7 @@ classes:
           of evidence. Different types or scales of information entity can serve as
           evidence - but only when it realizes this role do we call it an 'Evidence
           Item'. For example, a piece of population frequency data about BRCA2 c.8023A>G  becomes
-          an Evidence Item when it is assessed as evidence (e.g. for the variant‚Äôs
+          an Evidence Item when it is assessed as evidence (e.g. for the variant’s
           pathogenicity - and thus contributes to an argument for (or against) this
           target proposition.
         multivalued: true
@@ -1311,8 +1441,8 @@ classes:
       studies or experiments to generate data, and guidelines for data curation or
       interpretation that specify how information can be organized, evaluated, and
       interpreted to generate evidence-based assertions.
-    from_schema: https://w3id.org/ga4gh
-    is_a: InformationEntity
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: Information Entity
     slots:
     - methodType
     slot_usage:
@@ -1326,8 +1456,7 @@ classes:
   Activity:
     name: Activity
     exact_mappings:
-    - PROV:Activity
-    - OBI:0000011
+    - PROV:Activity | OBI:0000011
     description: An action or set of actions performed by an agent, that occurs over
       a period of time. Activities may use, generate, modify, move, or destroy one
       or more entities.
@@ -1340,7 +1469,7 @@ classes:
       activities produce information that gets encoded in sharable artifacts used
       to generate scientific knowledge. Agents can play different types of roles in
       the generation and use of such artifacts.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
     slots:
     - activityType
@@ -1429,7 +1558,7 @@ classes:
     - This is a stub for a basic model of a Study that will be developed in future
       iterations of the specification.  At present, adopters can plug their own model
       of research studies in here.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Activity
     slots:
     - researchStudyType
@@ -1455,7 +1584,7 @@ classes:
       or a group or organization of individuals acting together to make the contribution.
       Contribution instances are used to organize information about when, where, how
       (e.g. what roles were played), and on whose behalf these actions were performed.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Activity
     slots:
     - contributionMadeBy
@@ -1507,18 +1636,18 @@ classes:
     - CAM:Agent
     description: An autonomous actor (person, organization, or computational agent)
       that bears some form of responsibility for an activity taking place, for the
-      existence of an entity, or for another agent‚Äôs activity.
+      existence of an entity, or for another agent’s activity.
     title: Agent
     comments:
     - This is a stub for a basic model of an Agent that may be developed in future
       iterations of the specification.  At present, adopters can plug their own model
       of Agents in here.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
     slots:
     - agentType
     - softwareVersion
-    - affiliation
+    - hasAffiliation
     - parentOrganization
     - childOrganization
     slot_usage:
@@ -1539,10 +1668,10 @@ classes:
         description: For software/computational agents, the specific version of the
           software it represents.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
-      affiliation:
-        name: affiliation
+      hasAffiliation:
+        name: hasAffiliation
         description: A membership relation between the Agent and an Organization to
           which they belong or at one time belonged.
         multivalued: true
@@ -1576,10 +1705,10 @@ classes:
       lexical entities formulated in some natural or artificial language. As primary
       bearers of truth, they are either true or false. They are abstract entities
       whose identity and existence are independent of space and time, and of whether
-      they are ever asserted to be true by some agent. Propositions are ‚Äòsharable‚Äô
+      they are ever asserted to be true by some agent. Propositions are ‘sharable’
       in the sense that the same Proposition instance can be expressed in many different
       Statements, as made by different Agents and/or on different occasions.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
     slots:
     - propositionType
@@ -1663,14 +1792,14 @@ classes:
           the 'negated' element contributes to the semantics of the 'possible fact'
           that a Proposition expresses.
         multivalued: false
-        range: ga4ghBoolean
+        range: boolean
         required: false
   Affiliation:
     name: Affiliation
     description: A relationship between an Agent and a Group or Organization to which
       they belong or belonged.
     title: Affiliation
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
     slots:
     - member
@@ -1701,7 +1830,7 @@ classes:
         required: true
       organizationalRole:
         name: organizationalRole
-        description: A specific position/status/role held by the Agent in the Organization
+        description: An official position or role held by the Agent in the Organization
           during the span of the defined Affiliation (e.g. graduate student, principle
           investigator, curator, physician, expert panel member)
         multivalued: true
@@ -1744,7 +1873,7 @@ classes:
       and provide a means to separate immutable elements that define an entity, from
       other descriptors that are often passed along to improve the useability of the
       object (e.g. labels, identifiers, xrefs, aliases, etc.).
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
     slots:
     - valueObjectId
@@ -1777,7 +1906,7 @@ classes:
         description: The preferred name for the wrapped value object as assigned by
           the creator of the VOD
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       valueObjectAlias:
         name: valueObjectAlias
@@ -1788,7 +1917,7 @@ classes:
           nomenclatures can be included here, but are best captured using the valueObjectExpression
           field.'
         multivalued: true
-        range: ga4ghString
+        range: string
         required: false
       valueObjectExpression:
         name: valueObjectExpression
@@ -1806,19 +1935,21 @@ classes:
         description: A free text description of the entity represented by the wrapped
           value object.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       valueObjectXref:
         name: valueObjectXref
         description: Points to an external database record for an entity that is equivalent
           to or closely related to the entity represented by the wrapped value object.
         multivalued: true
-        range: ga4ghString
+        range: string
         required: false
   VariationDescriptor:
     name: VariationDescriptor
+    description: A Descriptor that describes a value object representation of a molecular
+      variation.
     title: Variation Descriptor
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Descriptor
     slots:
     - moleculeContext
@@ -1841,11 +1972,11 @@ classes:
   Coding:
     name: Coding
     exact_mappings:
-    - fhir:Coding
+    - FHIR:Coding
     description: A structured representation of a coded/enumerated data value, that
       includes additional metadata about the code and code system.
     title: Coding
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Element
     slots:
     - code
@@ -1860,7 +1991,7 @@ classes:
         comments:
         - Either a code, label, or both must be provided.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       label:
         name: label
@@ -1868,13 +1999,13 @@ classes:
         comments:
         - Either a code, label, or both must be provided.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       system:
         name: system
         description: The code system where the code is defined.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       systemURL:
         name: systemURL
@@ -1886,7 +2017,7 @@ classes:
         name: systemVersion
         description: The version of the code system.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
   Expression:
     name: Expression
@@ -1897,7 +2028,7 @@ classes:
     comments:
     - Similar to the 'Coding' data type, which provides the same fields but for coded
       values, as opposed to human-readable names.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Element
     slots:
     - value
@@ -1910,7 +2041,7 @@ classes:
         description: A free-text rendering of the expression used as a label for the
           entity
         multivalued: false
-        range: ga4ghString
+        range: string
         required: true
       system:
         name: system
@@ -1919,7 +2050,7 @@ classes:
         - This should be provided whenever the expression comes from a formal nomenclature
           system.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: true
       systemURL:
         name: systemURL
@@ -1931,12 +2062,12 @@ classes:
         name: systemVersion
         description: The version of the nomenclature system.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
   Extension:
     name: Extension
     exact_mappings:
-    - fhir.Extension
+    - FHIR.Extension
     description: A data structure that allows implementations to define and create
       custom fields within an Entity to capture information not supported by the core
       specification.
@@ -1944,21 +2075,30 @@ classes:
     comments:
     - The modeling pattern and use of Extensions is based on that defined by the FHIR
       Speciufication - see https://build.fhir.org/extensibility.html
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Element
     slots:
+    - description
     - name
     - value
     slot_usage:
+      description:
+        name: description
+        description: A free text description of the intended semantics and use of
+          this extension element (i.e. they types of values it takes, and how to interpret
+          these values in the context of the parent Class)
+        multivalued: false
+        range: string
+        required: false
       name:
         name: name
-        description: Specifies the meaning of the extension
+        description: A name that captures the meaning of the extension element
         multivalued: false
-        range: ga4ghString
+        range: string
         required: true
       value:
         name: value
-        description: Specifies the value of the extension
+        description: The value of the extension element
         multivalued: false
         range: Element
         required: true
@@ -1975,7 +2115,7 @@ classes:
       including when, how, and by whom a specific record was generated or modified;
       what upstream resources it was derived/retrieved from; and record-level administrative
       information such as versioning and system / lifecycle status.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Element
     slots:
     - description
@@ -1997,25 +2137,28 @@ classes:
           and the type of metadata it contains, to assist consumers in understanding/using
           this information.
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       recordIdentifier:
         name: recordIdentifier
-        description: The identifier of the described record in its home system/dataset.  Use
-          a business identifier, structured as a CURIE, where possible (as opposed
-          to an internal logical identifier valid only in the context of the source
-          system).
+        description: The business identifier of the record described in the RecordMetadata
+          object (required when the record described is not the one in the present
+          system)
         comments:
-        - Relevant only when the RecordMetadata object describes an upstream source
-          record (sourceRecordMeta).  When it describes the current record in the
-          message, the identifier is captured already in the id or identifier field
-          of the parent Entity from which the RecordMetadata object hangs.
+        - This is needed only when the RecordMetadata object describes an upstream
+          source record, as opposed to the record in the present system, so it is
+          clear what the metadata it contains is about.  e.g. when ClinGen ingests
+          and transfroms ClinVar data, it wants to maintain a record of when the source
+          ClinVar record was submitted and by whom.  A RecordMetadata object could
+          be created that describes this upstream source recrod, including infromation
+          about its submission to ClinVar.
         multivalued: false
         range: identifier
         required: false
       partOfDataset:
         name: partOfDataset
-        description: The dataset of which the described record is a part.
+        description: The dataset of which the described record is a part (releveant
+          when the record described is not the one in the present system)
         comments:
         - Can provide important context for understanding record-level metadata, in
           cases where it describes records from upstream datasets/systems.
@@ -2025,18 +2168,18 @@ classes:
       recordVersion:
         name: recordVersion
         description: The version number of the record-level artifact the object describes
-        comments:
-        - 'Value should be a ga4ghString representing the identifier of the previous record.
-          Consider renaming: ''previousRecord'', ''replaces'''
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       previousVersion:
         name: previousVersion
         description: The version of a record in the same system that the current record
           replaces/follows.
+        comments:
+        - 'Value should be a string representing the identifier of the previous record.
+          Consider renaming: ''previousRecord'', ''replaces'''
         multivalued: false
-        range: ga4ghString
+        range: identifier
         required: false
       dateRecordCreated:
         name: dateRecordCreated
@@ -2056,11 +2199,6 @@ classes:
         description: Links to a 'Contribution' object allowing richer representation
           of specific types of contributions made by an agent to the creation, modification,
           or administrative management of a record.
-        comments:
-        - 'Usage Note: Contribution objects are used when data creators want to capture
-          more detail about of specific types of contributions made to knowledge artifacts,
-          including who, when, how, where, and in what context the contributions were
-          made.'
         multivalued: true
         range: Contribution
         required: false
@@ -2078,7 +2216,7 @@ classes:
         comments:
         - Preferred values for this field are CURIEs or URLs for database records
         multivalued: true
-        range: ga4ghString
+        range: string
         required: false
   Variation:
     name: Variation
@@ -2088,7 +2226,7 @@ classes:
     - This is a placeholder for the root class of the VRS hierarchy of Variation classes,
       which we will use to represent the subjects of Statements in the VA model. See
       https://vrs.ga4gh.org/en/stable/terms_and_model.html#variation
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
   GeneticCondition:
     name: GeneticCondition
@@ -2101,22 +2239,22 @@ classes:
       pattern. For now it is a simple/loose collection of features.  We can define
       a more complex model to support more precise and nuanced characterizations,
       as needed in future iterations.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
     slots:
-    - disease
-    - phenotype
+    - componentDisease
+    - componentPhenotype
     - inheritancePattern
-    - gene
+    - contributingGene
     slot_usage:
-      disease:
-        name: disease
+      componentDisease:
+        name: componentDisease
         description: A disease that is manifest in the genetic condition
         multivalued: true
         range: Coding
         required: false
-      phenotype:
-        name: phenotype
+      componentPhenotype:
+        name: componentPhenotype
         description: A phenotype that is manifest in the genetic condition
         multivalued: true
         range: Coding
@@ -2128,8 +2266,8 @@ classes:
         multivalued: false
         range: Coding
         required: false
-      gene:
-        name: gene
+      contributingGene:
+        name: contributingGene
         description: Genes implicated in the condition
         multivalued: true
         range: Gene
@@ -2144,29 +2282,29 @@ classes:
       which may be composed of one or more drugs, procedures, or therapeutic activities
       -  as opposed to a specific instance that occurs on specific occasions toward
       particular patients.
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
     slots:
-    - drug
-    - procedure
-    - activity
+    - componentDrug
+    - componentProcedure
+    - componentActivity
     - drugOperator
     slot_usage:
-      drug:
-        name: drug
+      componentDrug:
+        name: componentDrug
         description: A chemical or biological substance administered or consumed to
           alleviate or prevent a condition
         multivalued: true
         range: Coding
         required: false
-      procedure:
-        name: procedure
+      componentProcedure:
+        name: componentProcedure
         description: A medical procedure underwent to alleviate or prevent a condition
         multivalued: true
         range: Coding
         required: false
-      activity:
-        name: activity
+      componentActivity:
+        name: componentActivity
         description: An activity participated in to alleviate or prevent a condition
         multivalued: true
         range: Coding
@@ -2185,7 +2323,8 @@ classes:
       necessary to encode a functional transcript. A gene may include regulatory regions,
       transcribed regions and/or other functional sequence regions.
     title: Gene
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: Entity
     slots:
     - biotype
     - symbol
@@ -2196,13 +2335,13 @@ classes:
         name: biotype
         description: A particular type of gene according to the Ensembl Biotypes classification
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       symbol:
         name: symbol
         description: Abbreviated symbol for the gene
         multivalued: false
-        range: ga4ghString
+        range: string
         required: false
       location:
         name: location
@@ -2224,20 +2363,18 @@ classes:
     title: Sequence Location
     comments:
     - 'This is a stub for a class defined by the VRS specification:  https://vrs.ga4gh.org/en/stable/terms_and_model.html?highlight=curie#sequencelocation'
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
     is_a: Entity
-types:
-  ga4ghString:
-    name: ga4ghString
-    typeof: string
+  string:
+    name: string
     description: A sequence of Unicode characters
-    title: ga4ghString
+    title: string
     comments:
-      The ga4ghString data type represents free-text that is not constrained to some code
+    - The string data type represents free-text that is not constrained to some code
       set or associated with some semantic interpretation. It is the most generic
       form of free-text literal in the model, and conceptually subsumes other string-based
       data types with more constrained interpretations (e.g. code, identifier, url).
-    from_schema: https://w3id.org/ga4gh
+    from_schema: https://w3id.org/ga4gh-va
   url:
     name: url
     description: A string representing a Uniform Resource Locator (RFC 1738), specifying
@@ -2248,33 +2385,34 @@ types:
     - 'Used in place of a plain string datatype when a resolvable web address for
       a resource is desired.  Common URL protocols are http{s}:, ftp:, mailto: and
       mllp:, though many others are defined.'
-    typeof: ga4ghString
-  ga4ghClass:
-    name: ga4ghClass
-    description: A ga4ghString representing the class of objects to which an instance belongs.
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: string
+  class:
+    name: class
+    description: A string representing the class of objects to which an instance belongs.
     title: class
     comments:
     - This string must be the name of a concrete class from the core VA specification,
       or a specialization of such a class in a profile defined by a particular implementation.
-      The ‚Äòclass‚Äô data type described here is reserved for specifying the type
-      of an object/instance in a dataset.
-    from_schema: https://w3id.org/ga4gh
-    typeof: ga4ghString
+      The ‘class’ data type described here is reserved for specifying the type of
+      an object/instance in a dataset.
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: string
   dateTime:
     name: dateTime
     description: A string value that specifies a date and time of day comprised of
-      a year, month, day, hour, minute, and second, following the form ‚ÄúYYYY-MM-DDThh:mm:ss‚Äù
+      a year, month, day, hour, minute, and second, following the form “YYYY-MM-DDThh:mm:ss”
     title: dateTime
     comments:
     - Conventions for representing date + time defined here are based on the ISO 8601
       standard. Hours of the day should use 24-hour time (e.g. 2PM = 14:00:00). A
-      time zone can be specified as described for ‚Äòdates‚Äô above, e.g. "1978-01-20T05:15:00Z,
+      time zone can be specified as described for ‘dates’ above, e.g. "1978-01-20T05:15:00Z,
       and "1978-01-20T05:15:00+5:00".  If precision down to time of day is not possible
       or necessary, the hours, minutes, and seconds must still be provided due to
-      schema constraints, but can all be set to ‚Äú00‚Äù and ignored at the instruction
+      schema constraints, but can all be set to “00” and ignored at the instruction
       of the message sender.
-    from_schema: https://w3id.org/ga4gh
-    typeof: ga4ghString
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: string
   identifier:
     name: identifier
     description: A string value that uniquely identifies a specific instance of an
@@ -2283,11 +2421,11 @@ types:
     title: identifier
     comments:
     - We distinguish between two types of identifiers depending on their intended
-      scope of use. ‚ÄòLogical identifiers‚Äô are used to identify a data object within
+      scope of use. ‘Logical identifiers’ are used to identify a data object within
       a given system, where it is used as a reference from other objects within the
       same system (i.e. primary and foreign keys). The same data object copied to
       a different system will likely have a different logical identifier in that new
-      system. ‚ÄòBusiness identifiers‚Äô are typically provided by an external system
+      system. ‘Business identifiers’ are typically provided by an external system
       or authority, and are meant to be globally unique and persist across implementing
       systems. A given entity or concept may have many business identifiers associated
       with it, which can all be captured in a given data system. In the VA model,
@@ -2296,10 +2434,10 @@ types:
       identifiers that the data creator may also want to provide. Use of the W3C Compact
       URI (CURIE) syntax to structure identifiers is strongly recommended, as a way
       to ensure that a given identifier is unique within its intended scope of use.
-    typeof: ga4ghString
-  ga4ghBoolean:
-    name: ga4ghBoolean
-    typeof: boolean
+    from_schema: https://w3id.org/ga4gh-va
+    is_a: string
+  boolean:
+    name: boolean
     description: A binary data type that holds either a TRUE or FALSE value.
-    title: ga4ghBoolean
-    from_schema: https://w3id.org/ga4gh
+    title: boolean
+    from_schema: https://w3id.org/ga4gh-va
