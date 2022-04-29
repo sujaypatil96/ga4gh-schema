@@ -7,7 +7,7 @@ theme:
 plugins:
   - search
 
-docs_dir: docs
+docs_dir: src/docs
 site_dir: mkdocs_html
 
 nav:
