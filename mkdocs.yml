@@ -11,8 +11,8 @@ plugins:
 docs_dir: target/docs
 site_dir: site
 
-#nav:
-# - Index: index.md
+nav:
+  - Index: index.md
 
 site_url: https://www.ggvaidya.com/ga4gh-va-spec/
   # repo_url: https://github.com/sujaypatil96/ga4gh-schema
