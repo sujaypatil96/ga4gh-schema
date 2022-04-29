@@ -1,7 +1,5 @@
 # Class: {{ gen.name(element) }}
 
-{{ element.description }}
-
 URI: {{ gen.uri_link(element) }}
 
 {% if schemaview.class_parents(element.name) or schemaview.class_children(element.name, mixins=False) %}
