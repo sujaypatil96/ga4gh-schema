@@ -77,7 +77,7 @@ gen-docs: site/index.md
 .PHONY: gen-docs
 
 target/docs/index.md: $(SCHEMA_DIR)/$(SCHEMA_NAME).yaml tdir-docs install
-	$(RUN) gen-docs $(GEN_OPTS) --img --mergeimports --notypesdir --warnonexist --dir target/docs $<
+	$(RUN) gen-markdown $(GEN_OPTS) --img --mergeimports --notypesdir --warnonexist --dir target/docs $<
 
 site/index.md: target/docs/index.md install
 	mkdir -p $(PKG_T_DOCS)
