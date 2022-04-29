@@ -1,7 +1,7 @@
 site_name: "GA4GH"
 
 theme:
-  name: mkdocs
+  name: material
   nav_style: dark
 
 plugins:
