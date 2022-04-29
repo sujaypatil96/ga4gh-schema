@@ -1,0 +1,3 @@
+name: ga4gh-va-schema
+description: my awesome datamodel is for awesome things
+source_schema_path: src/linkml/ga4gh_va_schema.yaml
