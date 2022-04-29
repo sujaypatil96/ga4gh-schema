@@ -623,7 +623,7 @@ classes:
           (e.g. as a VA-based json object) would live in a RecordMetadata object attached
           to the Information Entity).
         multivalued: false
-        range: dateTime
+        range: ga4ghDateTime
         required: false
       wasSpecifiedBy:
         name: wasSpecifiedBy
@@ -856,7 +856,7 @@ classes:
         comments:
         - This attribute may apply to version and distribution-level Data Set representations.
         multivalued: false
-        range: dateTime
+        range: ga4ghDateTime
         required: false
       license:
         name: license
@@ -1308,7 +1308,7 @@ classes:
           the source study in models that don't represent the Study itself as an object
           in the data.
         multivalued: false
-        range: dateTime
+        range: ga4ghDateTime
         required: false
       sourceStudyMethod:
         name: sourceStudyMethod
@@ -1497,13 +1497,13 @@ classes:
           time should simply report the date and/or time that the contribution ended.
           An empty startDate means that the start time is unknown or unspecified.
         multivalued: false
-        range: dateTime
+        range: ga4ghDateTime
         required: false
       endDate:
         name: endDate
         description: The date that the Activity ended
         multivalued: false
-        range: dateTime
+        range: ga4ghDateTime
         required: false
       performedBy:
         name: performedBy
@@ -1851,7 +1851,7 @@ classes:
         - If a specific organizational role and/or status are reported, the startDate
           indicates when this particular role/status began.
         multivalued: false
-        range: dateTime
+        range: ga4ghDateTime
         required: false
       endDate:
         name: endDate
@@ -1861,7 +1861,7 @@ classes:
         - If a specific organizational role and/or status are reported, the endDate
           indicates when this particular role/status ended.
         multivalued: false
-        range: dateTime
+        range: ga4ghDateTime
         required: false
   Descriptor:
     name: Descriptor
@@ -2185,14 +2185,14 @@ classes:
         name: dateRecordCreated
         description: The date the record was initially created.
         multivalued: false
-        range: dateTime
+        range: ga4ghDateTime
         required: false
       dateRecordLastModified:
         name: dateRecordLastModified
         description: The date the record was last edited/updated/modified to its present
           concrete form.
         multivalued: false
-        range: dateTime
+        range: ga4ghDateTime
         required: false
       qualifiedContribution:
         name: qualifiedContribution
@@ -2400,11 +2400,11 @@ types:
       an object/instance in a dataset.
     from_schema: https://w3id.org/ga4gh-va
     typeof: ga4ghString
-  dateTime:
-    name: dateTime
+  ga4ghDateTime:
+    name: ga4ghDateTime
     description: A ga4ghString value that specifies a date and time of day comprised of
       a year, month, day, hour, minute, and second, following the form “YYYY-MM-DDThh:mm:ss”
-    title: dateTime
+    title: ga4ghDateTime
     comments:
     - Conventions for representing date + time defined here are based on the ISO 8601
       standard. Hours of the day should use 24-hour time (e.g. 2PM = 14:00:00). A
