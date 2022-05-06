@@ -11,9 +11,13 @@ RUN = poetry run
 SCHEMA_NAME = $(shell sh ./utils/get-value.sh name)
 SOURCE_SCHEMA_PATH = $(shell sh ./utils/get-value.sh source_schema_path)
 SRC = src
+SCHEMA_DIR = $(SRC)/linkml
+SCHEMA_SRC = $(SCHEMA_DIR)/$(SCHEMA_NAME).yaml
 DEST = project
 PYMODEL = $(SRC)/$(SCHEMA_NAME)/datamodel
 DOCDIR = docs
+
+GEN_OPTS = --log_level WARNING
 
 # basename of a YAML file in model/
 .PHONY: all clean

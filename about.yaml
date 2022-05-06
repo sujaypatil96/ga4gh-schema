@@ -1,3 +1,3 @@
 name: ga4gh-va-schema
 description: LinkML data model for GA4GH variant annotation
-source_schema_path: src/linkml/ga4gh_va_schema.yaml
+source_schema_path: src/linkml/ga4gh-va-schema.yaml

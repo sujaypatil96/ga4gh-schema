@@ -7,8 +7,8 @@ theme:
 plugins:
   - search
 
-docs_dir: src/docs
-site_dir: mkdocs_html
+docs_dir: target/docs
+site_dir: src/docs
 
 nav:
   - Home: index.md
