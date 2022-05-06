@@ -15,7 +15,7 @@
     
     
       
-        <title>Slot: affiliation - GA4GH</title>
+        <title>Class: Affiliation - GA4GH</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#slot-affiliation" class="md-skip">
+        <a href="#class-affiliation" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Slot: affiliation
+              Class: Affiliation
             
           </span>
         </div>
@@ -231,6 +231,55 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#parents" class="md-nav__link">
+    Parents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referenced-by-class" class="md-nav__link">
+    Referenced by Class
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attributes" class="md-nav__link">
+    Attributes
+  </a>
+  
+    <nav class="md-nav" aria-label="Attributes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#own" class="md-nav__link">
+    Own
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inherited-from-entity" class="md-nav__link">
+    Inherited from Entity:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -247,8 +296,116 @@
 
 
 
-<h1 id="slot-affiliation">Slot: affiliation</h1>
-<p>URI: <a href="https://example.org/vaspec/affiliation">https://example.org/vaspec/affiliation</a></p>
+<h1 id="class-affiliation">Class: Affiliation</h1>
+<p>A relationship between an Agent and a Group or Organization to which they belong or belonged.</p>
+<p>URI: <a href="https://example.org/vaspec/Affiliation">vaspec:Affiliation</a></p>
+<p><a href="../images/Affiliation.svg"><img alt="img" src="../images/Affiliation.svg" /></a></p>
+<h2 id="parents">Parents</h2>
+<ul>
+<li>is_a: <a href="../Entity/">Entity</a> - Anything that exists, has existed, or will exist.</li>
+</ul>
+<h2 id="referenced-by-class">Referenced by Class</h2>
+<ul>
+<li><strong><a href="../Agent/">Agent</a></strong> <em><a href="../Agent_hasAffiliation/">Agent➞hasAffiliation</a></em>  <sub>0..*</sub>  <strong><a href="./">Affiliation</a></strong></li>
+<li><strong><a href="../Contribution/">Contribution</a></strong> <em><a href="../Contribution_organizationalContext/">Contribution➞organizationalContext</a></em>  <sub>0..*</sub>  <strong><a href="./">Affiliation</a></strong></li>
+</ul>
+<h2 id="attributes">Attributes</h2>
+<h3 id="own">Own</h3>
+<ul>
+<li><a href="../Affiliation_member/">Affiliation➞member</a>  <sub>1..1</sub><ul>
+<li>Description: The Agent participating in the Affiliation</li>
+<li>Range: <a href="../Agent/">Agent</a></li>
+</ul>
+</li>
+<li><a href="../Affiliation_organization/">Affiliation➞organization</a>  <sub>1..1</sub><ul>
+<li>Description: The Organization to which the Agent belongs or belonged.</li>
+<li>Range: <a href="../Agent/">Agent</a></li>
+</ul>
+</li>
+<li><a href="../Affiliation_organizationalRole/">Affiliation➞organizationalRole</a>  <sub>0..*</sub><ul>
+<li>Description: An official position or role held by the Agent in the Organization during the span of the defined Affiliation (e.g. graduate student, principle investigator, curator, physician, expert panel member)</li>
+<li>Range: <a href="../Coding/">Coding</a></li>
+</ul>
+</li>
+<li><a href="../Affiliation_affiliationStatus/">Affiliation➞affiliationStatus</a>  <sub>0..1</sub><ul>
+<li>Description: The status of the Agent's affiliation at the time the Affiliation record was created  or last updated (e.g. active, pending, probation, inactive)</li>
+<li>Range: <a href="../Coding/">Coding</a></li>
+</ul>
+</li>
+<li><a href="../Affiliation_startDate/">Affiliation➞startDate</a>  <sub>0..1</sub><ul>
+<li>Description: The date that the Affiliation described here began (where a organizational role is provided, this is the date when this role in the organization began)</li>
+<li>Range: <a href="../Ga4ghDateTime/">Ga4ghDateTime</a></li>
+</ul>
+</li>
+<li><a href="../Affiliation_endDate/">Affiliation➞endDate</a>  <sub>0..1</sub><ul>
+<li>Description: The date that the Affiliation described here ended (where a organizational role is provided, this is the date when this role in the organization ended)</li>
+<li>Range: <a href="../Ga4ghDateTime/">Ga4ghDateTime</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="inherited-from-entity">Inherited from Entity:</h3>
+<ul>
+<li><a href="../Element_extensionElement/">Element➞extensionElement</a>  <sub>0..*</sub><ul>
+<li>Description: A key-value data structure that allows definition of custom fields to capture information not directly supported by the VA specification.</li>
+<li>Range: <a href="../Extension/">Extension</a></li>
+</ul>
+</li>
+<li><a href="../Entity_localId/">Entity➞localId</a>  <sub>1..1</sub><ul>
+<li>Description: The logical identifier of the entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system. The identified entity may have a different 'id' in a different system.</li>
+<li>Range: <a href="../Identifier/">Identifier</a></li>
+</ul>
+</li>
+<li><a href="../Entity_globalIdentifier/">Entity➞globalIdentifier</a>  <sub>0..*</sub><ul>
+<li>Description: A business identifier or accession number for the entity, typically as provided by an external system or authority, that is globally unique and persists across implementing systems.</li>
+<li>Range: <a href="../Identifier/">Identifier</a></li>
+</ul>
+</li>
+<li><a href="../Entity_type/">Entity➞type</a>  <sub>1..1</sub><ul>
+<li>Description: The schema class that is instantiated by the data object.  Must be the name of a class from the VA schema.</li>
+<li>Range: <a href="../Class/">Class</a></li>
+</ul>
+</li>
+<li><a href="../Entity_label/">Entity➞label</a>  <sub>0..1</sub><ul>
+<li>Description: A primary name for the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_alternativeLabel/">Entity➞alternativeLabel</a>  <sub>0..*</sub><ul>
+<li>Description: An alternative name for the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_description/">Entity➞description</a>  <sub>0..1</sub><ul>
+<li>Description: A free text description of the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_hasURL/">Entity➞hasURL</a>  <sub>0..*</sub><ul>
+<li>Description: The URL/web address of a digital resource representing the entity, or providing information about it.</li>
+<li>Range: <a href="../Url/">Url</a></li>
+</ul>
+</li>
+<li><a href="../Entity_reference/">Entity➞reference</a>  <sub>0..*</sub><ul>
+<li>Description: A document or other Information Entity that describes the Entity.</li>
+<li>Range: <a href="../InformationEntity/">InformationEntity</a></li>
+</ul>
+</li>
+<li><a href="../Entity_xref/">Entity➞xref</a>  <sub>0..*</sub><ul>
+<li>Description: A cross-reference to database identifier(s) representing the same or a closely related entity or concept as the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_thisRecordMeta/">Entity➞thisRecordMeta</a>  <sub>0..1</sub><ul>
+<li>Description: A reusable structure that encapsulates provenance metadata about the present record/data object  (as opposed to provenance information about the real world entity this record/data object represents).</li>
+<li>Range: <a href="../RecordMetadata/">RecordMetadata</a></li>
+</ul>
+</li>
+<li><a href="../Entity_sourceRecordMeta/">Entity➞sourceRecordMeta</a>  <sub>0..*</sub><ul>
+<li>Description: A reusable structure that encapsulates provenance metadata that applies to an upstream record/data objdct about the Entity, from which content of the present record was derived.</li>
+<li>Range: <a href="../RecordMetadata/">RecordMetadata</a></li>
+</ul>
+</li>
+</ul>
 
               
             </article>

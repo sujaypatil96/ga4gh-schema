@@ -15,7 +15,7 @@
     
     
       
-        <title>Identifier - GA4GH</title>
+        <title>Type: identifier - GA4GH</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#identifier" class="md-skip">
+        <a href="#type-identifier" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Identifier
+              Type: identifier
             
           </span>
         </div>
@@ -238,8 +238,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#identifier-and-mapping-information" class="md-nav__link">
-    Identifier and Mapping Information
+  <a href="#other-properties" class="md-nav__link">
+    Other properties
   </a>
   
 </li>
@@ -262,10 +262,42 @@
 
 
 
-<h1 id="identifier">Identifier</h1>
+<h1 id="type-identifier">Type: identifier</h1>
 <p>A string value that uniquely identifies a specific instance of an object in a dataset or document. Identifiers should be persistent, machine-resolvable, and unique within their intended scope of use.</p>
-<p>URI: https://example.org/vaspec/identifier</p>
-<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
+<p>URI: <a href="https://example.org/vaspec/Identifier">vaspec:Identifier</a></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Root (builtin) type</td>
+<td></td>
+<td><strong>ga4ghString</strong></td>
+</tr>
+</tbody>
+</table>
+<h2 id="other-properties">Other properties</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Comments:</strong></td>
+<td></td>
+<td>We distinguish between two types of identifiers depending on their intended scope of use. ‘Logical identifiers’ are used to identify a data object within a given system, where it is used as a reference from other objects within the same system (i.e. primary and foreign keys). The same data object copied to a different system will likely have a different logical identifier in that new system. ‘Business identifiers’ are typically provided by an external system or authority, and are meant to be globally unique and persist across implementing systems. A given entity or concept may have many business identifiers associated with it, which can all be captured in a given data system. In the VA model, we follow FHIR naming conventions and use an  id  attribute to hold the logical identifier of a data object, and an identifier attribute to hold any business identifiers that the data creator may also want to provide. Use of the W3C Compact URI (CURIE) syntax to structure identifiers is strongly recommended, as a way to ensure that a given identifier is unique within its intended scope of use.</td>
+</tr>
+</tbody>
+</table>
 
               
             </article>

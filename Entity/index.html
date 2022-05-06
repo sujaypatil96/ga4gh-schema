@@ -238,29 +238,56 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#inheritance" class="md-nav__link">
-    Inheritance
+  <a href="#parents" class="md-nav__link">
+    Parents
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#slots" class="md-nav__link">
-    Slots
+  <a href="#children" class="md-nav__link">
+    Children
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#usages" class="md-nav__link">
-    Usages
+  <a href="#referenced-by-class" class="md-nav__link">
+    Referenced by Class
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#identifier-and-mapping-information" class="md-nav__link">
-    Identifier and Mapping Information
+  <a href="#attributes" class="md-nav__link">
+    Attributes
+  </a>
+  
+    <nav class="md-nav" aria-label="Attributes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#own" class="md-nav__link">
+    Own
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inherited-from-element" class="md-nav__link">
+    Inherited from Element:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-properties" class="md-nav__link">
+    Other properties
   </a>
   
 </li>
@@ -286,251 +313,129 @@
 <h1 id="class-entity">Class: Entity</h1>
 <p>Anything that exists, has existed, or will exist.</p>
 <p>URI: <a href="https://example.org/vaspec/Entity">vaspec:Entity</a></p>
-<h2 id="inheritance">Inheritance</h2>
+<p><a href="../images/Entity.svg"><img alt="img" src="../images/Entity.svg" /></a></p>
+<h2 id="parents">Parents</h2>
 <ul>
-<li><a href="../Element/">Element</a><ul>
-<li><strong>Entity</strong><ul>
-<li><a href="../InformationEntity/">InformationEntity</a></li>
-<li><a href="../Activity/">Activity</a></li>
-<li><a href="../Agent/">Agent</a></li>
-<li><a href="../Proposition/">Proposition</a></li>
-<li><a href="../Affiliation/">Affiliation</a></li>
-<li><a href="../Descriptor/">Descriptor</a></li>
-<li><a href="../Variation/">Variation</a></li>
-<li><a href="../GeneticCondition/">GeneticCondition</a></li>
-<li><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></li>
-<li><a href="../SequenceLocation/">SequenceLocation</a></li>
+<li>is_a: <a href="../Element/">Element</a> - The base definition for all elements that comprise the model (classes, complex data types, value sets)</li>
+</ul>
+<h2 id="children">Children</h2>
+<ul>
+<li><a href="../Activity/">Activity</a> - An action or set of actions performed by an agent, that occurs over a period of time. Activities may use, generate, modify, move, or destroy one or more entities.</li>
+<li><a href="../Affiliation/">Affiliation</a> - A relationship between an Agent and a Group or Organization to which they belong or belonged.</li>
+<li><a href="../Agent/">Agent</a> - An autonomous actor (person, organization, or computational agent) that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent’s activity.</li>
+<li><a href="../Descriptor/">Descriptor</a> - An object that wraps a value object in order to transfer additional, non-definitional information about it.</li>
+<li><a href="../Gene/">Gene</a> - A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</li>
+<li><a href="../GeneticCondition/">GeneticCondition</a> - A disease, or a set of one or more co-occurring phenotypes, controlled by genetic factors with a defined inheritance pattern.</li>
+<li><a href="../InformationEntity/">InformationEntity</a> - An abstract (non-physical) entity that is about something.</li>
+<li><a href="../Proposition/">Proposition</a> - An abstract entity representing the sharable meaning that can be put forth as true in a Statement made by an Agent.</li>
+<li><a href="../SequenceLocation/">SequenceLocation</a> - A specified subsequence of a reference Sequence. The reference is typically a chromosome, transcript, or protein sequence.</li>
+<li><a href="../TherapeuticIntervention/">TherapeuticIntervention</a> - A type of treatment administered/prescribed to a patient to prevent, ameliorate, or cure a medical condition.</li>
+<li><a href="../Variation/">Variation</a> - A representation of the state of one or more biomolecules.</li>
+</ul>
+<h2 id="referenced-by-class">Referenced by Class</h2>
+<ul>
+<li><strong><a href="../Activity/">Activity</a></strong> <em><a href="../Activity_hadInput/">Activity➞hadInput</a></em>  <sub>0..*</sub>  <strong><a href="./">Entity</a></strong></li>
+<li><strong><a href="../Activity/">Activity</a></strong> <em><a href="../Activity_hadOutput/">Activity➞hadOutput</a></em>  <sub>0..*</sub>  <strong><a href="./">Entity</a></strong></li>
+<li><strong><a href="../Descriptor/">Descriptor</a></strong> <em><a href="../Descriptor_valueObject/">Descriptor➞valueObject</a></em>  <sub>0..1</sub>  <strong><a href="./">Entity</a></strong></li>
+<li><strong><a href="../InformationEntity/">InformationEntity</a></strong> <em><a href="../InformationEntity_isAbout/">InformationEntity➞isAbout</a></em>  <sub>0..*</sub>  <strong><a href="./">Entity</a></strong></li>
+<li><strong><a href="../Proposition/">Proposition</a></strong> <em><a href="../Proposition_subject/">Proposition➞subject</a></em>  <sub>1..1</sub>  <strong><a href="./">Entity</a></strong></li>
+<li><strong><a href="../Statement/">Statement</a></strong> <em><a href="../Statement_subject/">Statement➞subject</a></em>  <sub>1..1</sub>  <strong><a href="./">Entity</a></strong></li>
+<li><strong><a href="../StudyResult/">StudyResult</a></strong> <em><a href="../StudyResult_focus/">StudyResult➞focus</a></em>  <sub>0..*</sub>  <strong><a href="./">Entity</a></strong></li>
+</ul>
+<h2 id="attributes">Attributes</h2>
+<h3 id="own">Own</h3>
+<ul>
+<li><a href="../Entity_localId/">Entity➞localId</a>  <sub>1..1</sub><ul>
+<li>Description: The logical identifier of the entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system. The identified entity may have a different 'id' in a different system.</li>
+<li>Range: <a href="../Identifier/">Identifier</a></li>
+</ul>
+</li>
+<li><a href="../Entity_globalIdentifier/">Entity➞globalIdentifier</a>  <sub>0..*</sub><ul>
+<li>Description: A business identifier or accession number for the entity, typically as provided by an external system or authority, that is globally unique and persists across implementing systems.</li>
+<li>Range: <a href="../Identifier/">Identifier</a></li>
+</ul>
+</li>
+<li><a href="../Entity_type/">Entity➞type</a>  <sub>1..1</sub><ul>
+<li>Description: The schema class that is instantiated by the data object.  Must be the name of a class from the VA schema.</li>
+<li>Range: <a href="../Class/">Class</a></li>
+</ul>
+</li>
+<li><a href="../Entity_label/">Entity➞label</a>  <sub>0..1</sub><ul>
+<li>Description: A primary name for the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_alternativeLabel/">Entity➞alternativeLabel</a>  <sub>0..*</sub><ul>
+<li>Description: An alternative name for the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_description/">Entity➞description</a>  <sub>0..1</sub><ul>
+<li>Description: A free text description of the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_hasURL/">Entity➞hasURL</a>  <sub>0..*</sub><ul>
+<li>Description: The URL/web address of a digital resource representing the entity, or providing information about it.</li>
+<li>Range: <a href="../Url/">Url</a></li>
+</ul>
+</li>
+<li><a href="../Entity_reference/">Entity➞reference</a>  <sub>0..*</sub><ul>
+<li>Description: A document or other Information Entity that describes the Entity.</li>
+<li>Range: <a href="../InformationEntity/">InformationEntity</a></li>
+</ul>
+</li>
+<li><a href="../Entity_xref/">Entity➞xref</a>  <sub>0..*</sub><ul>
+<li>Description: A cross-reference to database identifier(s) representing the same or a closely related entity or concept as the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_thisRecordMeta/">Entity➞thisRecordMeta</a>  <sub>0..1</sub><ul>
+<li>Description: A reusable structure that encapsulates provenance metadata about the present record/data object  (as opposed to provenance information about the real world entity this record/data object represents).</li>
+<li>Range: <a href="../RecordMetadata/">RecordMetadata</a></li>
+</ul>
+</li>
+<li><a href="../Entity_sourceRecordMeta/">Entity➞sourceRecordMeta</a>  <sub>0..*</sub><ul>
+<li>Description: A reusable structure that encapsulates provenance metadata that applies to an upstream record/data objdct about the Entity, from which content of the present record was derived.</li>
+<li>Range: <a href="../RecordMetadata/">RecordMetadata</a></li>
 </ul>
 </li>
 </ul>
+<h3 id="inherited-from-element">Inherited from Element:</h3>
+<ul>
+<li><a href="../Element_extensionElement/">Element➞extensionElement</a>  <sub>0..*</sub><ul>
+<li>Description: A key-value data structure that allows definition of custom fields to capture information not directly supported by the VA specification.</li>
+<li>Range: <a href="../Extension/">Extension</a></li>
+</ul>
 </li>
 </ul>
-<h2 id="slots">Slots</h2>
+<h2 id="other-properties">Other properties</h2>
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Range</th>
-<th>Cardinality</th>
-<th>Description</th>
-<th>Info</th>
+<th></th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="../id/">id</a></td>
-<td><a href="identifier.md">identifier</a></td>
-<td>1..1</td>
-<td>The 'logical' identifier of the entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system. The identified entity may have a different 'id' in a different system.</td>
-<td>.</td>
+<td><strong>Aliases:</strong></td>
+<td></td>
+<td>Thing</td>
 </tr>
 <tr>
-<td><a href="identifier.md">identifier</a></td>
-<td><a href="identifier.md">identifier</a></td>
-<td>0..*</td>
-<td>A 'business' identifier  or accession number for the entity, typically as provided by an external system or authority, that is globally unique and persists across implementing systems.</td>
-<td>.</td>
+<td><strong>Comments:</strong></td>
+<td></td>
+<td>Entity is the root class of ‘core’ classes model - those that have identifiers and other general metadata like labels, xrefs, urls, descriptions, etc. All core classes descend from and inherit its attributes.</td>
 </tr>
 <tr>
-<td><a href="../type/">type</a></td>
-<td><a href="ga4ghClass.md">ga4ghClass</a></td>
-<td>1..1</td>
-<td>The schema class that is instantiated by the data object.  Must be the name of a class from the VA schema.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../label/">label</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>A primary name for the Entity.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../alternativeLabel/">alternativeLabel</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..*</td>
-<td>An alternative name for the Entity.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../description/">description</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>A free text description of the Entity.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="url.md">url</a></td>
-<td><a href="url.md">url</a></td>
-<td>0..*</td>
-<td>The URL/web address of a digital resource representing the entity, or providing information about it.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../reference/">reference</a></td>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td>0..*</td>
-<td>A document or other Information Entity that describes the Entity.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../xref/">xref</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..*</td>
-<td>A cross-reference that links to database identifiers of an entity that represents the same or a closely related concept or knowledge as the Entity.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td><a href="../RecordMetadata/">RecordMetadata</a></td>
-<td>0..1</td>
-<td>A reusable structure that encapsulates provenance metadata that applies to this concrete record/encoding of information about the Entity.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td><a href="../RecordMetadata/">RecordMetadata</a></td>
-<td>0..*</td>
-<td>A reusable structure that encapsulates provenance metadata that applies to an upstream data record about the Entity, from which content of the present record was derived.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="extension.md">extension</a></td>
-<td><a href="../Extension/">Extension</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
+<td><strong>Exact Mappings:</strong></td>
+<td></td>
+<td>BFO:0000001</td>
 </tr>
 </tbody>
 </table>
-<h2 id="usages">Usages</h2>
-<table>
-<thead>
-<tr>
-<th>used by</th>
-<th>used in</th>
-<th>type</th>
-<th>used</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td><a href="../isAbout/">isAbout</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../DataItem/">DataItem</a></td>
-<td><a href="../isAbout/">isAbout</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../DataSet/">DataSet</a></td>
-<td><a href="../isAbout/">isAbout</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../Document/">Document</a></td>
-<td><a href="../isAbout/">isAbout</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../Statement/">Statement</a></td>
-<td><a href="../subject/">subject</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../Statement/">Statement</a></td>
-<td><a href="../isAbout/">isAbout</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../StudyResult/">StudyResult</a></td>
-<td><a href="../focus/">focus</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../StudyResult/">StudyResult</a></td>
-<td><a href="../isAbout/">isAbout</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../EvidenceLine/">EvidenceLine</a></td>
-<td><a href="../isAbout/">isAbout</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../Method/">Method</a></td>
-<td><a href="../isAbout/">isAbout</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../Activity/">Activity</a></td>
-<td><a href="../hadInput/">hadInput</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../Activity/">Activity</a></td>
-<td><a href="../hadOutput/">hadOutput</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../ResearchStudy/">ResearchStudy</a></td>
-<td><a href="../hadInput/">hadInput</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../ResearchStudy/">ResearchStudy</a></td>
-<td><a href="../hadOutput/">hadOutput</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../Contribution/">Contribution</a></td>
-<td><a href="../hadInput/">hadInput</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../Contribution/">Contribution</a></td>
-<td><a href="../hadOutput/">hadOutput</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../Proposition/">Proposition</a></td>
-<td><a href="../subject/">subject</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../Descriptor/">Descriptor</a></td>
-<td><a href="../valueObject/">valueObject</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-<tr>
-<td><a href="../VariationDescriptor/">VariationDescriptor</a></td>
-<td><a href="../valueObject/">valueObject</a></td>
-<td>range</td>
-<td>Entity</td>
-</tr>
-</tbody>
-</table>
-<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 
               
             </article>

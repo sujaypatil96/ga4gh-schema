@@ -238,29 +238,49 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#inheritance" class="md-nav__link">
-    Inheritance
+  <a href="#parents" class="md-nav__link">
+    Parents
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#slots" class="md-nav__link">
-    Slots
+  <a href="#referenced-by-class" class="md-nav__link">
+    Referenced by Class
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#usages" class="md-nav__link">
-    Usages
+  <a href="#attributes" class="md-nav__link">
+    Attributes
   </a>
+  
+    <nav class="md-nav" aria-label="Attributes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#own" class="md-nav__link">
+    Own
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inherited-from-informationentity" class="md-nav__link">
+    Inherited from InformationEntity:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#identifier-and-mapping-information" class="md-nav__link">
-    Identifier and Mapping Information
+  <a href="#other-properties" class="md-nav__link">
+    Other properties
   </a>
   
 </li>
@@ -286,301 +306,176 @@
 <h1 id="class-method">Class: Method</h1>
 <p>A set of instructions that specify how to achieve some objective (e.g. study/experimental protocols, curation guidelines, rule sets, etc.)</p>
 <p>URI: <a href="https://example.org/vaspec/Method">vaspec:Method</a></p>
-<h2 id="inheritance">Inheritance</h2>
+<p><a href="../images/Method.svg"><img alt="img" src="../images/Method.svg" /></a></p>
+<h2 id="parents">Parents</h2>
 <ul>
-<li><a href="../Element/">Element</a><ul>
-<li><a href="../Entity/">Entity</a><ul>
-<li><a href="../InformationEntity/">InformationEntity</a><ul>
-<li><strong>Method</strong></li>
+<li>is_a: <a href="../InformationEntity/">InformationEntity</a> - An abstract (non-physical) entity that is about something.</li>
+</ul>
+<h2 id="referenced-by-class">Referenced by Class</h2>
+<ul>
+<li><strong><a href="../Activity/">Activity</a></strong> <em><a href="../Activity_wasSpecifiedBy/">Activity➞wasSpecifiedBy</a></em>  <sub>0..*</sub>  <strong><a href="./">Method</a></strong></li>
+<li><strong><a href="../InformationEntity/">InformationEntity</a></strong> <em><a href="../InformationEntity_wasSpecifiedBy/">InformationEntity➞wasSpecifiedBy</a></em>  <sub>0..*</sub>  <strong><a href="./">Method</a></strong></li>
+<li><strong><a href="../StudyResult/">StudyResult</a></strong> <em><a href="../StudyResult_sourceStudyMethod/">StudyResult➞sourceStudyMethod</a></em>  <sub>0..*</sub>  <strong><a href="./">Method</a></strong></li>
+</ul>
+<h2 id="attributes">Attributes</h2>
+<h3 id="own">Own</h3>
+<ul>
+<li><a href="../Method_methodType/">Method➞methodType</a>  <sub>0..*</sub><ul>
+<li>Description: A specific type of method that the Method object represents (e.g. 'Variant Interpretation Guideline', 'Experimental Protocol')</li>
+<li>Range: <a href="../Coding/">Coding</a></li>
 </ul>
 </li>
 </ul>
+<h3 id="inherited-from-informationentity">Inherited from InformationEntity:</h3>
+<ul>
+<li><a href="../Element_extensionElement/">Element➞extensionElement</a>  <sub>0..*</sub><ul>
+<li>Description: A key-value data structure that allows definition of custom fields to capture information not directly supported by the VA specification.</li>
+<li>Range: <a href="../Extension/">Extension</a></li>
+</ul>
 </li>
+<li><a href="../Entity_localId/">Entity➞localId</a>  <sub>1..1</sub><ul>
+<li>Description: The logical identifier of the entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system. The identified entity may have a different 'id' in a different system.</li>
+<li>Range: <a href="../Identifier/">Identifier</a></li>
+</ul>
+</li>
+<li><a href="../Entity_globalIdentifier/">Entity➞globalIdentifier</a>  <sub>0..*</sub><ul>
+<li>Description: A business identifier or accession number for the entity, typically as provided by an external system or authority, that is globally unique and persists across implementing systems.</li>
+<li>Range: <a href="../Identifier/">Identifier</a></li>
+</ul>
+</li>
+<li><a href="../Entity_type/">Entity➞type</a>  <sub>1..1</sub><ul>
+<li>Description: The schema class that is instantiated by the data object.  Must be the name of a class from the VA schema.</li>
+<li>Range: <a href="../Class/">Class</a></li>
+</ul>
+</li>
+<li><a href="../Entity_label/">Entity➞label</a>  <sub>0..1</sub><ul>
+<li>Description: A primary name for the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_alternativeLabel/">Entity➞alternativeLabel</a>  <sub>0..*</sub><ul>
+<li>Description: An alternative name for the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_description/">Entity➞description</a>  <sub>0..1</sub><ul>
+<li>Description: A free text description of the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_hasURL/">Entity➞hasURL</a>  <sub>0..*</sub><ul>
+<li>Description: The URL/web address of a digital resource representing the entity, or providing information about it.</li>
+<li>Range: <a href="../Url/">Url</a></li>
+</ul>
+</li>
+<li><a href="../Entity_reference/">Entity➞reference</a>  <sub>0..*</sub><ul>
+<li>Description: A document or other Information Entity that describes the Entity.</li>
+<li>Range: <a href="../InformationEntity/">InformationEntity</a></li>
+</ul>
+</li>
+<li><a href="../Entity_xref/">Entity➞xref</a>  <sub>0..*</sub><ul>
+<li>Description: A cross-reference to database identifier(s) representing the same or a closely related entity or concept as the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_thisRecordMeta/">Entity➞thisRecordMeta</a>  <sub>0..1</sub><ul>
+<li>Description: A reusable structure that encapsulates provenance metadata about the present record/data object  (as opposed to provenance information about the real world entity this record/data object represents).</li>
+<li>Range: <a href="../RecordMetadata/">RecordMetadata</a></li>
+</ul>
+</li>
+<li><a href="../Entity_sourceRecordMeta/">Entity➞sourceRecordMeta</a>  <sub>0..*</sub><ul>
+<li>Description: A reusable structure that encapsulates provenance metadata that applies to an upstream record/data objdct about the Entity, from which content of the present record was derived.</li>
+<li>Range: <a href="../RecordMetadata/">RecordMetadata</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_isAbout/">InformationEntity➞isAbout</a>  <sub>0..*</sub><ul>
+<li>Description: An entity or concept in the world that the information entity describes/is about.</li>
+<li>Range: <a href="../Entity/">Entity</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_qualifiedContribution/">InformationEntity➞qualifiedContribution</a>  <sub>0..*</sub><ul>
+<li>Description: A specific contribution made by some Agent to the creation, modification, or validation of the information represented in the Information Entity.</li>
+<li>Range: <a href="../Contribution/">Contribution</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_dateAuthored/">InformationEntity➞dateAuthored</a>  <sub>0..1</sub><ul>
+<li>Description: The date the information content expressed in this entity was generated.</li>
+<li>Range: <a href="../Ga4ghDateTime/">Ga4ghDateTime</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_wasSpecifiedBy/">InformationEntity➞wasSpecifiedBy</a>  <sub>0..*</sub><ul>
+<li>Description: A plan specification that describes all or part of the process through which the information was generated.</li>
+<li>Range: <a href="./">Method</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_derivedFrom/">InformationEntity➞derivedFrom</a>  <sub>0..*</sub><ul>
+<li>Description: An information resource from which the Information Entity is derived, in whole or in part</li>
+<li>Range: <a href="../InformationEntity/">InformationEntity</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_wasOutputOf/">InformationEntity➞wasOutputOf</a>  <sub>0..*</sub><ul>
+<li>Description: An activity that generated the Entity.</li>
+<li>Range: <a href="../Activity/">Activity</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_hasPart/">InformationEntity➞hasPart</a>  <sub>0..*</sub><ul>
+<li>Description: Any part of the Information Entity (e.g. individual value or record from a larger data set, a section of a larger document)</li>
+<li>Range: <a href="../InformationEntity/">InformationEntity</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_partOf/">InformationEntity➞partOf</a>  <sub>0..*</sub><ul>
+<li>Description: A larger Information Entity of which the present Information Entity is a part.</li>
+<li>Range: <a href="../InformationEntity/">InformationEntity</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_isReportedIn/">InformationEntity➞isReportedIn</a>  <sub>0..*</sub><ul>
+<li>Description: A document in which the information content carried by the Information Entity is expressed</li>
+<li>Range: <a href="../Document/">Document</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_confidenceLevel/">InformationEntity➞confidenceLevel</a>  <sub>0..1</sub><ul>
+<li>Description: A qualitative term describing the degree of confidence held by the creator of the information entity, that the information it represents is true (e.g. 'high confidence', 'likely true', 'low confidence').</li>
+<li>Range: <a href="../Coding/">Coding</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_confidenceScore/">InformationEntity➞confidenceScore</a>  <sub>0..1</sub><ul>
+<li>Description: A quantitative score reflecting the degree of confidence held by the creator of the information entity, that the information it represents is true.</li>
+<li>Range: <a href="../DataItem/">DataItem</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_version/">InformationEntity➞version</a>  <sub>0..1</sub><ul>
+<li>Description: The version of the Information Entity (to be used in cases where version is not reflected in the id or identifiers associated with the entity).</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../InformationEntity_license/">InformationEntity➞license</a>  <sub>0..1</sub><ul>
+<li>Description: The type of license that dictates legal permissions for how a resource (e.g. dataset, document, protocol) can be used - typically referenced by its URL.</li>
+<li>Range: <a href="../String/">String</a></li>
 </ul>
 </li>
 </ul>
-<h2 id="slots">Slots</h2>
+<h2 id="other-properties">Other properties</h2>
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Range</th>
-<th>Cardinality</th>
-<th>Description</th>
-<th>Info</th>
+<th></th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="../methodType/">methodType</a></td>
-<td><a href="../Coding/">Coding</a></td>
-<td>0..*</td>
-<td>A more specific type of entity the method represents (e.g. Variant Interpretation Guideline, Experimental Protocol)</td>
-<td>.</td>
+<td><strong>Comments:</strong></td>
+<td></td>
+<td>Methods guide human or computational agents by specifying what actions to perform and how to do so.  Examples include research protocols specifying how to execute studies or experiments to generate data, and guidelines for data curation or interpretation that specify how information can be organized, evaluated, and interpreted to generate evidence-based assertions.</td>
 </tr>
 <tr>
-<td><a href="../isAbout/">isAbout</a></td>
-<td><a href="../Entity/">Entity</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../qualifiedContribution/">qualifiedContribution</a></td>
-<td><a href="../Contribution/">Contribution</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../dateAuthored/">dateAuthored</a></td>
-<td><a href="dateTime.md">dateTime</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td><a href="./">Method</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../derivedFrom/">derivedFrom</a></td>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../wasOutputOf/">wasOutputOf</a></td>
-<td><a href="../Activity/">Activity</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../hasPart/">hasPart</a></td>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../partOf/">partOf</a></td>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../isReportedIn/">isReportedIn</a></td>
-<td><a href="../Document/">Document</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../confidenceLevel/">confidenceLevel</a></td>
-<td><a href="../Coding/">Coding</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../confidenceScore/">confidenceScore</a></td>
-<td><a href="../DataItem/">DataItem</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../version/">version</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../license/">license</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../id/">id</a></td>
-<td><a href="identifier.md">identifier</a></td>
-<td>1..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="identifier.md">identifier</a></td>
-<td><a href="identifier.md">identifier</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../type/">type</a></td>
-<td><a href="ga4ghClass.md">ga4ghClass</a></td>
-<td>1..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../label/">label</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../alternativeLabel/">alternativeLabel</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../description/">description</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="url.md">url</a></td>
-<td><a href="url.md">url</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../reference/">reference</a></td>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../xref/">xref</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td><a href="../RecordMetadata/">RecordMetadata</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td><a href="../RecordMetadata/">RecordMetadata</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="extension.md">extension</a></td>
-<td><a href="../Extension/">Extension</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
+<td><strong>Exact Mappings:</strong></td>
+<td></td>
+<td>IAO:0000104</td>
 </tr>
 </tbody>
 </table>
-<h2 id="usages">Usages</h2>
-<table>
-<thead>
-<tr>
-<th>used by</th>
-<th>used in</th>
-<th>type</th>
-<th>used</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="../DataItem/">DataItem</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="../DataSet/">DataSet</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="../Document/">Document</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="../Statement/">Statement</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="../StudyResult/">StudyResult</a></td>
-<td><a href="../sourceStudyMethod/">sourceStudyMethod</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="../StudyResult/">StudyResult</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="../EvidenceLine/">EvidenceLine</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="./">Method</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="../Activity/">Activity</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="../ResearchStudy/">ResearchStudy</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-<tr>
-<td><a href="../Contribution/">Contribution</a></td>
-<td><a href="../wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>range</td>
-<td>Method</td>
-</tr>
-</tbody>
-</table>
-<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 
               
             </article>

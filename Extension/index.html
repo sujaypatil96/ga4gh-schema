@@ -15,7 +15,7 @@
     
     
       
-        <title>Slot: extension - GA4GH</title>
+        <title>Class: Extension - GA4GH</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#slot-extension" class="md-skip">
+        <a href="#class-extension" class="md-skip">
           Skip to content
         </a>
       
@@ -94,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Slot: extension
+              Class: Extension
             
           </span>
         </div>
@@ -231,6 +231,62 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#parents" class="md-nav__link">
+    Parents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referenced-by-class" class="md-nav__link">
+    Referenced by Class
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#attributes" class="md-nav__link">
+    Attributes
+  </a>
+  
+    <nav class="md-nav" aria-label="Attributes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#own" class="md-nav__link">
+    Own
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inherited-from-element" class="md-nav__link">
+    Inherited from Element:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#other-properties" class="md-nav__link">
+    Other properties
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -247,8 +303,67 @@
 
 
 
-<h1 id="slot-extension">Slot: extension</h1>
-<p>URI: <a href="https://example.org/vaspec/extension">https://example.org/vaspec/extension</a></p>
+<h1 id="class-extension">Class: Extension</h1>
+<p>A data structure that allows implementations to define and create custom fields within an Entity to capture information not supported by the core specification.</p>
+<p>URI: <a href="https://example.org/vaspec/Extension">vaspec:Extension</a></p>
+<p><a href="../images/Extension.svg"><img alt="img" src="../images/Extension.svg" /></a></p>
+<h2 id="parents">Parents</h2>
+<ul>
+<li>is_a: <a href="../Element/">Element</a> - The base definition for all elements that comprise the model (classes, complex data types, value sets)</li>
+</ul>
+<h2 id="referenced-by-class">Referenced by Class</h2>
+<ul>
+<li><strong><a href="../Element/">Element</a></strong> <em><a href="../Element_extensionElement/">Element➞extensionElement</a></em>  <sub>0..*</sub>  <strong><a href="./">Extension</a></strong></li>
+</ul>
+<h2 id="attributes">Attributes</h2>
+<h3 id="own">Own</h3>
+<ul>
+<li><a href="../Extension_description/">Extension➞description</a>  <sub>0..1</sub><ul>
+<li>Description: A free text description of the intended semantics and use of this extension element (i.e. they types of values it takes, and how to interpret these values in the context of the parent Class)</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Extension_name/">Extension➞name</a>  <sub>1..1</sub><ul>
+<li>Description: A name that captures the meaning of the extension element</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Extension_value/">Extension➞value</a>  <sub>1..1</sub><ul>
+<li>Description: The value of the extension element</li>
+<li>Range: <a href="../Element/">Element</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="inherited-from-element">Inherited from Element:</h3>
+<ul>
+<li><a href="../Element_extensionElement/">Element➞extensionElement</a>  <sub>0..*</sub><ul>
+<li>Description: A key-value data structure that allows definition of custom fields to capture information not directly supported by the VA specification.</li>
+<li>Range: <a href="./">Extension</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="other-properties">Other properties</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Comments:</strong></td>
+<td></td>
+<td>The modeling pattern and use of Extensions is based on that defined by the FHIR Speciufication - see https://build.fhir.org/extensibility.html</td>
+</tr>
+<tr>
+<td><strong>Exact Mappings:</strong></td>
+<td></td>
+<td>FHIR.Extension</td>
+</tr>
+</tbody>
+</table>
 
               
             </article>

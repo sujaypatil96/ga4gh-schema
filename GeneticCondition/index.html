@@ -238,29 +238,49 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#inheritance" class="md-nav__link">
-    Inheritance
+  <a href="#parents" class="md-nav__link">
+    Parents
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#slots" class="md-nav__link">
-    Slots
+  <a href="#referenced-by-class" class="md-nav__link">
+    Referenced by Class
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#usages" class="md-nav__link">
-    Usages
+  <a href="#attributes" class="md-nav__link">
+    Attributes
   </a>
+  
+    <nav class="md-nav" aria-label="Attributes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#own" class="md-nav__link">
+    Own
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inherited-from-entity" class="md-nav__link">
+    Inherited from Entity:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#identifier-and-mapping-information" class="md-nav__link">
-    Identifier and Mapping Information
+  <a href="#other-properties" class="md-nav__link">
+    Other properties
   </a>
   
 </li>
@@ -286,144 +306,116 @@
 <h1 id="class-geneticcondition">Class: GeneticCondition</h1>
 <p>A disease, or a set of one or more co-occurring phenotypes, controlled by genetic factors with a defined inheritance pattern.</p>
 <p>URI: <a href="https://example.org/vaspec/GeneticCondition">vaspec:GeneticCondition</a></p>
-<h2 id="inheritance">Inheritance</h2>
+<p><a href="../images/GeneticCondition.svg"><img alt="img" src="../images/GeneticCondition.svg" /></a></p>
+<h2 id="parents">Parents</h2>
 <ul>
-<li><a href="../Element/">Element</a><ul>
-<li><a href="../Entity/">Entity</a><ul>
-<li><strong>GeneticCondition</strong></li>
+<li>is_a: <a href="../Entity/">Entity</a> - Anything that exists, has existed, or will exist.</li>
+</ul>
+<h2 id="referenced-by-class">Referenced by Class</h2>
+<h2 id="attributes">Attributes</h2>
+<h3 id="own">Own</h3>
+<ul>
+<li><a href="../GeneticCondition_componentDisease/">GeneticCondition➞componentDisease</a>  <sub>0..*</sub><ul>
+<li>Description: A disease that is manifest in the genetic condition</li>
+<li>Range: <a href="../Coding/">Coding</a></li>
+</ul>
+</li>
+<li><a href="../GeneticCondition_componentPhenotype/">GeneticCondition➞componentPhenotype</a>  <sub>0..*</sub><ul>
+<li>Description: A phenotype that is manifest in the genetic condition</li>
+<li>Range: <a href="../Coding/">Coding</a></li>
+</ul>
+</li>
+<li><a href="../GeneticCondition_inheritancePattern/">GeneticCondition➞inheritancePattern</a>  <sub>0..1</sub><ul>
+<li>Description: The pattern in which the condition is passed from one generation to the next.</li>
+<li>Range: <a href="../Coding/">Coding</a></li>
+</ul>
+</li>
+<li><a href="../GeneticCondition_contributingGene/">GeneticCondition➞contributingGene</a>  <sub>0..*</sub><ul>
+<li>Description: Genes implicated in the condition</li>
+<li>Range: <a href="../Gene/">Gene</a></li>
 </ul>
 </li>
 </ul>
+<h3 id="inherited-from-entity">Inherited from Entity:</h3>
+<ul>
+<li><a href="../Element_extensionElement/">Element➞extensionElement</a>  <sub>0..*</sub><ul>
+<li>Description: A key-value data structure that allows definition of custom fields to capture information not directly supported by the VA specification.</li>
+<li>Range: <a href="../Extension/">Extension</a></li>
+</ul>
+</li>
+<li><a href="../Entity_localId/">Entity➞localId</a>  <sub>1..1</sub><ul>
+<li>Description: The logical identifier of the entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system. The identified entity may have a different 'id' in a different system.</li>
+<li>Range: <a href="../Identifier/">Identifier</a></li>
+</ul>
+</li>
+<li><a href="../Entity_globalIdentifier/">Entity➞globalIdentifier</a>  <sub>0..*</sub><ul>
+<li>Description: A business identifier or accession number for the entity, typically as provided by an external system or authority, that is globally unique and persists across implementing systems.</li>
+<li>Range: <a href="../Identifier/">Identifier</a></li>
+</ul>
+</li>
+<li><a href="../Entity_type/">Entity➞type</a>  <sub>1..1</sub><ul>
+<li>Description: The schema class that is instantiated by the data object.  Must be the name of a class from the VA schema.</li>
+<li>Range: <a href="../Class/">Class</a></li>
+</ul>
+</li>
+<li><a href="../Entity_label/">Entity➞label</a>  <sub>0..1</sub><ul>
+<li>Description: A primary name for the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_alternativeLabel/">Entity➞alternativeLabel</a>  <sub>0..*</sub><ul>
+<li>Description: An alternative name for the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_description/">Entity➞description</a>  <sub>0..1</sub><ul>
+<li>Description: A free text description of the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_hasURL/">Entity➞hasURL</a>  <sub>0..*</sub><ul>
+<li>Description: The URL/web address of a digital resource representing the entity, or providing information about it.</li>
+<li>Range: <a href="../Url/">Url</a></li>
+</ul>
+</li>
+<li><a href="../Entity_reference/">Entity➞reference</a>  <sub>0..*</sub><ul>
+<li>Description: A document or other Information Entity that describes the Entity.</li>
+<li>Range: <a href="../InformationEntity/">InformationEntity</a></li>
+</ul>
+</li>
+<li><a href="../Entity_xref/">Entity➞xref</a>  <sub>0..*</sub><ul>
+<li>Description: A cross-reference to database identifier(s) representing the same or a closely related entity or concept as the Entity.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Entity_thisRecordMeta/">Entity➞thisRecordMeta</a>  <sub>0..1</sub><ul>
+<li>Description: A reusable structure that encapsulates provenance metadata about the present record/data object  (as opposed to provenance information about the real world entity this record/data object represents).</li>
+<li>Range: <a href="../RecordMetadata/">RecordMetadata</a></li>
+</ul>
+</li>
+<li><a href="../Entity_sourceRecordMeta/">Entity➞sourceRecordMeta</a>  <sub>0..*</sub><ul>
+<li>Description: A reusable structure that encapsulates provenance metadata that applies to an upstream record/data objdct about the Entity, from which content of the present record was derived.</li>
+<li>Range: <a href="../RecordMetadata/">RecordMetadata</a></li>
+</ul>
 </li>
 </ul>
-<h2 id="slots">Slots</h2>
+<h2 id="other-properties">Other properties</h2>
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Range</th>
-<th>Cardinality</th>
-<th>Description</th>
-<th>Info</th>
+<th></th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="../disease/">disease</a></td>
-<td><a href="../Coding/">Coding</a></td>
-<td>0..*</td>
-<td>A disease that is manifest in the genetic condition</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../phenotype/">phenotype</a></td>
-<td><a href="../Coding/">Coding</a></td>
-<td>0..*</td>
-<td>A phenotype that is manifest in the genetic condition</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../inheritancePattern/">inheritancePattern</a></td>
-<td><a href="../Coding/">Coding</a></td>
-<td>0..1</td>
-<td>The pattern in which the condition is passed from one generation to the next.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="gene.md">gene</a></td>
-<td><a href="../Gene/">Gene</a></td>
-<td>0..*</td>
-<td>Genes implicated in the condition</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../id/">id</a></td>
-<td><a href="identifier.md">identifier</a></td>
-<td>1..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="identifier.md">identifier</a></td>
-<td><a href="identifier.md">identifier</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../type/">type</a></td>
-<td><a href="ga4ghClass.md">ga4ghClass</a></td>
-<td>1..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../label/">label</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../alternativeLabel/">alternativeLabel</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../description/">description</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="url.md">url</a></td>
-<td><a href="url.md">url</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../reference/">reference</a></td>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../xref/">xref</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td><a href="../RecordMetadata/">RecordMetadata</a></td>
-<td>0..1</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td><a href="../RecordMetadata/">RecordMetadata</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="extension.md">extension</a></td>
-<td><a href="../Extension/">Extension</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
+<td><strong>Comments:</strong></td>
+<td></td>
+<td>A Genetic Condition object can be used to compose a condition description based on component diseases and phenotypes, contributing genes, and an inheritance pattern. For now it is a simple/loose collection of features.  We can define a more complex model to support more precise and nuanced characterizations, as needed in future iterations.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="usages">Usages</h2>
-<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 
               
             </article>

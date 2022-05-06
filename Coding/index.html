@@ -238,29 +238,49 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#inheritance" class="md-nav__link">
-    Inheritance
+  <a href="#parents" class="md-nav__link">
+    Parents
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#slots" class="md-nav__link">
-    Slots
+  <a href="#referenced-by-class" class="md-nav__link">
+    Referenced by Class
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#usages" class="md-nav__link">
-    Usages
+  <a href="#attributes" class="md-nav__link">
+    Attributes
   </a>
+  
+    <nav class="md-nav" aria-label="Attributes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#own" class="md-nav__link">
+    Own
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inherited-from-element" class="md-nav__link">
+    Inherited from Element:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#identifier-and-mapping-information" class="md-nav__link">
-    Identifier and Mapping Information
+  <a href="#other-properties" class="md-nav__link">
+    Other properties
   </a>
   
 </li>
@@ -286,341 +306,103 @@
 <h1 id="class-coding">Class: Coding</h1>
 <p>A structured representation of a coded/enumerated data value, that includes additional metadata about the code and code system.</p>
 <p>URI: <a href="https://example.org/vaspec/Coding">vaspec:Coding</a></p>
-<h2 id="inheritance">Inheritance</h2>
+<p><a href="../images/Coding.svg"><img alt="img" src="../images/Coding.svg" /></a></p>
+<h2 id="parents">Parents</h2>
 <ul>
-<li><a href="../Element/">Element</a><ul>
-<li><strong>Coding</strong></li>
+<li>is_a: <a href="../Element/">Element</a> - The base definition for all elements that comprise the model (classes, complex data types, value sets)</li>
+</ul>
+<h2 id="referenced-by-class">Referenced by Class</h2>
+<ul>
+<li><strong><a href="../Activity/">Activity</a></strong> <em><a href="../Activity_activityType/">Activity➞activityType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Affiliation/">Affiliation</a></strong> <em><a href="../Affiliation_affiliationStatus/">Affiliation➞affiliationStatus</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Affiliation/">Affiliation</a></strong> <em><a href="../Affiliation_organizationalRole/">Affiliation➞organizationalRole</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Agent/">Agent</a></strong> <em><a href="../Agent_agentType/">Agent➞agentType</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Contribution/">Contribution</a></strong> <em><a href="../Contribution_contributorRole/">Contribution➞contributorRole</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../DataItem/">DataItem</a></strong> <em><a href="../DataItem_dataItemType/">DataItem➞dataItemType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../DataItem/">DataItem</a></strong> <em><a href="../DataItem_unit/">DataItem➞unit</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../DataSet/">DataSet</a></strong> <em><a href="../DataSet_dataSetLevel/">DataSet➞dataSetLevel</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../DataSet/">DataSet</a></strong> <em><a href="../DataSet_dataSetType/">DataSet➞dataSetType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Document/">Document</a></strong> <em><a href="../Document_documentType/">Document➞documentType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../EvidenceLine/">EvidenceLine</a></strong> <em><a href="../EvidenceLine_evidenceDirection/">EvidenceLine➞evidenceDirection</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../EvidenceLine/">EvidenceLine</a></strong> <em><a href="../EvidenceLine_evidenceLineType/">EvidenceLine➞evidenceLineType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../EvidenceLine/">EvidenceLine</a></strong> <em><a href="../EvidenceLine_evidenceStrength/">EvidenceLine➞evidenceStrength</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Gene/">Gene</a></strong> <em><a href="../Gene_strand/">Gene➞strand</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../GeneticCondition/">GeneticCondition</a></strong> <em><a href="../GeneticCondition_componentDisease/">GeneticCondition➞componentDisease</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../GeneticCondition/">GeneticCondition</a></strong> <em><a href="../GeneticCondition_componentPhenotype/">GeneticCondition➞componentPhenotype</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../GeneticCondition/">GeneticCondition</a></strong> <em><a href="../GeneticCondition_inheritancePattern/">GeneticCondition➞inheritancePattern</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../InformationEntity/">InformationEntity</a></strong> <em><a href="../InformationEntity_confidenceLevel/">InformationEntity➞confidenceLevel</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Method/">Method</a></strong> <em><a href="../Method_methodType/">Method➞methodType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Proposition/">Proposition</a></strong> <em><a href="../Proposition_predicate/">Proposition➞predicate</a></em>  <sub>1..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Proposition/">Proposition</a></strong> <em><a href="../Proposition_propositionType/">Proposition➞propositionType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../ResearchStudy/">ResearchStudy</a></strong> <em><a href="../ResearchStudy_researchStudyType/">ResearchStudy➞researchStudyType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Statement/">Statement</a></strong> <em><a href="../Statement_evidenceLevel/">Statement➞evidenceLevel</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Statement/">Statement</a></strong> <em><a href="../Statement_hasEvidenceOfType/">Statement➞hasEvidenceOfType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Statement/">Statement</a></strong> <em><a href="../Statement_predicate/">Statement➞predicate</a></em>  <sub>1..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../Statement/">Statement</a></strong> <em><a href="../Statement_statementType/">Statement➞statementType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../StudyResult/">StudyResult</a></strong> <em><a href="../StudyResult_interpretation/">StudyResult➞interpretation</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../StudyResult/">StudyResult</a></strong> <em><a href="../StudyResult_sourceStudyType/">StudyResult➞sourceStudyType</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../StudyResult/">StudyResult</a></strong> <em><a href="../StudyResult_studyResultType/">StudyResult➞studyResultType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></strong> <em><a href="../TherapeuticIntervention_componentActivity/">TherapeuticIntervention➞componentActivity</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></strong> <em><a href="../TherapeuticIntervention_componentDrug/">TherapeuticIntervention➞componentDrug</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></strong> <em><a href="../TherapeuticIntervention_componentProcedure/">TherapeuticIntervention➞componentProcedure</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></strong> <em><a href="../TherapeuticIntervention_drugOperator/">TherapeuticIntervention➞drugOperator</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../VariationDescriptor/">VariationDescriptor</a></strong> <em><a href="../VariationDescriptor_moleculeContext/">VariationDescriptor➞moleculeContext</a></em>  <sub>0..1</sub>  <strong><a href="./">Coding</a></strong></li>
+<li><strong><a href="../VariationDescriptor/">VariationDescriptor</a></strong> <em><a href="../VariationDescriptor_structuralType/">VariationDescriptor➞structuralType</a></em>  <sub>0..*</sub>  <strong><a href="./">Coding</a></strong></li>
+</ul>
+<h2 id="attributes">Attributes</h2>
+<h3 id="own">Own</h3>
+<ul>
+<li><a href="../Coding_code/">Coding➞code</a>  <sub>0..1</sub><ul>
+<li>Description: The value of the code itself.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Coding_label/">Coding➞label</a>  <sub>0..1</sub><ul>
+<li>Description: A human-readable name for the code.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Coding_system/">Coding➞system</a>  <sub>0..1</sub><ul>
+<li>Description: The code system where the code is defined.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../Coding_systemURL/">Coding➞systemURL</a>  <sub>0..1</sub><ul>
+<li>Description: A URL where the code system can be found.</li>
+<li>Range: <a href="../Url/">Url</a></li>
+</ul>
+</li>
+<li><a href="../Coding_systemVersion/">Coding➞systemVersion</a>  <sub>0..1</sub><ul>
+<li>Description: The version of the code system.</li>
+<li>Range: <a href="../String/">String</a></li>
 </ul>
 </li>
 </ul>
-<h2 id="slots">Slots</h2>
+<h3 id="inherited-from-element">Inherited from Element:</h3>
+<ul>
+<li><a href="../Element_extensionElement/">Element➞extensionElement</a>  <sub>0..*</sub><ul>
+<li>Description: A key-value data structure that allows definition of custom fields to capture information not directly supported by the VA specification.</li>
+<li>Range: <a href="../Extension/">Extension</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="other-properties">Other properties</h2>
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Range</th>
-<th>Cardinality</th>
-<th>Description</th>
-<th>Info</th>
+<th></th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="../code/">code</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>The value of the code itself.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../label/">label</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>A human-readable name for the code.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../system/">system</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>The code system where the code is defined.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../systemURL/">systemURL</a></td>
-<td><a href="url.md">url</a></td>
-<td>0..1</td>
-<td>A URL where the code system can be found.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../systemVersion/">systemVersion</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>The version of the code system.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="extension.md">extension</a></td>
-<td><a href="../Extension/">Extension</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
+<td><strong>Exact Mappings:</strong></td>
+<td></td>
+<td>FHIR:Coding</td>
 </tr>
 </tbody>
 </table>
-<h2 id="usages">Usages</h2>
-<table>
-<thead>
-<tr>
-<th>used by</th>
-<th>used in</th>
-<th>type</th>
-<th>used</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td><a href="../confidenceLevel/">confidenceLevel</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../DataItem/">DataItem</a></td>
-<td><a href="../Data_ItemType/">Data_ItemType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../DataItem/">DataItem</a></td>
-<td><a href="../unit/">unit</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../DataItem/">DataItem</a></td>
-<td><a href="../confidenceLevel/">confidenceLevel</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../DataSet/">DataSet</a></td>
-<td><a href="../dataSetType/">dataSetType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../DataSet/">DataSet</a></td>
-<td><a href="../confidenceLevel/">confidenceLevel</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Document/">Document</a></td>
-<td><a href="../document_type/">document_type</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Document/">Document</a></td>
-<td><a href="../confidenceLevel/">confidenceLevel</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Statement/">Statement</a></td>
-<td><a href="../statementType/">statementType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Statement/">Statement</a></td>
-<td><a href="../predicate/">predicate</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Statement/">Statement</a></td>
-<td><a href="../evidenceLevel/">evidenceLevel</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Statement/">Statement</a></td>
-<td><a href="../hasEvidenceOfType/">hasEvidenceOfType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Statement/">Statement</a></td>
-<td><a href="../confidenceLevel/">confidenceLevel</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../StudyResult/">StudyResult</a></td>
-<td><a href="../studyResultType/">studyResultType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../StudyResult/">StudyResult</a></td>
-<td><a href="../interpretation/">interpretation</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../StudyResult/">StudyResult</a></td>
-<td><a href="../sourceStudyType/">sourceStudyType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../StudyResult/">StudyResult</a></td>
-<td><a href="../confidenceLevel/">confidenceLevel</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../EvidenceLine/">EvidenceLine</a></td>
-<td><a href="../evidenceLineType/">evidenceLineType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../EvidenceLine/">EvidenceLine</a></td>
-<td><a href="../evidenceDirection/">evidenceDirection</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../EvidenceLine/">EvidenceLine</a></td>
-<td><a href="../evidenceStrength/">evidenceStrength</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../EvidenceLine/">EvidenceLine</a></td>
-<td><a href="../confidenceLevel/">confidenceLevel</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Method/">Method</a></td>
-<td><a href="../methodType/">methodType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Method/">Method</a></td>
-<td><a href="../confidenceLevel/">confidenceLevel</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Activity/">Activity</a></td>
-<td><a href="../activityType/">activityType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../ResearchStudy/">ResearchStudy</a></td>
-<td><a href="../researchStudyType/">researchStudyType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../ResearchStudy/">ResearchStudy</a></td>
-<td><a href="../activityType/">activityType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Contribution/">Contribution</a></td>
-<td><a href="../contributorRole/">contributorRole</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Contribution/">Contribution</a></td>
-<td><a href="../activityType/">activityType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Agent/">Agent</a></td>
-<td><a href="../agentType/">agentType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Proposition/">Proposition</a></td>
-<td><a href="../propositionType/">propositionType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Proposition/">Proposition</a></td>
-<td><a href="../predicate/">predicate</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Affiliation/">Affiliation</a></td>
-<td><a href="../organizationalRole/">organizationalRole</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Affiliation/">Affiliation</a></td>
-<td><a href="../affiliationStatus/">affiliationStatus</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../VariationDescriptor/">VariationDescriptor</a></td>
-<td><a href="../moleculeContext/">moleculeContext</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../VariationDescriptor/">VariationDescriptor</a></td>
-<td><a href="../structuralType/">structuralType</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../GeneticCondition/">GeneticCondition</a></td>
-<td><a href="../disease/">disease</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../GeneticCondition/">GeneticCondition</a></td>
-<td><a href="../phenotype/">phenotype</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../GeneticCondition/">GeneticCondition</a></td>
-<td><a href="../inheritancePattern/">inheritancePattern</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></td>
-<td><a href="../drug/">drug</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></td>
-<td><a href="../procedure/">procedure</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></td>
-<td><a href="activity.md">activity</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></td>
-<td><a href="../drugOperator/">drugOperator</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-<tr>
-<td><a href="../Gene/">Gene</a></td>
-<td><a href="../strand/">strand</a></td>
-<td>range</td>
-<td>Coding</td>
-</tr>
-</tbody>
-</table>
-<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 
               
             </article>

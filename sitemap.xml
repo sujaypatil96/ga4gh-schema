@@ -2,932 +2,1617 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Activity/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Activity_activityType/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Activity_endDate/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Activity_hadInput/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Activity_hadOutput/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Activity_hasPart/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Activity_partOf/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Activity_performedBy/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Activity_startDate/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Activity_wasSpecifiedBy/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Affiliation/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Affiliation_affiliationStatus/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Affiliation_endDate/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Affiliation_member/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Affiliation_organization/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Affiliation_organizationalRole/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Affiliation_startDate/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Agent/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Agent_agentType/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Agent_childOrganization/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Agent_hasAffiliation/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Agent_parentOrganization/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Agent_softwareVersion/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Boolean/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Class/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Coding/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Coding_code/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Coding_label/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Coding_system/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Coding_systemURL/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Coding_systemVersion/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Contribution/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Contribution_contributionMadeBy/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Contribution_contributionMadeTo/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Contribution_contributorRole/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Contribution_organizationalContext/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/DataItem/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataItem_componentDataItem/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataItem_confidenceInterval/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataItem_dataItemType/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataItem_unit/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataItem_value/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataItem_variability/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/DataSet/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/Data_Item/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataSet_conformsTo/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/Data_ItemType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataSet_currentVersion/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataSet_dataSetLevel/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataSet_dataSetType/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataSet_format/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataSet_license/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataSet_previousVersion/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataSet_releaseDate/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/DataSet_version/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Date/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/DateTime/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Datetime/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Decimal/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Descriptor/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Descriptor_valueObject/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Descriptor_valueObjectAlias/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Descriptor_valueObjectDescription/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Descriptor_valueObjectExpression/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Descriptor_valueObjectId/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Descriptor_valueObjectName/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Descriptor_valueObjectXref/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Document/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Document_documentType/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Document_license/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Document_title/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Document_version/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Double/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Element/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Element_extensionElement/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_alternativeLabel/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_description/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_globalIdentifier/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_hasURL/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_label/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_localId/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_reference/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_sourceRecordMeta/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_thisRecordMeta/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_type/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Entity_xref/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/EvidenceLine/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/EvidenceLine_evidenceDirection/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/EvidenceLine_evidenceItemSource/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/EvidenceLine_evidenceLineType/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/EvidenceLine_evidenceStrength/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/EvidenceLine_hasEvidenceItem/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/EvidenceLine_targetProposition/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Expression/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Expression_system/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Expression_systemURL/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Expression_systemVersion/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Expression_value/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Extension/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Extension_description/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Extension_name/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Extension_value/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Float/</loc>
-         <lastmod>2022-04-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/GA4GH-VA-Spec/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Ga4ghBoolean/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/Ga4ghClass/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Ga4ghDateTime/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Ga4ghString/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Gene/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Gene_biotype/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Gene_location/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Gene_strand/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Gene_symbol/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/GeneticCondition/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/GeneticCondition_componentDisease/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/GeneticCondition_componentPhenotype/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/GeneticCondition_contributingGene/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/GeneticCondition_inheritancePattern/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Identifier/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_confidenceLevel/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_confidenceScore/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_dateAuthored/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_derivedFrom/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_hasPart/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_isAbout/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_isReportedIn/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_license/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_partOf/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_qualifiedContribution/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_version/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_wasOutputOf/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/InformationEntity_wasSpecifiedBy/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Integer/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Method/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Method_methodType/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Ncname/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Nodeidentifier/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Objectidentifier/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Proposition/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Proposition_negated/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Proposition_object/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Proposition_predicate/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Proposition_propositionType/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Proposition_qualifier/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Proposition_subject/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata_dateRecordCreated/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata_dateRecordLastModified/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata_description/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata_partOfDataset/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata_previousVersion/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata_qualifiedContribution/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata_recordIdentifier/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata_recordURL/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata_recordVersion/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/RecordMetadata_xref/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/ResearchStudy/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/ResearchStudy_researchStudyType/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/SequenceLocation/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_assertedProposition/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_evidenceLevel/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_evidenceScore/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_hasEvidence/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_hasEvidenceFromSource/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_hasEvidenceLine/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_hasEvidenceOfType/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_negated/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_object/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_objectDescriptor/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_predicate/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_qualifier/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_qualifierDescriptor/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_statementType/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_subject/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/Statement_subjectDescriptor/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/String/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/StudyResult/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/StudyResult_data/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/StudyResult_focus/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/StudyResult_interpretation/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/StudyResult_sourceDataSet/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/StudyResult_sourceStudy/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/StudyResult_sourceStudyDate/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/StudyResult_sourceStudyMethod/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/StudyResult_sourceStudyType/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/StudyResult_studyResultType/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/TherapeuticIntervention/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/TherapeuticIntervention_componentActivity/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/TherapeuticIntervention_componentDrug/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/TherapeuticIntervention_componentProcedure/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/TherapeuticIntervention_drugOperator/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Time/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Uri/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Uriorcurie/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Url/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/Variation/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/VariationDescriptor/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/about/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/VariationDescriptor_moleculeContext/</loc>
+         <lastmod>2022-05-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://sujaypatil96.github.io/ga4gh-schema/VariationDescriptor_structuralType/</loc>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/activityType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/affiliationStatus/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/agentType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/alternativeLabel/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/assertedProposition/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/biotype/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/childOrganization/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/code/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/componentActivity/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/componentDataItem/</loc>
-         <lastmod>2022-04-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/componentData_Item/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/componentDisease/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/componentDrug/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/componentPhenotype/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/componentProcedure/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/confidenceInterval/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/confidenceLevel/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/confidenceScore/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/conformsTo/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/contributingGene/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/contributionMadeBy/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/contributionMadeTo/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/contributorRole/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/currentVersion/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/data/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/dataItemType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/dataSetLevel/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/dataSetType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/dateAuthored/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/dateRecordCreated/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/dateRecordLastModified/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/derivedFrom/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/description/</loc>
-         <lastmod>2022-04-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/disease/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/documentType/</loc>
-         <lastmod>2022-04-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/document_type/</loc>
-         <lastmod>2022-04-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/drug/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/drugOperator/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/endDate/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/evidenceDirection/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/evidenceItemSource/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/evidenceLevel/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/evidenceLineType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/evidenceScore/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/evidenceStrength/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/extensionElement/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/focus/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/format/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/globalIdentifier/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/hadInput/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/hadOutput/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/hasAffiliation/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/hasEvidence/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/hasEvidenceFromSource/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/hasEvidenceItem/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/hasEvidenceLine/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/hasEvidenceOfType/</loc>
-         <lastmod>2022-04-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/hasEvidence_Line/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/hasPart/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/hasURL/</loc>
-         <lastmod>2022-04-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/id/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/inheritancePattern/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/interpretation/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/isAbout/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/isReportedIn/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/label/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/license/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/localId/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/location/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/member/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/methodType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/moleculeContext/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/name/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/negated/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/object/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/objectDescriptor/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/organization/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/organizationalContext/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/organizationalRole/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/parentOrganization/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/partOf/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/partOfDataset/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/performedBy/</loc>
-         <lastmod>2022-04-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/phenotype/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/predicate/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/previousVersion/</loc>
-         <lastmod>2022-04-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/procedure/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/propositionType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/qualifiedContribution/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/qualifier/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/qualifierDescriptor/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/recordIdentifier/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/recordURL/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/recordVersion/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/reference/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/releaseDate/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/researchStudyType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/softwareVersion/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/sourceDataSet/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/sourceRecordMeta/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/sourceStudy/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/sourceStudyDate/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/sourceStudyMethod/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/sourceStudyType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/startDate/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/statementType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/strand/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/structuralType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/studyResultType/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/subject/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/subjectDescriptor/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/symbol/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/system/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/systemURL/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/systemVersion/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/targetProposition/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/thisRecordMeta/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/title/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/type/</loc>
-         <lastmod>2022-04-29</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://sujaypatil96.github.io/ga4gh-schema/types/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/unit/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/value/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/valueObject/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/valueObjectAlias/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/valueObjectDescription/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/valueObjectExpression/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/valueObjectId/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/valueObjectName/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/valueObjectXref/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/variability/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/version/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/wasOutputOf/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/wasSpecifiedBy/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://sujaypatil96.github.io/ga4gh-schema/xref/</loc>
-         <lastmod>2022-04-29</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

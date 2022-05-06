@@ -238,29 +238,49 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#inheritance" class="md-nav__link">
-    Inheritance
+  <a href="#parents" class="md-nav__link">
+    Parents
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#slots" class="md-nav__link">
-    Slots
+  <a href="#referenced-by-class" class="md-nav__link">
+    Referenced by Class
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#usages" class="md-nav__link">
-    Usages
+  <a href="#attributes" class="md-nav__link">
+    Attributes
   </a>
+  
+    <nav class="md-nav" aria-label="Attributes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#own" class="md-nav__link">
+    Own
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inherited-from-element" class="md-nav__link">
+    Inherited from Element:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#identifier-and-mapping-information" class="md-nav__link">
-    Identifier and Mapping Information
+  <a href="#other-properties" class="md-nav__link">
+    Other properties
   </a>
   
 </li>
@@ -286,370 +306,95 @@
 <h1 id="class-recordmetadata">Class: RecordMetadata</h1>
 <p>A re-usable structure that encapsulates provenance metadata that applies to a specific concrete record/encoding of information, as opposed to provenance of the abstract information content/knowledge the record represents.</p>
 <p>URI: <a href="https://example.org/vaspec/RecordMetadata">vaspec:RecordMetadata</a></p>
-<h2 id="inheritance">Inheritance</h2>
+<p><a href="../images/RecordMetadata.svg"><img alt="img" src="../images/RecordMetadata.svg" /></a></p>
+<h2 id="parents">Parents</h2>
 <ul>
-<li><a href="../Element/">Element</a><ul>
-<li><strong>RecordMetadata</strong></li>
+<li>is_a: <a href="../Element/">Element</a> - The base definition for all elements that comprise the model (classes, complex data types, value sets)</li>
+</ul>
+<h2 id="referenced-by-class">Referenced by Class</h2>
+<ul>
+<li><strong><a href="../Entity/">Entity</a></strong> <em><a href="../Entity_sourceRecordMeta/">Entity➞sourceRecordMeta</a></em>  <sub>0..*</sub>  <strong><a href="./">RecordMetadata</a></strong></li>
+<li><strong><a href="../Entity/">Entity</a></strong> <em><a href="../Entity_thisRecordMeta/">Entity➞thisRecordMeta</a></em>  <sub>0..1</sub>  <strong><a href="./">RecordMetadata</a></strong></li>
+</ul>
+<h2 id="attributes">Attributes</h2>
+<h3 id="own">Own</h3>
+<ul>
+<li><a href="../RecordMetadata_description/">RecordMetadata➞description</a>  <sub>0..1</sub><ul>
+<li>Description: A free text description of the RecordMetadata object.</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../RecordMetadata_recordIdentifier/">RecordMetadata➞recordIdentifier</a>  <sub>0..1</sub><ul>
+<li>Description: The business identifier of the record described in the RecordMetadata object (required when the record described is not the one in the present system)</li>
+<li>Range: <a href="../Identifier/">Identifier</a></li>
+</ul>
+</li>
+<li><a href="../RecordMetadata_partOfDataset/">RecordMetadata➞partOfDataset</a>  <sub>0..1</sub><ul>
+<li>Description: The dataset of which the described record is a part (releveant when the record described is not the one in the present system)</li>
+<li>Range: <a href="../DataSet/">DataSet</a></li>
+</ul>
+</li>
+<li><a href="../RecordMetadata_recordVersion/">RecordMetadata➞recordVersion</a>  <sub>0..1</sub><ul>
+<li>Description: The version number of the record-level artifact the object describes</li>
+<li>Range: <a href="../String/">String</a></li>
+</ul>
+</li>
+<li><a href="../RecordMetadata_previousVersion/">RecordMetadata➞previousVersion</a>  <sub>0..1</sub><ul>
+<li>Description: The version of a record in the same system that the current record replaces/follows.</li>
+<li>Range: <a href="../Identifier/">Identifier</a></li>
+</ul>
+</li>
+<li><a href="../RecordMetadata_dateRecordCreated/">RecordMetadata➞dateRecordCreated</a>  <sub>0..1</sub><ul>
+<li>Description: The date the record was initially created.</li>
+<li>Range: <a href="../Ga4ghDateTime/">Ga4ghDateTime</a></li>
+</ul>
+</li>
+<li><a href="../RecordMetadata_dateRecordLastModified/">RecordMetadata➞dateRecordLastModified</a>  <sub>0..1</sub><ul>
+<li>Description: The date the record was last edited/updated/modified to its present concrete form.</li>
+<li>Range: <a href="../Ga4ghDateTime/">Ga4ghDateTime</a></li>
+</ul>
+</li>
+<li><a href="../RecordMetadata_qualifiedContribution/">RecordMetadata➞qualifiedContribution</a>  <sub>0..*</sub><ul>
+<li>Description: Links to a 'Contribution' object allowing richer representation of specific types of contributions made by an agent to the creation, modification, or administrative management of a record.</li>
+<li>Range: <a href="../Contribution/">Contribution</a></li>
+</ul>
+</li>
+<li><a href="../RecordMetadata_recordURL/">RecordMetadata➞recordURL</a>  <sub>0..*</sub><ul>
+<li>Description: A web address where the entity is found or described.</li>
+<li>Range: <a href="../Url/">Url</a></li>
+</ul>
+</li>
+<li><a href="../RecordMetadata_xref/">RecordMetadata➞xref</a>  <sub>0..*</sub><ul>
+<li>Description: A cross-reference linking to an identifier for an entity/record that represents the same or a closely related concepts or knowledge as the present record.</li>
+<li>Range: <a href="../String/">String</a></li>
 </ul>
 </li>
 </ul>
-<h2 id="slots">Slots</h2>
+<h3 id="inherited-from-element">Inherited from Element:</h3>
+<ul>
+<li><a href="../Element_extensionElement/">Element➞extensionElement</a>  <sub>0..*</sub><ul>
+<li>Description: A key-value data structure that allows definition of custom fields to capture information not directly supported by the VA specification.</li>
+<li>Range: <a href="../Extension/">Extension</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="other-properties">Other properties</h2>
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Range</th>
-<th>Cardinality</th>
-<th>Description</th>
-<th>Info</th>
+<th></th>
+<th></th>
+<th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><a href="../description/">description</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>A free text description of the RecordMetadata object.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../recordIdentifier/">recordIdentifier</a></td>
-<td><a href="identifier.md">identifier</a></td>
-<td>0..1</td>
-<td>The identifier of the described record in its home system/dataset.  Use a business identifier, structured as a CURIE, where possible (as opposed to an internal logical identifier valid only in the context of the source system).</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../partOfDataset/">partOfDataset</a></td>
-<td><a href="../DataSet/">DataSet</a></td>
-<td>0..1</td>
-<td>The dataset of which the described record is a part.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../recordVersion/">recordVersion</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>The version number of the record-level artifact the object describes</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../previousVersion/">previousVersion</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..1</td>
-<td>The version of a record in the same system that the current record replaces/follows.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../dateRecordCreated/">dateRecordCreated</a></td>
-<td><a href="dateTime.md">dateTime</a></td>
-<td>0..1</td>
-<td>The date the record was initially created.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../dateRecordLastModified/">dateRecordLastModified</a></td>
-<td><a href="dateTime.md">dateTime</a></td>
-<td>0..1</td>
-<td>The date the record was last edited/updated/modified to its present concrete form.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../qualifiedContribution/">qualifiedContribution</a></td>
-<td><a href="../Contribution/">Contribution</a></td>
-<td>0..*</td>
-<td>Links to a 'Contribution' object allowing richer representation of specific types of contributions made by an agent to the creation, modification, or administrative management of a record.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../recordURL/">recordURL</a></td>
-<td><a href="url.md">url</a></td>
-<td>0..*</td>
-<td>A web address where the entity is found or described.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="../xref/">xref</a></td>
-<td><a href="ga4ghString.md">ga4ghString</a></td>
-<td>0..*</td>
-<td>A cross-reference linking to an identifier for an entity/record that represents the same or a closely related concepts or knowledge as the present record.</td>
-<td>.</td>
-</tr>
-<tr>
-<td><a href="extension.md">extension</a></td>
-<td><a href="../Extension/">Extension</a></td>
-<td>0..*</td>
-<td>None</td>
-<td>.</td>
+<td><strong>Comments:</strong></td>
+<td></td>
+<td>Record-level metadata applies to a specific concrete encoding/serialization of knowledge  (e.g as a record in a specific database, or an online digital resource). A RecordMetadata object can capture provenance and other metadata, including when, how, and by whom a specific record was generated or modified; what upstream resources it was derived/retrieved from; and record-level administrative information such as versioning and system / lifecycle status.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="usages">Usages</h2>
-<table>
-<thead>
-<tr>
-<th>used by</th>
-<th>used in</th>
-<th>type</th>
-<th>used</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="../Entity/">Entity</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Entity/">Entity</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../InformationEntity/">InformationEntity</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../DataItem/">DataItem</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../DataItem/">DataItem</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../DataSet/">DataSet</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../DataSet/">DataSet</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Document/">Document</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Document/">Document</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Statement/">Statement</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Statement/">Statement</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../StudyResult/">StudyResult</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../StudyResult/">StudyResult</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../EvidenceLine/">EvidenceLine</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../EvidenceLine/">EvidenceLine</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Method/">Method</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Method/">Method</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Activity/">Activity</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Activity/">Activity</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../ResearchStudy/">ResearchStudy</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../ResearchStudy/">ResearchStudy</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Contribution/">Contribution</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Contribution/">Contribution</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Agent/">Agent</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Agent/">Agent</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Proposition/">Proposition</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Proposition/">Proposition</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Affiliation/">Affiliation</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Affiliation/">Affiliation</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Descriptor/">Descriptor</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Descriptor/">Descriptor</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../VariationDescriptor/">VariationDescriptor</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../VariationDescriptor/">VariationDescriptor</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Variation/">Variation</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../Variation/">Variation</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../GeneticCondition/">GeneticCondition</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../GeneticCondition/">GeneticCondition</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../TherapeuticIntervention/">TherapeuticIntervention</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../SequenceLocation/">SequenceLocation</a></td>
-<td><a href="../thisRecordMeta/">thisRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-<tr>
-<td><a href="../SequenceLocation/">SequenceLocation</a></td>
-<td><a href="../sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>range</td>
-<td>RecordMetadata</td>
-</tr>
-</tbody>
-</table>
-<h2 id="identifier-and-mapping-information">Identifier and Mapping Information</h2>
 
               
             </article>

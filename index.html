@@ -245,6 +245,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#mixins" class="md-nav__link">
+    Mixins
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#slots" class="md-nav__link">
     Slots
   </a>
@@ -255,6 +262,40 @@
   <a href="#enums" class="md-nav__link">
     Enums
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subsets" class="md-nav__link">
+    Subsets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    Types
+  </a>
+  
+    <nav class="md-nav" aria-label="Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#built-in" class="md-nav__link">
+    Built in
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defined" class="md-nav__link">
+    Defined
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -300,6 +341,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#mixins" class="md-nav__link">
+    Mixins
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#slots" class="md-nav__link">
     Slots
   </a>
@@ -310,6 +358,40 @@
   <a href="#enums" class="md-nav__link">
     Enums
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#subsets" class="md-nav__link">
+    Subsets
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#types" class="md-nav__link">
+    Types
+  </a>
+  
+    <nav class="md-nav" aria-label="Types">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#built-in" class="md-nav__link">
+    Built in
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defined" class="md-nav__link">
+    Defined
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -332,633 +414,626 @@
 
 
 <h1 id="ga4gh-va-spec">GA4GH-VA-Spec</h1>
-<p>None</p>
-<p>URI: https://w3id.org/ga4gh</p>
-<h2 id="classes">Classes</h2>
-<table>
-<thead>
-<tr>
-<th>Class</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="Element/">Element</a></td>
-<td>The base definition for all elements that comprise the model (classes, complex data types, value sets)</td>
-</tr>
-<tr>
-<td><a href="Entity/">Entity</a></td>
-<td>Anything that exists, has existed, or will exist.</td>
-</tr>
-<tr>
-<td><a href="InformationEntity/">InformationEntity</a></td>
-<td>An abstract (non-physical) entity that is about something.</td>
-</tr>
-<tr>
-<td><a href="DataItem/">DataItem</a></td>
-<td>An InformationEntity representing an individual piece of data, generated/acquired through methods which reliably produce truthful information about something.</td>
-</tr>
-<tr>
-<td><a href="DataSet/">DataSet</a></td>
-<td>A collection of related data items or records that are organized together in a common format or structure, to enable their computational manipulation as a unit.</td>
-</tr>
-<tr>
-<td><a href="Document/">Document</a></td>
-<td>A collection of information, usually in human-readable form, intended to be read and understood together as a whole.</td>
-</tr>
-<tr>
-<td><a href="Statement/">Statement</a></td>
-<td>An information entity expressing a declarative sentence that is either true or false.</td>
-</tr>
-<tr>
-<td><a href="StudyResult/">StudyResult</a></td>
-<td>A collection of select data items from a single study that are about a particular subject or experimental unit within the study -  including provenance metadata describing how this data was generated.</td>
-</tr>
-<tr>
-<td><a href="EvidenceLine/">EvidenceLine</a></td>
-<td>A discrete, independent argument relevant to the validity of the Proposition put forth as true in the Statement,  that is based on the interpretation of one or more pieces of information as evidence.</td>
-</tr>
-<tr>
-<td><a href="Method/">Method</a></td>
-<td>A set of instructions that specify how to achieve some objective (e.g. study/experimental protocols, curation guidelines, rule sets, etc.)</td>
-</tr>
-<tr>
-<td><a href="Activity/">Activity</a></td>
-<td>An action or set of actions performed by an agent, that occurs over a period of time. Activities may use, generate, modify, move, or destroy one or more entities.</td>
-</tr>
-<tr>
-<td><a href="ResearchStudy/">ResearchStudy</a></td>
-<td>An activity that applies a defined methodological approach to interrogate a specific set of subjects, and generate data that is analyzed and interpreted to answer a particular research question (typically the validation or generation of hypothesis)</td>
-</tr>
-<tr>
-<td><a href="Contribution/">Contribution</a></td>
-<td>The actions taken by a particular agent in the creation, modification, assessment, or deprecation of some entity (e.g. a Statement, Evidence Line, Data Item, Publication, etc.)</td>
-</tr>
-<tr>
-<td><a href="Agent/">Agent</a></td>
-<td>An autonomous actor (person, organization, or computational agent) that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent‚Äôs activity.</td>
-</tr>
-<tr>
-<td><a href="Proposition/">Proposition</a></td>
-<td>An abstract entity representing the sharable meaning that can be put forth as true in a Statement made by an Agent.</td>
-</tr>
-<tr>
-<td><a href="Affiliation/">Affiliation</a></td>
-<td>A relationship between an Agent and a Group or Organization to which they belong or belonged.</td>
-</tr>
-<tr>
-<td><a href="Descriptor/">Descriptor</a></td>
-<td>An object that wraps a value object in order to transfer additional, non-definitional information about it.</td>
-</tr>
-<tr>
-<td><a href="VariationDescriptor/">VariationDescriptor</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="Coding/">Coding</a></td>
-<td>A structured representation of a coded/enumerated data value, that includes additional metadata about the code and code system.</td>
-</tr>
-<tr>
-<td><a href="Expression/">Expression</a></td>
-<td>A structure for labels representing systematic expressions that describe an entity, as generated by formal nomenclatures (e.g. HGVS for genetic variants, ISCN for karyotypes, HLA nomenclature for HLA genes/alleles).</td>
-</tr>
-<tr>
-<td><a href="Extension/">Extension</a></td>
-<td>A data structure that allows implementations to define and create custom fields within an Entity to capture information not supported by the core specification.</td>
-</tr>
-<tr>
-<td><a href="RecordMetadata/">RecordMetadata</a></td>
-<td>A re-usable structure that encapsulates provenance metadata that applies to a specific concrete record/encoding of information, as opposed to provenance of the abstract information content/knowledge the record represents.</td>
-</tr>
-<tr>
-<td><a href="Variation/">Variation</a></td>
-<td>A representation of the state of one or more biomolecules.</td>
-</tr>
-<tr>
-<td><a href="GeneticCondition/">GeneticCondition</a></td>
-<td>A disease, or a set of one or more co-occurring phenotypes, controlled by genetic factors with a defined inheritance pattern.</td>
-</tr>
-<tr>
-<td><a href="TherapeuticIntervention/">TherapeuticIntervention</a></td>
-<td>A type of treatment administered/prescribed to a patient to prevent, ameliorate, or cure a medical condition.</td>
-</tr>
-<tr>
-<td><a href="Gene/">Gene</a></td>
-<td>A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</td>
-</tr>
-<tr>
-<td><a href="SequenceLocation/">SequenceLocation</a></td>
-<td>A specified subsequence of a reference Sequence. The reference is typically a chromosome, transcript, or protein sequence.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="slots">Slots</h2>
-<table>
-<thead>
-<tr>
-<th>Slot</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="extension.md">extension</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="id/">id</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="identifier.md">identifier</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="type/">type</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="label/">label</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="alternativeLabel/">alternativeLabel</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="description/">description</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="url.md">url</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="reference/">reference</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="xref/">xref</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="thisRecordMeta/">thisRecordMeta</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="sourceRecordMeta/">sourceRecordMeta</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="isAbout/">isAbout</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="qualifiedContribution/">qualifiedContribution</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="dateAuthored/">dateAuthored</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="wasSpecifiedBy/">wasSpecifiedBy</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="derivedFrom/">derivedFrom</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="wasOutputOf/">wasOutputOf</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="hasPart/">hasPart</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="partOf/">partOf</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="isReportedIn/">isReportedIn</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="confidenceLevel/">confidenceLevel</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="confidenceScore/">confidenceScore</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="version/">version</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="license/">license</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="Data_ItemType/">Data_ItemType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="value/">value</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="unit/">unit</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="variability/">variability</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="confidenceInterval/">confidenceInterval</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="componentData_Item/">componentData_Item</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="dataSetType/">dataSetType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="document_type/">document_type</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="title/">title</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="statementType/">statementType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="subject/">subject</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="predicate/">predicate</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="object/">object</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="qualifier/">qualifier</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="assertedProposition/">assertedProposition</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="negated/">negated</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="evidenceLevel/">evidenceLevel</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="evidenceScore/">evidenceScore</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="hasEvidence_Line/">hasEvidence_Line</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="hasEvidence/">hasEvidence</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="hasEvidenceOfType/">hasEvidenceOfType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="hasEvidenceFromSource/">hasEvidenceFromSource</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="subjectDescriptor/">subjectDescriptor</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="objectDescriptor/">objectDescriptor</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="qualifierDescriptor/">qualifierDescriptor</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="studyResultType/">studyResultType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="focus/">focus</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="Data_Item/">Data_Item</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="interpretation/">interpretation</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="sourceDataSet/">sourceDataSet</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="sourceStudy/">sourceStudy</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="sourceStudyType/">sourceStudyType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="sourceStudyDate/">sourceStudyDate</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="sourceStudyMethod/">sourceStudyMethod</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="evidenceLineType/">evidenceLineType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="targetProposition/">targetProposition</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="hasEvidenceItem/">hasEvidenceItem</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="evidenceDirection/">evidenceDirection</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="evidenceStrength/">evidenceStrength</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="evidenceItemSource/">evidenceItemSource</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="methodType/">methodType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="activityType/">activityType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="startDate/">startDate</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="endDate/">endDate</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="performedBy/">performedBy</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="hadInput/">hadInput</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="hadOutput/">hadOutput</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="researchStudyType/">researchStudyType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="contributionMadeBy/">contributionMadeBy</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="contributionMadeTo/">contributionMadeTo</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="contributorRole/">contributorRole</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="organizationalContext/">organizationalContext</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="agentType/">agentType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="softwareVersion/">softwareVersion</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="affiliation.md">affiliation</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="parentOrganization/">parentOrganization</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="childOrganization/">childOrganization</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="propositionType/">propositionType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="member/">member</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="organization/">organization</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="organizationalRole/">organizationalRole</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="affiliationStatus/">affiliationStatus</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="valueObjectId/">valueObjectId</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="valueObject/">valueObject</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="valueObjectName/">valueObjectName</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="valueObjectAlias/">valueObjectAlias</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="valueObjectExpression/">valueObjectExpression</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="valueObjectDescription/">valueObjectDescription</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="valueObjectXref/">valueObjectXref</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="moleculeContext/">moleculeContext</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="structuralType/">structuralType</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="code/">code</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="system/">system</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="systemURL/">systemURL</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="systemVersion/">systemVersion</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="name/">name</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="recordIdentifier/">recordIdentifier</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="partOfDataset/">partOfDataset</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="recordVersion/">recordVersion</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="previousVersion/">previousVersion</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="dateRecordCreated/">dateRecordCreated</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="dateRecordLastModified/">dateRecordLastModified</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="recordURL/">recordURL</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="disease/">disease</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="phenotype/">phenotype</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="inheritancePattern/">inheritancePattern</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="gene.md">gene</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="drug/">drug</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="procedure/">procedure</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="activity.md">activity</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="drugOperator/">drugOperator</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="biotype/">biotype</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="symbol/">symbol</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="location/">location</a></td>
-<td>None</td>
-</tr>
-<tr>
-<td><a href="strand/">strand</a></td>
-<td>None</td>
-</tr>
-</tbody>
-</table>
-<h2 id="enums">Enums</h2>
-<table>
-<thead>
-<tr>
-<th>Enums</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<p><strong>metamodel version:</strong> 1.7.0</p>
+<p><strong>version:</strong> None</p>
+<h3 id="classes">Classes</h3>
+<ul>
+<li><a href="Element/">Element</a> - The base definition for all elements that comprise the model (classes, complex data types, value sets)<ul>
+<li><a href="Coding/">Coding</a> - A structured representation of a coded/enumerated data value, that includes additional metadata about the code and code system.</li>
+<li><a href="Entity/">Entity</a> - Anything that exists, has existed, or will exist.<ul>
+<li><a href="Activity/">Activity</a> - An action or set of actions performed by an agent, that occurs over a period of time. Activities may use, generate, modify, move, or destroy one or more entities.<ul>
+<li><a href="Contribution/">Contribution</a> - The actions taken by a particular agent in the creation, modification, assessment, or deprecation of some entity (e.g. a Statement, Evidence Line, Data Item, Publication, etc.)</li>
+<li><a href="ResearchStudy/">ResearchStudy</a> - An activity that applies a defined methodological approach to interrogate a specific set of subjects, and generate data that is analyzed and interpreted to answer a particular research question (typically the validation or generation of hypothesis)</li>
+</ul>
+</li>
+<li><a href="Affiliation/">Affiliation</a> - A relationship between an Agent and a Group or Organization to which they belong or belonged.</li>
+<li><a href="Agent/">Agent</a> - An autonomous actor (person, organization, or computational agent) that bears some form of responsibility for an activity taking place, for the existence of an entity, or for another agent’s activity.</li>
+<li><a href="Descriptor/">Descriptor</a> - An object that wraps a value object in order to transfer additional, non-definitional information about it.<ul>
+<li><a href="VariationDescriptor/">VariationDescriptor</a> - A Descriptor that describes a value object representation of a molecular variation.</li>
+</ul>
+</li>
+<li><a href="Gene/">Gene</a> - A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</li>
+<li><a href="GeneticCondition/">GeneticCondition</a> - A disease, or a set of one or more co-occurring phenotypes, controlled by genetic factors with a defined inheritance pattern.</li>
+<li><a href="InformationEntity/">InformationEntity</a> - An abstract (non-physical) entity that is about something.<ul>
+<li><a href="DataItem/">DataItem</a> - An InformationEntity representing an individual piece of data, generated/acquired through methods which reliably produce truthful information about something.</li>
+<li><a href="DataSet/">DataSet</a> - A collection of related data items or records that are organized together in a common format or structure, to enable their computational manipulation as a unit.</li>
+<li><a href="Document/">Document</a> - A collection of information, usually in human-readable form, intended to be read and understood together as a whole.</li>
+<li><a href="EvidenceLine/">EvidenceLine</a> - A discrete, independent argument relevant to the validity of the Proposition put forth as true in the Statement,  that is based on the interpretation of one or more pieces of information as evidence.</li>
+<li><a href="Method/">Method</a> - A set of instructions that specify how to achieve some objective (e.g. study/experimental protocols, curation guidelines, rule sets, etc.)</li>
+<li><a href="Statement/">Statement</a> - An information entity expressing a declarative sentence that is either true or false.</li>
+<li><a href="StudyResult/">StudyResult</a> - A collection of select data items from a single study that are about a particular subject or experimental unit -  and may include provenance metadata describing how these data were generated.</li>
+</ul>
+</li>
+<li><a href="Proposition/">Proposition</a> - An abstract entity representing the sharable meaning that can be put forth as true in a Statement made by an Agent.</li>
+<li><a href="SequenceLocation/">SequenceLocation</a> - A specified subsequence of a reference Sequence. The reference is typically a chromosome, transcript, or protein sequence.</li>
+<li><a href="TherapeuticIntervention/">TherapeuticIntervention</a> - A type of treatment administered/prescribed to a patient to prevent, ameliorate, or cure a medical condition.</li>
+<li><a href="Variation/">Variation</a> - A representation of the state of one or more biomolecules.</li>
+</ul>
+</li>
+<li><a href="Expression/">Expression</a> - A structure for labels representing systematic expressions that describe an entity, as generated by formal nomenclatures (e.g. HGVS for genetic variants, ISCN for karyotypes, HLA nomenclature for HLA genes/alleles).</li>
+<li><a href="Extension/">Extension</a> - A data structure that allows implementations to define and create custom fields within an Entity to capture information not supported by the core specification.</li>
+<li><a href="RecordMetadata/">RecordMetadata</a> - A re-usable structure that encapsulates provenance metadata that applies to a specific concrete record/encoding of information, as opposed to provenance of the abstract information content/knowledge the record represents.</li>
+</ul>
+</li>
+</ul>
+<h3 id="mixins">Mixins</h3>
+<h3 id="slots">Slots</h3>
+<ul>
+<li><a href="activityType/">activityType</a><ul>
+<li><a href="Activity_activityType/">Activity➞activityType</a> - A specific type of activity this Activity object may represent</li>
+</ul>
+</li>
+<li><a href="affiliationStatus/">affiliationStatus</a><ul>
+<li><a href="Affiliation_affiliationStatus/">Affiliation➞affiliationStatus</a> - The status of the Agent's affiliation at the time the Affiliation record was created  or last updated (e.g. active, pending, probation, inactive)</li>
+</ul>
+</li>
+<li><a href="agentType/">agentType</a><ul>
+<li><a href="Agent_agentType/">Agent➞agentType</a> - A specific type of agent the Agent object represents. Must be one of {Person, Organization, Software Agent}</li>
+</ul>
+</li>
+<li><a href="alternativeLabel/">alternativeLabel</a><ul>
+<li><a href="Entity_alternativeLabel/">Entity➞alternativeLabel</a> - An alternative name for the Entity.</li>
+</ul>
+</li>
+<li><a href="assertedProposition/">assertedProposition</a><ul>
+<li><a href="Statement_assertedProposition/">Statement➞assertedProposition</a> - The possible fact (proposition) that the Statement puts forth as true.</li>
+</ul>
+</li>
+<li><a href="biotype/">biotype</a><ul>
+<li><a href="Gene_biotype/">Gene➞biotype</a> - A classification of the gene according to the Ensembl Biotypes (e.g. Protein coding, ncRNA, Pseudogene, IG gene, etc).</li>
+</ul>
+</li>
+<li><a href="childOrganization/">childOrganization</a><ul>
+<li><a href="Agent_childOrganization/">Agent➞childOrganization</a> - A smaller Organization that is a part of this larger one</li>
+</ul>
+</li>
+<li><a href="code/">code</a><ul>
+<li><a href="Coding_code/">Coding➞code</a> - The value of the code itself.</li>
+</ul>
+</li>
+<li><a href="componentActivity/">componentActivity</a><ul>
+<li><a href="TherapeuticIntervention_componentActivity/">TherapeuticIntervention➞componentActivity</a> - An activity participated in to alleviate or prevent a condition</li>
+</ul>
+</li>
+<li><a href="componentDataItem/">componentDataItem</a><ul>
+<li><a href="DataItem_componentDataItem/">DataItem➞componentDataItem</a> - A more foundational data item that is a logical component of a compound data item.</li>
+</ul>
+</li>
+<li><a href="componentDisease/">componentDisease</a><ul>
+<li><a href="GeneticCondition_componentDisease/">GeneticCondition➞componentDisease</a> - A disease that is manifest in the genetic condition</li>
+</ul>
+</li>
+<li><a href="componentDrug/">componentDrug</a><ul>
+<li><a href="TherapeuticIntervention_componentDrug/">TherapeuticIntervention➞componentDrug</a> - A chemical or biological substance administered or consumed to alleviate or prevent a condition</li>
+</ul>
+</li>
+<li><a href="componentPhenotype/">componentPhenotype</a><ul>
+<li><a href="GeneticCondition_componentPhenotype/">GeneticCondition➞componentPhenotype</a> - A phenotype that is manifest in the genetic condition</li>
+</ul>
+</li>
+<li><a href="componentProcedure/">componentProcedure</a><ul>
+<li><a href="TherapeuticIntervention_componentProcedure/">TherapeuticIntervention➞componentProcedure</a> - A medical procedure underwent to alleviate or prevent a condition</li>
+</ul>
+</li>
+<li><a href="confidenceInterval/">confidenceInterval</a><ul>
+<li><a href="DataItem_confidenceInterval/">DataItem➞confidenceInterval</a> - A measure of the probability that a parameter of interest will fall within a defined range of values around a mean or other statistical calculation.</li>
+</ul>
+</li>
+<li><a href="confidenceLevel/">confidenceLevel</a><ul>
+<li><a href="InformationEntity_confidenceLevel/">InformationEntity➞confidenceLevel</a> - A qualitative term describing the degree of confidence held by the creator of the information entity, that the information it represents is true (e.g. 'high confidence', 'likely true', 'low confidence').</li>
+</ul>
+</li>
+<li><a href="confidenceScore/">confidenceScore</a><ul>
+<li><a href="InformationEntity_confidenceScore/">InformationEntity➞confidenceScore</a> - A quantitative score reflecting the degree of confidence held by the creator of the information entity, that the information it represents is true.</li>
+</ul>
+</li>
+<li><a href="conformsTo/">conformsTo</a><ul>
+<li><a href="DataSet_conformsTo/">DataSet➞conformsTo</a> - A community standard that is used in representing any of the data in the Data Set (e.g. an ontology or code system from which enumerated values are drawn, a standard data model used to structure the representation).</li>
+</ul>
+</li>
+<li><a href="contributingGene/">contributingGene</a><ul>
+<li><a href="GeneticCondition_contributingGene/">GeneticCondition➞contributingGene</a> - Genes implicated in the condition</li>
+</ul>
+</li>
+<li><a href="contributionMadeBy/">contributionMadeBy</a><ul>
+<li><a href="Contribution_contributionMadeBy/">Contribution➞contributionMadeBy</a> - The agent that made the contribution.</li>
+</ul>
+</li>
+<li><a href="contributionMadeTo/">contributionMadeTo</a><ul>
+<li><a href="Contribution_contributionMadeTo/">Contribution➞contributionMadeTo</a> - The artifact toward which the contribution was made.</li>
+</ul>
+</li>
+<li><a href="contributorRole/">contributorRole</a><ul>
+<li><a href="Contribution_contributorRole/">Contribution➞contributorRole</a> - A role indicating the nature of the contribution made by the Agent - i.e. the specific type of contribution that was made.</li>
+</ul>
+</li>
+<li><a href="currentVersion/">currentVersion</a><ul>
+<li><a href="DataSet_currentVersion/">DataSet➞currentVersion</a> - A version-level Data Set representing the most current version at the time of recording.</li>
+</ul>
+</li>
+<li><a href="data/">data</a><ul>
+<li><a href="StudyResult_data/">StudyResult➞data</a> - A piece of data from the source Study that is included in the Result, and pertains to the entity that is the 'focus'. Can be data directly about the focus, or metadata relevant to how this data was generated.</li>
+</ul>
+</li>
+<li><a href="dataItemType/">dataItemType</a><ul>
+<li><a href="DataItem_dataItemType/">DataItem➞dataItemType</a> - A specific type of data the DataItem object represents (e.g. a specimen count, a patient weight, an allele frequency, a p-value)</li>
+</ul>
+</li>
+<li><a href="dataSetLevel/">dataSetLevel</a><ul>
+<li><a href="DataSet_dataSetLevel/">DataSet➞dataSetLevel</a> - The level at which the Data Set is considered and described ('Summary' level, 'Version' level, or 'Distribution' level - see https://www.w3.org/TR/hcls-dataset/#datasetdescriptionlevels)</li>
+</ul>
+</li>
+<li><a href="dataSetType/">dataSetType</a><ul>
+<li><a href="DataSet_dataSetType/">DataSet➞dataSetType</a> - A specific type of data set the DataSet object represents.</li>
+</ul>
+</li>
+<li><a href="dateAuthored/">dateAuthored</a><ul>
+<li><a href="InformationEntity_dateAuthored/">InformationEntity➞dateAuthored</a> - The date the information content expressed in this entity was generated.</li>
+</ul>
+</li>
+<li><a href="dateRecordCreated/">dateRecordCreated</a><ul>
+<li><a href="RecordMetadata_dateRecordCreated/">RecordMetadata➞dateRecordCreated</a> - The date the record was initially created.</li>
+</ul>
+</li>
+<li><a href="dateRecordLastModified/">dateRecordLastModified</a><ul>
+<li><a href="RecordMetadata_dateRecordLastModified/">RecordMetadata➞dateRecordLastModified</a> - The date the record was last edited/updated/modified to its present concrete form.</li>
+</ul>
+</li>
+<li><a href="derivedFrom/">derivedFrom</a><ul>
+<li><a href="InformationEntity_derivedFrom/">InformationEntity➞derivedFrom</a> - An information resource from which the Information Entity is derived, in whole or in part</li>
+</ul>
+</li>
+<li><a href="description/">description</a><ul>
+<li><a href="Entity_description/">Entity➞description</a> - A free text description of the Entity.</li>
+<li><a href="Extension_description/">Extension➞description</a> - A free text description of the intended semantics and use of this extension element (i.e. they types of values it takes, and how to interpret these values in the context of the parent Class)</li>
+<li><a href="RecordMetadata_description/">RecordMetadata➞description</a> - A free text description of the RecordMetadata object.</li>
+</ul>
+</li>
+<li><a href="documentType/">documentType</a><ul>
+<li><a href="Document_documentType/">Document➞documentType</a> - The specific type of the document (e.g.  'publication', 'patent', 'pathology report')</li>
+</ul>
+</li>
+<li><a href="drugOperator/">drugOperator</a><ul>
+<li><a href="TherapeuticIntervention_drugOperator/">TherapeuticIntervention➞drugOperator</a> - Allows specification of how the drugs captured in the drug field should be considered in relation to each other (e.g. co-treatment, sequential treatment, alternates)</li>
+</ul>
+</li>
+<li><a href="endDate/">endDate</a><ul>
+<li><a href="Activity_endDate/">Activity➞endDate</a> - The date that the Activity ended</li>
+<li><a href="Affiliation_endDate/">Affiliation➞endDate</a> - The date that the Affiliation described here ended (where a organizational role is provided, this is the date when this role in the organization ended)</li>
+</ul>
+</li>
+<li><a href="evidenceDirection/">evidenceDirection</a><ul>
+<li><a href="EvidenceLine_evidenceDirection/">EvidenceLine➞evidenceDirection</a> - The direction of support that the Evidence Line is determined to provide for its target Proposition (can be supporting, disputing, or neutral)</li>
+</ul>
+</li>
+<li><a href="evidenceItemSource/">evidenceItemSource</a><ul>
+<li><a href="EvidenceLine_evidenceItemSource/">EvidenceLine➞evidenceItemSource</a> - An information resource (e.g. document, dataset, knowledgebase) that provided information interpreted as evidence in building an Evidence Line.</li>
+</ul>
+</li>
+<li><a href="evidenceLevel/">evidenceLevel</a><ul>
+<li><a href="Statement_evidenceLevel/">Statement➞evidenceLevel</a> - A term indicating the overall strength of support for the Statement based on all evidence assessed.</li>
+</ul>
+</li>
+<li><a href="evidenceLineType/">evidenceLineType</a><ul>
+<li><a href="EvidenceLine_evidenceLineType/">EvidenceLine➞evidenceLineType</a> - A specific type of evidence the EvidenceLine object represents (e.g. 'mutant phenotype evidence', 'evidence from manual interpretation', 'ACMG PM2 evidence')</li>
+</ul>
+</li>
+<li><a href="evidenceScore/">evidenceScore</a><ul>
+<li><a href="Statement_evidenceScore/">Statement➞evidenceScore</a> - A quantitative score reflecting the overall strength of support for the Statement based on all evidence assessed.</li>
+</ul>
+</li>
+<li><a href="evidenceStrength/">evidenceStrength</a><ul>
+<li><a href="EvidenceLine_evidenceStrength/">EvidenceLine➞evidenceStrength</a> - The strength of support that an Evidence Line is determined to provide for or against its target Proposition.</li>
+</ul>
+</li>
+<li><a href="extensionElement/">extensionElement</a><ul>
+<li><a href="Element_extensionElement/">Element➞extensionElement</a> - A key-value data structure that allows definition of custom fields to capture information not directly supported by the VA specification.</li>
+</ul>
+</li>
+<li><a href="focus/">focus</a><ul>
+<li><a href="StudyResult_focus/">StudyResult➞focus</a> - The specific subject, concept, or experimental unit in the Research Study that data in the Result is about. The focus guides the selection of data that is included within a single Study Result object.</li>
+</ul>
+</li>
+<li><a href="format/">format</a><ul>
+<li><a href="DataSet_format/">DataSet➞format</a> - A specific representational format used to encode a distribution-level Dataset.</li>
+</ul>
+</li>
+<li><a href="globalIdentifier/">globalIdentifier</a><ul>
+<li><a href="Entity_globalIdentifier/">Entity➞globalIdentifier</a> - A business identifier or accession number for the entity, typically as provided by an external system or authority, that is globally unique and persists across implementing systems.</li>
+</ul>
+</li>
+<li><a href="hadInput/">hadInput</a><ul>
+<li><a href="Activity_hadInput/">Activity➞hadInput</a> - An entity that was input into the Activity (could be material or information)</li>
+</ul>
+</li>
+<li><a href="hadOutput/">hadOutput</a><ul>
+<li><a href="Activity_hadOutput/">Activity➞hadOutput</a> - An entity that was output from the Activity (could be material or information)</li>
+</ul>
+</li>
+<li><a href="hasAffiliation/">hasAffiliation</a><ul>
+<li><a href="Agent_hasAffiliation/">Agent➞hasAffiliation</a> - A membership relation between the Agent and an Organization to which they belong or at one time belonged.</li>
+</ul>
+</li>
+<li><a href="hasEvidence/">hasEvidence</a><ul>
+<li><a href="Statement_hasEvidence/">Statement➞hasEvidence</a> - A piece of information that represents or contributes to an argument for or against the validity of a Statement.</li>
+</ul>
+</li>
+<li><a href="hasEvidenceFromSource/">hasEvidenceFromSource</a><ul>
+<li><a href="Statement_hasEvidenceFromSource/">Statement➞hasEvidenceFromSource</a> - An Information Entity (typically a publication, dataset, or database) that reports information interpreted as evidence to make the Statement.</li>
+</ul>
+</li>
+<li><a href="hasEvidenceItem/">hasEvidenceItem</a><ul>
+<li><a href="EvidenceLine_hasEvidenceItem/">EvidenceLine➞hasEvidenceItem</a> - An Information Entity that was evaluated in making the argument represented by the Evidence Lines.</li>
+</ul>
+</li>
+<li><a href="hasEvidenceLine/">hasEvidenceLine</a><ul>
+<li><a href="Statement_hasEvidenceLine/">Statement➞hasEvidenceLine</a> - A discrete, independent argument relevant to the validity of the Proposition put forth as true in the Statement, that is based on the interpretation of one or more pieces of information as evidence.</li>
+</ul>
+</li>
+<li><a href="hasEvidenceOfType/">hasEvidenceOfType</a><ul>
+<li><a href="Statement_hasEvidenceOfType/">Statement➞hasEvidenceOfType</a> - A term describing a type of evidence used to support a Statement (e.g. 'sequence similarity evidence', 'in vitro assay evidence') - as opposed to an instance of evidence information such as a particular data item, study result, or prior assertions, etc.</li>
+</ul>
+</li>
+<li><a href="hasPart/">hasPart</a><ul>
+<li><a href="Activity_hasPart/">Activity➞hasPart</a> - A smaller, discrete Activity that is part of this larger Activity</li>
+<li><a href="InformationEntity_hasPart/">InformationEntity➞hasPart</a> - Any part of the Information Entity (e.g. individual value or record from a larger data set, a section of a larger document)</li>
+</ul>
+</li>
+<li><a href="hasURL/">hasURL</a><ul>
+<li><a href="Entity_hasURL/">Entity➞hasURL</a> - The URL/web address of a digital resource representing the entity, or providing information about it.</li>
+</ul>
+</li>
+<li><a href="inheritancePattern/">inheritancePattern</a><ul>
+<li><a href="GeneticCondition_inheritancePattern/">GeneticCondition➞inheritancePattern</a> - The pattern in which the condition is passed from one generation to the next.</li>
+</ul>
+</li>
+<li><a href="interpretation/">interpretation</a><ul>
+<li><a href="StudyResult_interpretation/">StudyResult➞interpretation</a> - A qualitative interpretation of the lower-level data item(s) included in the result (e.g. that a result is high, normal, or low).</li>
+</ul>
+</li>
+<li><a href="isAbout/">isAbout</a><ul>
+<li><a href="InformationEntity_isAbout/">InformationEntity➞isAbout</a> - An entity or concept in the world that the information entity describes/is about.</li>
+</ul>
+</li>
+<li><a href="isReportedIn/">isReportedIn</a><ul>
+<li><a href="InformationEntity_isReportedIn/">InformationEntity➞isReportedIn</a> - A document in which the information content carried by the Information Entity is expressed</li>
+</ul>
+</li>
+<li><a href="label/">label</a><ul>
+<li><a href="Coding_label/">Coding➞label</a> - A human-readable name for the code.</li>
+<li><a href="Entity_label/">Entity➞label</a> - A primary name for the Entity.</li>
+</ul>
+</li>
+<li><a href="license/">license</a><ul>
+<li><a href="InformationEntity_license/">InformationEntity➞license</a> - The type of license that dictates legal permissions for how a resource (e.g. dataset, document, protocol) can be used - typically referenced by its URL.<ul>
+<li><a href="DataSet_license/">DataSet➞license</a> - The type of license that dictates legal permissions for how the Data Set can be used - typically referenced by its URL.</li>
+<li><a href="Document_license/">Document➞license</a> - The type of license that dictates legal permissions for how the Document can be used - typically referenced by its URL.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="localId/">localId</a><ul>
+<li><a href="Entity_localId/">Entity➞localId</a> - The logical identifier of the entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system. The identified entity may have a different 'id' in a different system.</li>
+</ul>
+</li>
+<li><a href="location/">location</a><ul>
+<li><a href="Gene_location/">Gene➞location</a> - Location of the gene on a reference.</li>
+</ul>
+</li>
+<li><a href="member/">member</a><ul>
+<li><a href="Affiliation_member/">Affiliation➞member</a> - The Agent participating in the Affiliation</li>
+</ul>
+</li>
+<li><a href="methodType/">methodType</a><ul>
+<li><a href="Method_methodType/">Method➞methodType</a> - A specific type of method that the Method object represents (e.g. 'Variant Interpretation Guideline', 'Experimental Protocol')</li>
+</ul>
+</li>
+<li><a href="moleculeContext/">moleculeContext</a><ul>
+<li><a href="VariationDescriptor_moleculeContext/">VariationDescriptor➞moleculeContext</a> - The type of macromolecule on which the variation exists (e.g. genomic, transcript, protein)</li>
+</ul>
+</li>
+<li><a href="name/">name</a><ul>
+<li><a href="Extension_name/">Extension➞name</a> - A name that captures the meaning of the extension element</li>
+</ul>
+</li>
+<li><a href="negated/">negated</a><ul>
+<li><a href="Proposition_negated/">Proposition➞negated</a> - A boolean flag set to 'true' if the statement expressed by the subject, predicate, object, and qualifier(s) is explicitly asserted to be false.</li>
+<li><a href="Statement_negated/">Statement➞negated</a> - A boolean flag set to 'true' if the statement expressed by the subject, predicate, object, and qualifier(s) is explicitly asserted to be false.</li>
+</ul>
+</li>
+<li><a href="object/">object</a><ul>
+<li><a href="Proposition_object/">Proposition➞object</a> - An Entity, concept, or value that is related to the subject of a Proposition via its predicate.</li>
+<li><a href="Statement_object/">Statement➞object</a> - An Entity, concept, or value that is related to the subject of a Statement via its predicate.</li>
+</ul>
+</li>
+<li><a href="objectDescriptor/">objectDescriptor</a><ul>
+<li><a href="Statement_objectDescriptor/">Statement➞objectDescriptor</a> - A collection of additional metadata about the object of the Statement's proposition, that cannot represented in its value object based representation, but may be useful for understanding and use of the subject entity (e.g. labels, xrefs, aliases, and other subjective/context specific information)</li>
+</ul>
+</li>
+<li><a href="organization/">organization</a><ul>
+<li><a href="Affiliation_organization/">Affiliation➞organization</a> - The Organization to which the Agent belongs or belonged.</li>
+</ul>
+</li>
+<li><a href="organizationalContext/">organizationalContext</a><ul>
+<li><a href="Contribution_organizationalContext/">Contribution➞organizationalContext</a> - An organization whose resources and/or directives supported the contribution made by an Agent.</li>
+</ul>
+</li>
+<li><a href="organizationalRole/">organizationalRole</a><ul>
+<li><a href="Affiliation_organizationalRole/">Affiliation➞organizationalRole</a> - An official position or role held by the Agent in the Organization during the span of the defined Affiliation (e.g. graduate student, principle investigator, curator, physician, expert panel member)</li>
+</ul>
+</li>
+<li><a href="parentOrganization/">parentOrganization</a><ul>
+<li><a href="Agent_parentOrganization/">Agent➞parentOrganization</a> - A larger Organization of which this Organization is a part</li>
+</ul>
+</li>
+<li><a href="partOf/">partOf</a><ul>
+<li><a href="Activity_partOf/">Activity➞partOf</a> - A larger Activity of which this Activity is a part (i.e. it was performed during the larger Activity)</li>
+<li><a href="InformationEntity_partOf/">InformationEntity➞partOf</a> - A larger Information Entity of which the present Information Entity is a part.</li>
+</ul>
+</li>
+<li><a href="partOfDataset/">partOfDataset</a><ul>
+<li><a href="RecordMetadata_partOfDataset/">RecordMetadata➞partOfDataset</a> - The dataset of which the described record is a part (releveant when the record described is not the one in the present system)</li>
+</ul>
+</li>
+<li><a href="performedBy/">performedBy</a><ul>
+<li><a href="Activity_performedBy/">Activity➞performedBy</a> - An Agent taking part in executing the Activity.</li>
+</ul>
+</li>
+<li><a href="predicate/">predicate</a><ul>
+<li><a href="Proposition_predicate/">Proposition➞predicate</a> - The relationship asserted to hold between the subject and the object of the Proposition.</li>
+<li><a href="Statement_predicate/">Statement➞predicate</a> - The relationship asserted to hold between the subject and the object of the Statement.</li>
+</ul>
+</li>
+<li><a href="previousVersion/">previousVersion</a><ul>
+<li><a href="DataSet_previousVersion/">DataSet➞previousVersion</a> - A version-level Data Set representing the version described here.</li>
+<li><a href="RecordMetadata_previousVersion/">RecordMetadata➞previousVersion</a> - The version of a record in the same system that the current record replaces/follows.</li>
+</ul>
+</li>
+<li><a href="propositionType/">propositionType</a><ul>
+<li><a href="Proposition_propositionType/">Proposition➞propositionType</a> - A specific type of proposition the Proposition object represents (e.g. a 'Variant Pathogenicity Proposition', or 'Molecular Consequence Proposition')</li>
+</ul>
+</li>
+<li><a href="qualifiedContribution/">qualifiedContribution</a><ul>
+<li><a href="InformationEntity_qualifiedContribution/">InformationEntity➞qualifiedContribution</a> - A specific contribution made by some Agent to the creation, modification, or validation of the information represented in the Information Entity.</li>
+<li><a href="RecordMetadata_qualifiedContribution/">RecordMetadata➞qualifiedContribution</a> - Links to a 'Contribution' object allowing richer representation of specific types of contributions made by an agent to the creation, modification, or administrative management of a record.</li>
+</ul>
+</li>
+<li><a href="qualifier/">qualifier</a><ul>
+<li><a href="Proposition_qualifier/">Proposition➞qualifier</a> - A value or concept that extends or refines the meaning of the Proposition expressed by the core subject - predicate - object 'triple' - e.g. by providing additional information/detail, or constraining the claim to apply in a particular context.</li>
+<li><a href="Statement_qualifier/">Statement➞qualifier</a> - A value or concept that extends or refines the meaning of the claim expressed in the core subject - predicate - object 'triple' - e.g. by providing additional information/detail, or constraining the claim to apply in a particular context.</li>
+</ul>
+</li>
+<li><a href="qualifierDescriptor/">qualifierDescriptor</a><ul>
+<li><a href="Statement_qualifierDescriptor/">Statement➞qualifierDescriptor</a> - A collection of additional metadata about an entity/concept that qualifies the Statement's proposition. This additional metadata cannot represented in its value object based representation, but may be useful for understanding and use of the subject entity (e.g. labels, xrefs, aliases, and other subjective/context specific information)</li>
+</ul>
+</li>
+<li><a href="recordIdentifier/">recordIdentifier</a><ul>
+<li><a href="RecordMetadata_recordIdentifier/">RecordMetadata➞recordIdentifier</a> - The business identifier of the record described in the RecordMetadata object (required when the record described is not the one in the present system)</li>
+</ul>
+</li>
+<li><a href="recordURL/">recordURL</a><ul>
+<li><a href="RecordMetadata_recordURL/">RecordMetadata➞recordURL</a> - A web address where the entity is found or described.</li>
+</ul>
+</li>
+<li><a href="recordVersion/">recordVersion</a><ul>
+<li><a href="RecordMetadata_recordVersion/">RecordMetadata➞recordVersion</a> - The version number of the record-level artifact the object describes</li>
+</ul>
+</li>
+<li><a href="reference/">reference</a><ul>
+<li><a href="Entity_reference/">Entity➞reference</a> - A document or other Information Entity that describes the Entity.</li>
+</ul>
+</li>
+<li><a href="releaseDate/">releaseDate</a><ul>
+<li><a href="DataSet_releaseDate/">DataSet➞releaseDate</a> - The date when a version-level Data Set was released.</li>
+</ul>
+</li>
+<li><a href="researchStudyType/">researchStudyType</a><ul>
+<li><a href="ResearchStudy_researchStudyType/">ResearchStudy➞researchStudyType</a> - A specific type of study this ResearchStudy object represents.</li>
+</ul>
+</li>
+<li><a href="softwareVersion/">softwareVersion</a><ul>
+<li><a href="Agent_softwareVersion/">Agent➞softwareVersion</a> - For software/computational agents, the specific version of the software it represents.</li>
+</ul>
+</li>
+<li><a href="sourceDataSet/">sourceDataSet</a><ul>
+<li><a href="StudyResult_sourceDataSet/">StudyResult➞sourceDataSet</a> - A larger Data Set from which the content of the Result was derived.</li>
+</ul>
+</li>
+<li><a href="sourceRecordMeta/">sourceRecordMeta</a><ul>
+<li><a href="Entity_sourceRecordMeta/">Entity➞sourceRecordMeta</a> - A reusable structure that encapsulates provenance metadata that applies to an upstream record/data objdct about the Entity, from which content of the present record was derived.</li>
+</ul>
+</li>
+<li><a href="sourceStudy/">sourceStudy</a><ul>
+<li><a href="StudyResult_sourceStudy/">StudyResult➞sourceStudy</a> - The Study that generated the date reported in the Result.</li>
+</ul>
+</li>
+<li><a href="sourceStudyDate/">sourceStudyDate</a><ul>
+<li><a href="StudyResult_sourceStudyDate/">StudyResult➞sourceStudyDate</a> - The date the study from which the Result was derived was performed.</li>
+</ul>
+</li>
+<li><a href="sourceStudyMethod/">sourceStudyMethod</a><ul>
+<li><a href="StudyResult_sourceStudyMethod/">StudyResult➞sourceStudyMethod</a> - A plan specification that describes all or part of the process that created the information (e.g. interpretation guidelines, rule sets, etc.).</li>
+</ul>
+</li>
+<li><a href="sourceStudyType/">sourceStudyType</a><ul>
+<li><a href="StudyResult_sourceStudyType/">StudyResult➞sourceStudyType</a> - The type of study that produced the result (e.g. 'allele population frequency study', 'computational functional impact prediction', 'protein functional assay', 'randomized clinical trial')</li>
+</ul>
+</li>
+<li><a href="startDate/">startDate</a><ul>
+<li><a href="Activity_startDate/">Activity➞startDate</a> - The date that the Activity started</li>
+<li><a href="Affiliation_startDate/">Affiliation➞startDate</a> - The date that the Affiliation described here began (where a organizational role is provided, this is the date when this role in the organization began)</li>
+</ul>
+</li>
+<li><a href="statementType/">statementType</a><ul>
+<li><a href="Statement_statementType/">Statement➞statementType</a> - A specific type of statement the Statement object represents (e.g. a 'Variant Pathogenicity Statement', or 'Molecular Consequence Statement')</li>
+</ul>
+</li>
+<li><a href="strand/">strand</a><ul>
+<li><a href="Gene_strand/">Gene➞strand</a> - The strand on which the gene is located (positive, negative)</li>
+</ul>
+</li>
+<li><a href="structuralType/">structuralType</a><ul>
+<li><a href="VariationDescriptor_structuralType/">VariationDescriptor➞structuralType</a> - The high-level structural type of the Variation (e.g. SNV, CNV, insertion, duplication, etc)</li>
+</ul>
+</li>
+<li><a href="studyResultType/">studyResultType</a><ul>
+<li><a href="StudyResult_studyResultType/">StudyResult➞studyResultType</a> - A specific type of result the StudyResult object represents (e.g. an 'Allele Frequency Study Result')</li>
+</ul>
+</li>
+<li><a href="subject/">subject</a><ul>
+<li><a href="Proposition_subject/">Proposition➞subject</a> - The Entity about which the Proposition is made.</li>
+<li><a href="Statement_subject/">Statement➞subject</a> - The Entity about which the Statement is made.</li>
+</ul>
+</li>
+<li><a href="subjectDescriptor/">subjectDescriptor</a><ul>
+<li><a href="Statement_subjectDescriptor/">Statement➞subjectDescriptor</a> - A collection of additional metadata about the subject of the Statement's proposition, that cannot represented in its value object based representation, but may be useful for understanding and use of the subject entity (e.g. labels, xrefs, aliases, and other subjective/context specific information)</li>
+</ul>
+</li>
+<li><a href="symbol/">symbol</a><ul>
+<li><a href="Gene_symbol/">Gene➞symbol</a> - Abbreviated symbol for the gene (e.g. 'BRCA2', 'FGF8')</li>
+</ul>
+</li>
+<li><a href="system/">system</a><ul>
+<li><a href="Coding_system/">Coding➞system</a> - The code system where the code is defined.</li>
+<li><a href="Expression_system/">Expression➞system</a> - The nomenclature system that created and assigned the expression.</li>
+</ul>
+</li>
+<li><a href="systemURL/">systemURL</a><ul>
+<li><a href="Coding_systemURL/">Coding➞systemURL</a> - A URL where the code system can be found.</li>
+<li><a href="Expression_systemURL/">Expression➞systemURL</a> - A URL for the nomenclature system</li>
+</ul>
+</li>
+<li><a href="systemVersion/">systemVersion</a><ul>
+<li><a href="Coding_systemVersion/">Coding➞systemVersion</a> - The version of the code system.</li>
+<li><a href="Expression_systemVersion/">Expression➞systemVersion</a> - The version of the nomenclature system.</li>
+</ul>
+</li>
+<li><a href="targetProposition/">targetProposition</a><ul>
+<li><a href="EvidenceLine_targetProposition/">EvidenceLine➞targetProposition</a> - The proposition against which the evidence items were evaluated, in determining the overall strength and direction of evidence they provide (as captured in the Evidence Line)</li>
+</ul>
+</li>
+<li><a href="thisRecordMeta/">thisRecordMeta</a><ul>
+<li><a href="Entity_thisRecordMeta/">Entity➞thisRecordMeta</a> - A reusable structure that encapsulates provenance metadata about the present record/data object  (as opposed to provenance information about the real world entity this record/data object represents).</li>
+</ul>
+</li>
+<li><a href="title/">title</a><ul>
+<li><a href="Document_title/">Document➞title</a> - The given title of the document.</li>
+</ul>
+</li>
+<li><a href="type/">type</a><ul>
+<li><a href="Entity_type/">Entity➞type</a> - The schema class that is instantiated by the data object.  Must be the name of a class from the VA schema.</li>
+</ul>
+</li>
+<li><a href="unit/">unit</a><ul>
+<li><a href="DataItem_unit/">DataItem➞unit</a> - A unit of measure for the value</li>
+</ul>
+</li>
+<li><a href="value/">value</a><ul>
+<li><a href="DataItem_value/">DataItem➞value</a> - The value of the data item</li>
+<li><a href="Expression_value/">Expression➞value</a> - A free-text rendering of the expression used as a label for the entity</li>
+<li><a href="Extension_value/">Extension➞value</a> - The value of the extension element</li>
+</ul>
+</li>
+<li><a href="valueObject/">valueObject</a><ul>
+<li><a href="Descriptor_valueObject/">Descriptor➞valueObject</a> - An in-lined representation of the wrapped value object</li>
+</ul>
+</li>
+<li><a href="valueObjectAlias/">valueObjectAlias</a><ul>
+<li><a href="Descriptor_valueObjectAlias/">Descriptor➞valueObjectAlias</a> - Other labels that exist for the wrapped value object.</li>
+</ul>
+</li>
+<li><a href="valueObjectDescription/">valueObjectDescription</a><ul>
+<li><a href="Descriptor_valueObjectDescription/">Descriptor➞valueObjectDescription</a> - A free text description of the entity represented by the wrapped value object.</li>
+</ul>
+</li>
+<li><a href="valueObjectExpression/">valueObjectExpression</a><ul>
+<li><a href="Descriptor_valueObjectExpression/">Descriptor➞valueObjectExpression</a> - Systematic expressions that describe the wrapped object, as generated by formal nomenclature systems (e.g. HGVS, ISCN, HLA).</li>
+</ul>
+</li>
+<li><a href="valueObjectId/">valueObjectId</a><ul>
+<li><a href="Descriptor_valueObjectId/">Descriptor➞valueObjectId</a> - The computed identifier of the value object described/wrapped by the Descriptor</li>
+</ul>
+</li>
+<li><a href="valueObjectName/">valueObjectName</a><ul>
+<li><a href="Descriptor_valueObjectName/">Descriptor➞valueObjectName</a> - The preferred name for the wrapped value object as assigned by the creator of the VOD</li>
+</ul>
+</li>
+<li><a href="valueObjectXref/">valueObjectXref</a><ul>
+<li><a href="Descriptor_valueObjectXref/">Descriptor➞valueObjectXref</a> - Points to an external database record for an entity that is equivalent to or closely related to the entity represented by the wrapped value object.</li>
+</ul>
+</li>
+<li><a href="variability/">variability</a><ul>
+<li><a href="DataItem_variability/">DataItem➞variability</a> - A score describing the variability inherent in a data item representing a statistical summary of a set of observations/measurements (e.g. the standard deviation associated with a statistical mean calculated across several experimental replicates).</li>
+</ul>
+</li>
+<li><a href="version/">version</a><ul>
+<li><a href="InformationEntity_version/">InformationEntity➞version</a> - The version of the Information Entity (to be used in cases where version is not reflected in the id or identifiers associated with the entity).<ul>
+<li><a href="DataSet_version/">DataSet➞version</a> - The version of the Data Set (use this field used in cases where version is not reflected in an identifier associated with the Data Set)</li>
+<li><a href="Document_version/">Document➞version</a> - The version of the Document (use this field used in cases where version is not reflected in an identifier associated with the Document)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="wasOutputOf/">wasOutputOf</a><ul>
+<li><a href="InformationEntity_wasOutputOf/">InformationEntity➞wasOutputOf</a> - An activity that generated the Entity.</li>
+</ul>
+</li>
+<li><a href="wasSpecifiedBy/">wasSpecifiedBy</a><ul>
+<li><a href="Activity_wasSpecifiedBy/">Activity➞wasSpecifiedBy</a> - A directive specification followed in performing an Activity, that describes how it should be executed.</li>
+<li><a href="InformationEntity_wasSpecifiedBy/">InformationEntity➞wasSpecifiedBy</a> - A plan specification that describes all or part of the process through which the information was generated.</li>
+</ul>
+</li>
+<li><a href="xref/">xref</a><ul>
+<li><a href="Entity_xref/">Entity➞xref</a> - A cross-reference to database identifier(s) representing the same or a closely related entity or concept as the Entity.</li>
+<li><a href="RecordMetadata_xref/">RecordMetadata➞xref</a> - A cross-reference linking to an identifier for an entity/record that represents the same or a closely related concepts or knowledge as the present record.</li>
+</ul>
+</li>
+</ul>
+<h3 id="enums">Enums</h3>
+<h3 id="subsets">Subsets</h3>
+<h3 id="types">Types</h3>
+<h4 id="built-in">Built in</h4>
+<ul>
+<li><strong>Bool</strong></li>
+<li><strong>Decimal</strong></li>
+<li><strong>ElementIdentifier</strong></li>
+<li><strong>NCName</strong></li>
+<li><strong>NodeIdentifier</strong></li>
+<li><strong>URI</strong></li>
+<li><strong>URIorCURIE</strong></li>
+<li><strong>XSDDate</strong></li>
+<li><strong>XSDDateTime</strong></li>
+<li><strong>XSDTime</strong></li>
+<li><strong>boolean</strong></li>
+<li><strong>float</strong></li>
+<li><strong>ga4ghString</strong></li>
+<li><strong>int</strong></li>
+<li><strong>str</strong></li>
+<li><strong>string</strong></li>
+</ul>
+<h4 id="defined">Defined</h4>
+<ul>
+<li><a href="Boolean/">Boolean</a>  (<strong>Bool</strong>)  - A binary (true or false) value</li>
+<li><a href="Class/">Class</a>  (<strong>ga4ghString</strong>)  - A string representing a class in a VA model used to type an object in the data.</li>
+<li><a href="Date/">Date</a>  (<strong>XSDDate</strong>)  - a date (year, month and day) in an idealized calendar</li>
+<li><a href="Datetime/">Datetime</a>  (<strong>XSDDateTime</strong>)  - The combination of a date and time</li>
+<li><a href="Decimal/">Decimal</a>  (<strong>Decimal</strong>)  - A real number with arbitrary precision that conforms to the xsd:decimal specification</li>
+<li><a href="Double/">Double</a>  (<strong>float</strong>)  - A real number that conforms to the xsd:double specification</li>
+<li><a href="Float/">Float</a>  (<strong>float</strong>)  - A real number that conforms to the xsd:float specification</li>
+<li><a href="Ga4ghBoolean/">Ga4ghBoolean</a>  (<strong>boolean</strong>)  - A binary data type that holds either a TRUE or FALSE value.</li>
+<li><a href="Ga4ghDateTime/">Ga4ghDateTime</a>  (<strong>ga4ghString</strong>)  - A string value that specifies a date and time of day comprised of a year, month, day, hour, minute, and second, following the form “YYYY-MM-DDThh:mm:ss”</li>
+<li><a href="Ga4ghString/">Ga4ghString</a>  (<strong>string</strong>)  - A sequence of Unicode characters</li>
+<li><a href="Identifier/">Identifier</a>  (<strong>ga4ghString</strong>)  - A string value that uniquely identifies a specific instance of an object in a dataset or document. Identifiers should be persistent, machine-resolvable, and unique within their intended scope of use.</li>
+<li><a href="Integer/">Integer</a>  (<strong>int</strong>)  - An integer</li>
+<li><a href="Ncname/">Ncname</a>  (<strong>NCName</strong>)  - Prefix part of CURIE</li>
+<li><a href="Nodeidentifier/">Nodeidentifier</a>  (<strong>NodeIdentifier</strong>)  - A URI, CURIE or BNODE that represents a node in a model.</li>
+<li><a href="Objectidentifier/">Objectidentifier</a>  (<strong>ElementIdentifier</strong>)  - A URI or CURIE that represents an object in the model.</li>
+<li><a href="String/">String</a>  (<strong>str</strong>)  - A character string</li>
+<li><a href="Time/">Time</a>  (<strong>XSDTime</strong>)  - A time object represents a (local) time of day, independent of any particular day</li>
+<li><a href="Uri/">Uri</a>  (<strong>URI</strong>)  - a complete URI</li>
+<li><a href="Uriorcurie/">Uriorcurie</a>  (<strong>URIorCURIE</strong>)  - a URI or a CURIE</li>
+<li><a href="Url/">Url</a>  (<strong>ga4ghString</strong>)  - A string representing a Uniform Resource Locator (RFC 1738), specifying a web address where a resource can be found or information about the resource discovered.</li>
+</ul>
 
               
             </article>
